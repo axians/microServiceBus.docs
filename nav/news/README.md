@@ -1,5 +1,32 @@
 <p>
 <details open>
+<summary>April 18th, 2019
+</summary><br>
+
+
+## [mSB-core](https://github.com/axians/microservicebus-node) version 2.0.49
+
+* DBus Heartbeat signal
+  * *A heartbeat can be sent with DBus to ensure that the agent is running*
+* Improved portal notifications
+  * *Improved notifications for a number of actions in the portal such as downloading new firmware*
+* Download syslogs extended to yocto
+  * *Fetching syslogs from portal is now possible for the Yocto platform*
+* Support for Incident policies
+  * *Custom errors can now be defined and sent directly to your incident handling tool like Service Now*
+* Improved site verification test
+  * *Nodes can now only run test when test mode is activated*
+* Automatic Retries when downloading service files
+  * *Retries is done automatically and otherwise previosly downloaded scripts will be run*
+* Maintenance and Test mode
+  * *Test mode can now be set in portal to make sure only devices that should be tested can run the test. Maintenence mode supresses incidents from the node when you for instance are testing new functionality*
+
+</details>
+</p>
+
+
+<p>
+<details open>
 <summary>March 26th, 2019
 </summary><br>
 
