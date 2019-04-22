@@ -11,7 +11,42 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">March 26th, 2019</summary> 
+<details open><summary markdown="span">April 21th, 2019</summary> 
+
+### [microservicebus.com](https://microservicebus.com)
+
+* Maintenance and Test mode on *Nodes*
+   * *Nodes can now be set in Maintenance to prevent alarms*
+* Simplified authentication for Site Verification
+   * *Nodes now has to be set to TEST MODE before accepting tests to run*
+* Toggle Comment and file name in script window
+   * *Mark text in script editor and toggle commenting the text using CTRL+/*
+* Only accept accepted pull requests
+   * *When using git integration, PR's are only completed when accepted*
+* Stay on scripts page when switching organization
+   * *Same behavior as for Nodes and Flows*
+* Improved error handling in Node Sign-in
+   * *Making it easier to find issues related to Sign-in*
+* Use Shared Secret to validate inbound calls from Jasper
+   * *Shared secrets can now be used to validate inbound calls from Cisco Jasper*
+* Added QR code to test scripts
+   * *Upon saving a Test Script, a QR code is presented for easier exposing the test*
+
+
+### [microservicebus-core](https://github.com/axians/microservicebus-node) version 2.0.50
+* Maintenance and Test mode on *Nodes*
+   * *Nodes can now be set in Maintenance to prevent alarms*
+* Added dbus IsActive endpoint
+   * *Enabling external applications and services to check on status for mSB-core*
+* More portal notifications
+   * *Nodes are now notifying on firmware updates*
+* Support for compression
+   * *Built-in support for compression of messages*
+* Minor bug fixes
+
+</details>
+
+<details><summary markdown="span">March 26th, 2019</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 
