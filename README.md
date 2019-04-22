@@ -1,27 +1,39 @@
 # Welcome to *microServiceBus.com* docs
 
-Here you will find resources that can help you learn to develop, deploy, administer, and use *microServiceBus.com*.
 
-## [What is *microServicebus.com*](/microServiceBus.docs/nav/gettingstarted/microservicebus)
+## To update the documentation, please follow these steps:
+1. Create your own branch
+2. If you are creating a new post, add it to any of the following directories under the **nav** directory (otherwise just jump to step 4):
+    * _gettingstarted
+    * _integration
+    * _operation
+    * _quickreference
+3. Name your file as your topic, in lower case, replacing spaces with dashes. Eg *get-remote-access-to-your-nodes.md*
+4. Add a Jekyll header:
+    ```
+   ---
+    layout: post
+    title:  "Get remote access to your Nodes"
+    description: "There are times when there is no substitute to a plain old SSH session. Learn more about how to upload public keys and grant yourself access to Nodes."
+    categories: operation
+    order: 50
+    ---
+    ```
+    * **categories** : should correlate with the directory selected in step 2 (but without the underscore)
+    * **order** : Used for sorting the post in the list. Try separating with at least 10 numbers.
 
-Get up to date with latest releases and features.
+## Working with links and references
+To reverence an other post, use the *site.baseurl* property. Eg:
+```
+ [Issue tracking systems like ServiceNow]({{site.baseurl}}/servicenow).
+```
+Same applies to images:
+```
+<img src="{{site.baseurl}}/images/using-the-console/1.png">
+```
 
-## [News](/microServiceBus.docs/nav/news/)
+## Working with images
+Create a folder in the *Images* directory, and name it the same as you post (-'.md'), Eg "using-the-console". Common images, such as logotypes are saved directly in the *Images* folder.
 
-Get up to date with latest releases and features.
-
-## [Getting Started](/microServiceBus.docs/nav/gettingstarted)
-
-Information about core elements of the platform along with list of new features.
-
-## [Quick reference](/microServiceBus.docs/nav/quickReference)
-
-Step-by-step instructions for commonly performed tasks.
-
-## [Administrative tasks](/microServiceBus.docs/nav/administrativetasks)
-
-Learn how to debug your devices, set up policies and group your logic to manage your devices like a pro.
-
-## [Integrations](/microServiceBus.docs/nav/integrations)
-
-Learn how to integrate with your favorite services such as GitHub, VSTS, Cisco Jasper and Service now.
+## Formatting your post
+Follow the instructions in the [DocPage template](/DocsPage-Template.md)
