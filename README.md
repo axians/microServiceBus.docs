@@ -1,6 +1,6 @@
 # Welcome to *microServiceBus.com* docs
 
-## To update the documentation, please follow these steps:
+## To update the documentation, please follow these steps
 
 1. Create your own branch
 2. If you are creating a new post, add it to any of the following directories under the **nav** directory (otherwise just jump to step 4):
