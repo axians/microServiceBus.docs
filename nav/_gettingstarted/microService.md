@@ -3,7 +3,7 @@ layout: post
 title:  "What is a Micro Service?"
 description: Learn more about how to use micro services for receiving and transmitting messages to and from other services. Learn about the different types of services and how use them in different scenarios.
 categories: gettingstarted
-order: 4
+order: 40
 ---
 
 Intro on what a micro Service is

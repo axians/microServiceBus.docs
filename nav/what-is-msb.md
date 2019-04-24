@@ -12,7 +12,6 @@ It aims to address common challenges in the industry of IoT, such as planning fo
 
 *microServiceBus.com* is a platform based on agents, also known as *Nodes*, running on gateways and controlled from a portal known as microServiceBus.com. 
 
-
 microServiceBus.com and all related products and services are owned by AXIANS IoT Operation and is part of VINCI-Energies
 
 
@@ -33,7 +32,7 @@ Easy deployments to IoT devices make ways for Agile development!
 For more information:
 * [What is a micro service?]({{site.baseurl}}/microService)
 * [Running microServiceBus-node on a yocto image]({{site.baseurl}}/yocto)
-* [microServiceBus.com release management]({{site.baseurl}}/manage-releases)
+* [microServiceBus.com release management]({{site.baseurl}}/microservicebus-release-management)
 
 
 ## Source code management
@@ -51,7 +50,7 @@ microServiceBus.com provides great insight to what is and has happened on the de
 
 For more information:
 * [Using the *Console*]({{site.baseurl}}/console)
-* [Get insight using tracking]({{site.baseurl}}/tracking)
+* [Get insight using tracking]({{site.baseurl}}/get-insight-using-tracking)
 * [Remote debug your *microservices*]({{site.baseurl}}/remotedebugging)
 
 
