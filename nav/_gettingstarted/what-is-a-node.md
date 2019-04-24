@@ -6,8 +6,6 @@ categories: gettingstarted
 order: 20
 ---
 
-# What is a "Node"?
-
 With an understanding of what a micro service is, it’s time to look at the Node.
 
 The Node is where everything get processed. Every service has a property called “Node”, which tells you where the service is going to be executed, which could be anywhere, regardless of location or platform.
@@ -20,6 +18,6 @@ When a file is received, the Node will attach the Flow definition to the message
 
 When the Node has run the file inbound script it will proceed to send it to the JavaScript service. After running its script, the JavaScript service will forward the message to the Outbound SMTP service.
 
-## Running Nodes on different platforms
+### Running Nodes on different platforms
 
 Each node is running in node.js, and as such is supported on every platform node.js is working on, which luckily is most of them. For more information about nodejs.org, please visit [nodejs.org](https://nodejs.org)
