@@ -1,4 +1,11 @@
-# [Describing heading]
+---
+layout: post
+title:  "Running microServiceBus-node on a yocto image"
+description: "Yocto is about creating your own embedded Linux distribution, by cherry-picking Yocto meta-layers to suit your needs and create a powerful, yet minimal firmware. microservicebus-node is available as a Yocto meta-layer! Learn more about how to use it."
+categories: quickreference
+order: 20
+---
+
 
 Intro on what this page aims to answer. If the page is tutorial-like do numbering and at the end of the page link to related topics.
 
@@ -45,3 +52,5 @@ If you dont know Markdown try this [Cheatsheet](https://github.com/adam-p/markdo
     <img src="./images/Logo5.png" width="100">
 
 Back to home page: [Home](/)
+
+This is a demo
