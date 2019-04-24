@@ -50,7 +50,7 @@ microServiceBus.com provides great insight to what is and has happened on the de
 
 For more information:
 * [Using the *Console*]({{site.baseurl}}/console)
-* [Get insight using tracking]({{site.baseurl}}/tracking)
+* [Get insight using tracking]({{site.baseurl}}/get-insight-using-tracking)
 * [Remote debug your *microservices*]({{site.baseurl}}/remotedebugging)
 
 
