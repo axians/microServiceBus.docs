@@ -3,7 +3,7 @@ layout: post
 title:  "What is an Organization?"
 description: Learn more about how to use micro services for receiving and transmitting messages to and from other services. Learn about the different types of services and how use them in different scenarios.
 categories: gettingstarted
-order: 1
+order: 10
 ---
 
 Organizations separates ownership of artefacts (see Flows, Services and Nodes). This is also where you manage users and integration with ServiceNow, Cisco Jasper, Azure DevOps, GitHub and more.

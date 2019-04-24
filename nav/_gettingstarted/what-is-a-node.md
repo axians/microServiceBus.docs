@@ -1,4 +1,12 @@
-# What is a "node"?
+---
+layout: post
+title:  "What is a Node?"
+description: The node is where the magic happens, and is the place where all micro services are hosted. Learn about the different kind of hosts and what platforms they can run on.
+categories: gettingstarted
+order: 20
+---
+
+# What is a "Node"?
 
 With an understanding of what a micro service is, it’s time to look at the Node.
 
@@ -14,12 +22,4 @@ When the Node has run the file inbound script it will proceed to send it to the 
 
 ## Running Nodes on different platforms
 
-Each node is running in node.js, and as such is supported on every platform node.js is working on, which luckily is most of them. For more information about nodejs.org, please visit [nodejs.org](node.js)
-
-See also
-
-[Installing nodes](https://microservicebus.com/wiki/View/1043) 
-
-[What is microServiceBus.com](https://microservicebus.com/wiki/View/1039)
-
-Back to home page: [Home](/microServiceBus.docs/)
+Each node is running in node.js, and as such is supported on every platform node.js is working on, which luckily is most of them. For more information about nodejs.org, please visit [nodejs.org](https://nodejs.org)
