@@ -13,7 +13,7 @@ Each instance of a flow, sometimes referred to as a *Itinerary*, holds state of 
 ## Create a flow
 You create Flows by going to the Flow page using the menu or by using the short-key CTRL+R and type “flow”. Clicking the “Create new” button on the top of the page takes you to the a page where give your flow a name and description. Clicking the “Create” button takes you to the Flow details page, and will present you with the Flow designer:
 
-<img src="{{site.baseurl}}/images/what_is_a_flow/1.png">
+<img src="{{site.baseurl}}/images/what-is-a-flow/1.png">
 
 The Flow designer is made up of two parts; the toolbox and the designer. The toolbox shows all the Services created in your organization and Services that belongs to the *Root* organization which is not directly accessible to you, other than you have access to all its Services.
 

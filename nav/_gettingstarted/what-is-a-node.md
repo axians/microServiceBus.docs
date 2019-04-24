@@ -8,13 +8,13 @@ order: 20
 
 With an understanding of what a [Micro Service]({{site.baseurl}}/what-is-a-micro-Service) is, it’s time to look at the Node.
 
-The Node is the agent running on your gateway or device. It is connected, owned and managed by an [Organization]({{site.baseurl}}/what_is_an_organization). The Node is responsible for starting and stopping [Flows]({{site.baseurl}}/what_is_a_flow) and [Services]({{site.baseurl}}/what_is_a_micro-Service).
+The Node is the agent running on your gateway or device. It is connected, owned and managed by an [Organization]({{site.baseurl}}/what-is-an-organization). The Node is responsible for starting and stopping [Flows]({{site.baseurl}}/what-is-a-flow) and [Services]({{site.baseurl}}/what-is-a-micro-Service).
 
 -Essentially, the Node is where everything get processed. Every Service has a property called "Node", which tells you where the Service is going to be executed, which could be any or all Nodes, regardless of location or platform.
 
 For instance, in the sample below we have a Flow, which describes the interchanges of the message. In this sample we have three Services; an **Inbound FILE Service**, a **JavaScript Service** and a **Outbound Azure Send Event Service**.
 
-<img src="{{site.baseurl}}/images/what_is_a_flow/1.png">
+<img src="{{site.baseurl}}/images/what-is-a-node/1.png">
 
 *These Services can all run on the same or on different Nodes. In the sample above, all Services are run on the same Node.*
 
@@ -23,6 +23,7 @@ When a file is save in a specific folder, the **Inbound FILE Service** will pick
 > To send a Message from one Node to the other as in the sample above, you'd need to enable the "Allow send" on properties window of the first Node.
 
 ## Node properties
+
 You access the Nodes properties through the Action button on each Node on the Nodes page, and there are many properties that might be important:
 
 ### Common properties
@@ -38,6 +39,7 @@ You access the Nodes properties through the Action button on each Node on the No
 | **Retention period** | The number of seconds to store history data on the node. The persisted history can later be played back and sent from the node. Messages and events are only persisted provided there is more than 25% free disk space in the home directory. |
 
 ### Policies properties
+
 Disconnect policies are very important, and dictates when a device is considered off-line and what action to take.
 
 | Property | Description |
@@ -49,17 +51,21 @@ Disconnect policies are very important, and dictates when a device is considered
 | **Offline mode** |Enabling this option allows to Node to start in offline mode, using any pre-fetched configuration.. |
 
 ## Get Node environment information
+
 Clicking the *ENVIRONMENT* button will present you with valuable information such as Networks, CPU, Memory and environment variables.
 
 ## Get and manage Node State
-Most IoT platforms respects the notion of State. Microsoft calls it Device Twin, whereas Amazon calls it Things Shadow. In both cases it is a JSON document that represents the State of the Node. 
+
+Most IoT platforms respects the notion of State. Microsoft calls it Device Twin, whereas Amazon calls it Things Shadow. In both cases it is a JSON document that represents the State of the Node.
 
 Click the *DEVICE STATE* button to review and change the State.
 
 ## Audit logs
+
 See the [Reviewing the Audit log]({{site.baseurl}}/reviewing-the-auditlog) section.
 
 ## Retrieve system logs
+
 By clicking the *RETRIEVE SYSLOG* button a call is sent to the Node to compress and submit syslogs to the portal. These logs can be downloaded from the **Logs** tab.
 
 ## Running Nodes on different platforms
