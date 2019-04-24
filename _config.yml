@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: microServiceBus.com DOCS
-email: msb-info@axians.com
+email: info-microservicebus@axians.com
 description: >- # this means to ignore newlines until "baseurl:"
   microServiceBus.com is owned and managed by AXIANS IoT Operations and is part of VINCI Energies. AXIANS IoT Operation specialized in consulting, operation and training, transforming technology into added digital values.
-baseurl: "/microServiceBus.docs" # the subpath of your site, e.g. /blog
+#baseurl: "/microServiceBus.docs" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: wmmihaa
 github_username:  axians
@@ -30,6 +30,7 @@ kramdown:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 collections_dir: nav
 collections:
