@@ -18,7 +18,7 @@ Each node is running in node.js, and as such is supported on every platform node
 
 See also
 
-[Installing nodes](https://vattenfall.microservicebus.com/wiki/View/1043) 
+[Installing nodes](https://microservicebus.com/wiki/View/1043) 
 
 [What is microServiceBus.com](https://microservicebus.com/wiki/View/1039)
 
