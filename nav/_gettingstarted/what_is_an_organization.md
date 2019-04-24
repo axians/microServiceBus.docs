@@ -21,6 +21,6 @@ ADFS is a standards-based service that allows the secure sharing of identity inf
 Should you prefer having users signing in with an Active Directory account, you can provide necessary settings on the **Organization** page.
 
 For more information:
-* [Working with external source code providers](https://axians.github.io/microServiceBus.docs/nav/integrations/source)
-* [On-boarding and Provisioning using Cisco Jasper](/microServiceBus.docs/nav/integrations/jasper)
-* [Integrate external ticketing system (ServiceNow)](/microServiceBus.docs/nav/integrations/servicenow)
+* [Working with external source code providers]({{site.baseurl}}/working-with-external-source-code-providers)
+* [On-boarding and Provisioning using Cisco Jasper]({{site.baseurl}}/integrate-sim-card-management)
+* [Integrate external ticketing system (ServiceNow)]({{site.baseurl}}/integrate-external-ticketing-system)
