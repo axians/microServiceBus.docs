@@ -16,7 +16,7 @@ Site verification test is nothing but a normal unit test. If you have ever writt
 > The *Site Verification Test* is using [mocha](https://mochajs.org/) which comes preinstalled for you *Node*.
 
 ### Create your first test
-Writing a verification tests are just like writing a normal *Service*. In the [microServiceBus.com portal](https://microServiceBus.com) navigate to *Scripts & Services* using the navigation menu. Click the **CRAETE NEW** button. Set a name, filename and description. Before you hit the *CREATE* button, select **Test file** in the *Service type* drop-down list.
+Writing a verification tests are just like writing a normal *Service*. In the [microServiceBus.com portal](https://microServiceBus.com) navigate to *Scripts & Services* using the navigation menu. Click the **CREATE NEW** button. Set a name, filename and description. Before you hit the *CREATE* button, select **Test file** in the *Service type* drop-down list.
 
 #### Test parameters
 In many scenarios you need the site engineer to be able to provide input to the test, such as which *serial port* or IP address to use. As with normal *Services*, add your parameters in the *Static Properties* tab. 
