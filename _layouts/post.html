@@ -28,7 +28,7 @@ layout: default
       <li><a href="{{ site.baseurl }}/" title="Home">Home</a></li>
       {% assign related_pages = site[related_category] %}
       {% for post in related_pages %}
-      <li><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+      <li><a class="related-content" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
     <hr style="margin-top: 20px"/>

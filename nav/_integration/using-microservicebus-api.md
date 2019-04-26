@@ -31,5 +31,3 @@ The microServiceBus API is segmented into groups of entities:
 * NodeImages
 * Organization
 * Tags
-
-Back to home page: [Home](/microServiceBus.docs/)

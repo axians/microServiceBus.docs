@@ -20,8 +20,8 @@ On-boarding new devices is difficult at scale. Gateways needs to automatically g
 microServiceBus.com provide a scalable, cross cloud vendor solution based either on integration with SIM card management tools like Cisco Jasper or MAC address white-listening.
 
 For more information:
-* [Install your first gateway]({{site.baseurl}}/installation)
-* [On-boarding and Provisioning using Cisco Jasper]({{site.baseurl}}/jasper)
+* [Install your first gateway]({{site.baseurl}}/installing-microservicebus-node)
+* [On-boarding and Provisioning using Cisco Jasper]({{site.baseurl}}/integrate-sim-card-management)
 
 
 ## Updates and patching
@@ -30,8 +30,8 @@ Update and patching are easily handled through microServiceBus.com, either throu
 Easy deployments to IoT devices make ways for Agile development!
 
 For more information:
-* [What is a micro service?]({{site.baseurl}}/microService)
-* [Running microServiceBus-node on a yocto image]({{site.baseurl}}/yocto)
+* [What is a micro service?]({{site.baseurl}}/what-is-a-micro-service)
+* [Running microServiceBus-node on a yocto image]({{site.baseurl}}/running-microservicebus-node-on-a-yocto-image)
 * [microServiceBus.com release management]({{site.baseurl}}/microservicebus-release-management)
 
 
@@ -41,17 +41,17 @@ With complete insight and traceability, code can be fully managed and versioned 
 
 
 For more information:
-* [What is a micro service?]({{site.baseurl}}/microService)
-* [Working with external source code providers]({{site.baseurl}}/source)
+* [What is a micro service?]({{site.baseurl}}/what-is-a-micro-service)
+* [Working with external source code providers]({{site.baseurl}}/working-with-external-source-code-providers)
 
 ## Find and resolve issues
 Identifying and resolving problems can be a difficult mission in any system, but spread over many thousands of remotely located units brings it to a whole other level!
 microServiceBus.com provides great insight to what is and has happened on the device. Through it’s tracking capabilities, developers and operation staff can gain understanding of what is happening, and even remotely debugging the code, and instantly deploy fixes.
 
 For more information:
-* [Using the *Console*]({{site.baseurl}}/console)
+* [Using the *Console*]({{site.baseurl}}/using-the-console)
 * [Get insight using tracking]({{site.baseurl}}/get-insight-using-tracking)
-* [Remote debug your *microservices*]({{site.baseurl}}/remotedebugging)
+* [Remote debug your *microservices*]({{site.baseurl}}/remote-debug-your-microservices)
 
 
 ## API and Integration
@@ -60,7 +60,7 @@ As of today, microServiceBus.com integrate with ServiceNow for Issue, problem- a
 
 
 For more information:
-* [Integrate SIM card management]({{site.baseurl}}/jasper)
-* [Working with external source code providers]({{site.baseurl}}/source)
-* [Integrate external ticketing system (ServiceNow)]({{site.baseurl}}/servicenow)
-* [microServiceBus API]({{site.baseurl}}/api)
+* [Integrate SIM card management]({{site.baseurl}}/integrate-sim-card-management)
+* [Working with external source code providers]({{site.baseurl}}/working-with-external-source-code-providers)
+* [Integrate external ticketing system (ServiceNow)]({{site.baseurl}}/integrate-external-ticketing-system)
+* [microServiceBus API]({{site.baseurl}}/using-microservicebus-api)

@@ -30,7 +30,7 @@ Worth pointing out, that although this options gives the most control, it also r
 
 
 ## Lock version of microServiceBus-core 
-Organizations can also control the version of microServiceBus-core using the settings on the [Organization](/Organizations/Details). The *Node Version* setting can be set to either **latest**, **beta**, **ignore** or a specific version.
+Organizations can also control the version of microServiceBus-core using the settings on the [Organization](https://microservicebus.com/Organizations/Details). The *Node Version* setting can be set to either **latest**, **beta**, **ignore** or a specific version.
 * **latest** means all *Nodes* in the *Organization* will always try to download the latest stable version of mSB-core on startup
 * **beta** means all *Nodes* in the *Organization* will always try to download the beta version of mSB-core on startup
 * **ignore** means mSB-core version will not be evaluated on startup

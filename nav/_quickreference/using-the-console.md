@@ -31,7 +31,7 @@ Similarly, you can also use the **ThrowError** function to track errors:
 ```javascript
 this.ThrowError(context, '[YOUR ERROR CODE]', '[DESCRIPTION]');
 ```
-Part from sending the exception information to the Console, the **ThrowError** function also submit tracking information, which can optionally be sent to [Issue tracking systems like ServiceNow]({{site.baseurl}}/servicenow).
+Part from sending the exception information to the Console, the **ThrowError** function also submit tracking information, which can optionally be sent to [Issue tracking systems like ServiceNow]({{site.baseurl}}/integrate-external-ticketing-system).
 
 The **context** parameter is optional, and only relevant if it exists such as in the *Process* function.
 

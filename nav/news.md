@@ -463,11 +463,11 @@ You can now manage your scripts and services in VSTS and push your changes to mi
 *  Node API
 External applications such as ServiceNow, can now interact with Nodes using the API
 *  Download all scripts
-You can now download all script files from the [Scripts page](/Files). This feature can come handy when migrating to VSTS or Github.
+You can now download all script files from the [Scripts page](https://microservicebus.com/Files). This feature can come handy when migrating to VSTS or GitHub.
 *  Mobile console
 The *Console has been extended to the mobile view
 
-*  **FIX:** GitHub integration issues ans been resolved
+*  **FIX:** GitHub integration issues has been resolved
 *  **FIX:** Default organizations is stored in session
 *  **FIX:** Organizations can now change names
 ### [microservicebus-core](https://github.com/axians/microservicebus-node)
@@ -489,7 +489,7 @@ node start -c ASDGJ -n myNode -env myorg.microservicebus.com
 
 ### [microServiceBus.com](https://microservicebus.com)
 *  History log of all successful and failed transmitted messages along with related events.
-From the [Node page](/Nodes) users can now access last weeks event *Action* drop-down menu. This will provide good insight of everything happening on the node.
+From the [Node page](https://microservicebus.com/Nodes) users can now access last weeks event *Action* drop-down menu. This will provide good insight of everything happening on the node.
 
 *  Highlighting in Console
 Along with filtering users are now able to highlight events of interest. 
@@ -594,19 +594,19 @@ By setting the retention period on the *Node* greater than
     * Winter is comming...
 
 *  Toggle enable and disable on flow
-    * You can now enalble or disable all services running in the flow from the [Flow page](/flow).
+    * You can now enalble or disable all services running in the flow from the [Flow page](https://microservicebus.com/flow).
 
 *  Filter in console
-    * Filter the output in the [Debug console](/console)
+    * Filter the output in the [Debug console](https://microservicebus.com/console)
 
 *  Scroll to end in console
-    * Stay updated with latest output in the [Debug console](/console)
+    * Stay updated with latest output in the [Debug console](https://microservicebus.com/console)
 
 *  WIKI pages
-    * Help pages are replaced with markdown [WIKI pages](/wiki). All help will be updated.
+    * Help pages are replaced with markdown [WIKI pages](https://microservicebus.com/wiki). All help will be updated.
 
 *  FIXED: Confirmation email page is links to missing image
-*  FIXED: Copy script from [Script page](/files)
+*  FIXED: Copy script from [Script page](https://microservicebus.com/files)
 
 ### [microservicebus-core](https://github.com/axians/microservicebus-core) (1.0.70)
 

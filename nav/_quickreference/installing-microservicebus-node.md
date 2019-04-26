@@ -70,11 +70,11 @@ Before you start your node, you need a temporary verification code which you can
 ### 2. Create a node
 
 With the microServiceBus-node installed we need create the **node** in the microServiceBus.com portal. There are a number of ways to create and automatically provision nodes.
-For now, we’ll keep it simple and use the [Nodes](/Nodes) page.
+For now, we’ll keep it simple and use the [Nodes](/what-is-a-node) page.
 
-Navigate to the [Nodes](/Nodes) page and create a node using the *CREATE NEW NODE* button on the top. Give the node a name and description and hit *CREATE*.
+Navigate to the [Nodes](/what-is-a-node) page and create a node using the *CREATE NEW NODE* button on the top. Give the node a name and description and hit *CREATE*.
 
-Back at the the [Nodes](/Nodes), your new *Node* should be visible in the list.
+Back at the the [Nodes](/what-is-a-node), your new *Node* should be visible in the list.
 
 ### 3. Start the node
 
