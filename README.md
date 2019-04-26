@@ -45,3 +45,6 @@ Create a folder in the *Images* directory, and name it the same as you post (-'.
 ## Formatting your post
 
 Follow the instructions in the [DocsPage Template](/DocsPage-Template.md)
+
+## Indexing and search for broken links
+Go to the Crawler directory and run the Crawler.exe file. This will output any broken links and update the */assests/index.json* 

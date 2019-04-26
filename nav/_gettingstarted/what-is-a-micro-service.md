@@ -18,8 +18,6 @@ Intro on what a micro Service is
 
 Explain how these communicate, tie together with intro on microservices.
 
-Continue on to how flows work to realise logic [Introduction to flows](/microServiceBus.docs/nav/gettingstarted/flow)
+Continue on to how flows work to realise logic [Introduction to flows]({{site.baseurl}}/what-is-a-flow)
 
-Documentation on writing scripts [Microservices in depth](/microServiceBus.docs/nav/quickReference/microserviceDocumentation)
-
-Back to home page: [Home](/microServiceBus.docs/)
+Documentation on writing scripts [Microservices in depth]({{site.baseurl}}/services-and-scripts-in-microservicebus-in-depth)

@@ -17,7 +17,7 @@ You create Flows by going to the Flow page using the menu or by using the short-
 
 The Flow designer is made up of two parts; the toolbox and the designer. The toolbox shows all the Services created in your organization and Services that belongs to the *Root* organization which is not directly accessible to you, other than you have access to all its Services.
 
-As you might remember from the [What is a Service?]({{site.baseurl}}/what-is-a-service) section, there are different kind of Services. Only three kind of Services are visible in the toolbox.
+As you might remember from the [What is a Service?]({{site.baseurl}}/what-is-a-micro-service) section, there are different kind of Services. Only three kind of Services are visible in the toolbox.
 
 ## The toolbox
 

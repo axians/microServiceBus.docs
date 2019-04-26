@@ -64,8 +64,10 @@ layout: default
     <p class="lead">Build robust and manageable IoT solutions and operate them using <span
         class="msb">microServiceBus.com</span>. This is the place where you get all the help you need, browse through
       our quick reference and keep yourself updated with the latest development.</p>
+    <div class="form-horizontal" style="margin-bottom:5px">
+      <input id="txtSearch" type="text" class="form-control" placeholder="Search for...">
+    </div>
 
-    <hr />
   </div>
 </div>
 <div class="row">
@@ -189,13 +191,27 @@ layout: default
   </div>
 
 </div>
-<hr style="margin-top:25px"/>
+<hr style="margin-top:25px" />
 <div class="row" style="margin-top: 25px">
   <div class="col-md-1"></div>
   <div class="col-md-1"><img src="{{site.baseurl}}/images/bug-report.png" style="height: 50px" /></div>
   <div class="col-md-8">
     <h3 class="display-4">Found something that needs an update?</h3>
-    <p>We all make mistakes, and we would like to hear about them. Create a issue on GitHub describing what you have found and we will look in to it.</p>
-    <a class="btn btn-primary btn-lg" href="https://github.com/axians/microServiceBus.docs/issues" role="button" style="color: #fff;">Create Issue</a>
+    <p>We all make mistakes, and we would like to hear about them. Create a issue on GitHub describing what you have
+      found and we will look in to it.</p>
+    <a class="btn btn-primary btn-lg" href="https://github.com/axians/microServiceBus.docs/issues" role="button"
+      style="color: #fff;">Create Issue</a>
   </div>
 </div>
+
+<script>
+  (function () {
+    $("#txtSearch").focus();
+    $("#txtSearch").keypress(function (e) {
+      if (e.which == 13) {
+        window.location.href = `/search?${$("#txtSearch").val()}`;
+        return false;    //<---- Add this line
+      }
+    });
+  }())
+</script>

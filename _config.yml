@@ -46,6 +46,9 @@ collections:
   integration:
     output: true
     permalink: /:name
+  search:
+    output: true
+    permalink: /:name
 # collections:
 #   collections_dir: nav
 #   staff_members:
