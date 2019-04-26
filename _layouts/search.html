@@ -46,14 +46,12 @@ layout: default
       this.searchResult = ko.observableArray([]);
       this.filteredpPosts = ko.computed(function () {
         var term = this.searchTerm().toLowerCase();
-        if (term.length < 4) {
+        if (term.length < 3) {
           return;
         }
 
         var result = self.posts.filter(function (post) {
-          if (post.title == "Integrate external ticketing system (ServiceNow)") {
-            console.log();
-          }
+          
           var foundInTitle = (post.title && post.title.toLowerCase().indexOf(term)) > 0;
           if (foundInTitle) {
             post.teaser = post.content.substring(0, 290) + "...";
