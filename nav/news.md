@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "News"
 categories: general
 permalink: /news

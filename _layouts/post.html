@@ -28,11 +28,17 @@ layout: default
       <li><a href="{{ site.baseurl }}/" title="Home">Home</a></li>
       {% assign related_pages = site[related_category] %}
       {% for post in related_pages %}
-      <li><a class="related-content" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+      <li><a class="related-content" href="{{ site.baseurl }}{{ post.url }}"
+          title="{{ post.title }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
-    <hr style="margin-top: 20px"/>
-    <p style="margin-top: 10px"><i>Report bugs, broken links or missing images.. <a href="https://github.com/axians/microServiceBus.docs/issues">Create Issue</a></i></p>
+    <hr style="margin-top: 20px" />
+    <p style="margin-top: 10px"><i>Report bugs, broken links or missing images.. <a
+          href="https://github.com/axians/microServiceBus.docs/issues">Create Issue</a></i></p>
+    <div class="form-horizontal" style="margin-bottom:5px">
+      <input id="txtSearch" type="text" class="form-control" placeholder="Search for...">
+    </div>
+
   </div>
 
   {%- if site.disqus.shortname -%}
@@ -41,3 +47,15 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+<script>
+  (function () {
+    $("#txtSearch").focus();
+    $("#txtSearch").keypress(function (e) {
+      if (e.which == 13) {
+        window.location.href = `/search?${$("#txtSearch").val()}`;
+        return false;    //<---- Add this line
+      }
+    });
+  }())
+</script>
