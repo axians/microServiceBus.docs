@@ -35,10 +35,10 @@ Internal Services are generally used to manipulate [Messages]({{site.baseurl}}/w
 ## Flow execution
 
 ### Message
-Each instance of a flow (itinerary) has ONE [Message]({{site.baseurl}}/what-is-a-flow#message) which might change over the course of the lifetime of the itinerary. [Messages]({{site.baseurl}}/what-is-a-flow#message) are often a JavaScript object but does not have to. 
+Each instance of a flow (itinerary) has ONE [Message]({{site.baseurl}}/what-is-a-flow#message) which might change over the course of the lifetime of the itinerary. [Messages]({{site.baseurl}}/what-is-a-flow#message) are often a JavaScript object but does not have to.
 
 ### Routing
-Connecting two Services instructs the orchestrator to pass the execution from one Service to the other. The default routing condition is 'true', meaning the [Message]({{site.baseurl}}/what-is-a-flow#message) will always take this route. 
+Connecting two Services instructs the orchestrator to pass the execution from one Service to the other. The default routing condition is 'true', meaning the [Message]({{site.baseurl}}/what-is-a-flow#message) will always take this route.
 
 However, you can set the routing condition by double-clicking the connection and set the **route** variable. Eg.
 
