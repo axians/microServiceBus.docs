@@ -35,19 +35,17 @@ Internal Services are generally used to manipulate [Messages]({{site.baseurl}}/w
 ## Flow execution
 
 ### Message
-Each instance of a flow (itinerary) has ONE [Message]({{site.baseurl}}/what-is-a-flow#message) which might change over the course of the lifetime of the itinerary. [Messages]({{site.baseurl}}/what-is-a-flow#message) are often a JavaScript object but does not have to. 
+Each instance of a flow (itinerary) has ONE [Message]({{site.baseurl}}/what-is-a-flow#message) which might change over the course of the lifetime of the itinerary. [Messages]({{site.baseurl}}/what-is-a-flow#message) are often a JavaScript object but does not have to.
 
 ### Routing
-Connecting two Services instructs the orchestrator to pass the execution from one Service to the other. The default routing condition is 'true', meaning the [Message]({{site.baseurl}}/what-is-a-flow#message) will always take this route. 
+Connecting two Services instructs the orchestrator to pass the execution from one Service to the other. The default routing condition is 'true', meaning the [Message]({{site.baseurl}}/what-is-a-flow#message) will always take this route.
 
 However, you can set the routing condition by double-clicking the connection and set the **route** variable. Eg.
 
 ```javascript
-var route = [Message]({{site.baseurl}}/what-is-a-flow#message).temperature > 30;
+var route = message.temperature > 30;
 ```
 *Setting this condition means only route Messages to the destination if the temperature is more than 30 degrees.*
 
 ### Variables
 Variables are available through the the whole execution of the itinerary and can be read or updated. However, you need to create them prior to using them. Click the "VARIABLES" button at the bottom to add variables.
-
->
