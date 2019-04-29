@@ -49,5 +49,3 @@ var route = message.temperature > 30;
 
 ### Variables
 Variables are available through the the whole execution of the itinerary and can be read or updated. However, you need to create them prior to using them. Click the "VARIABLES" button at the bottom to add variables.
-
->
