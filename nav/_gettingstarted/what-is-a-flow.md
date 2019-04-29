@@ -43,7 +43,7 @@ Connecting two Services instructs the orchestrator to pass the execution from on
 However, you can set the routing condition by double-clicking the connection and set the **route** variable. Eg.
 
 ```javascript
-var route = [Message]({{site.baseurl}}/what-is-a-flow#message).temperature > 30;
+var route = message.temperature > 30;
 ```
 *Setting this condition means only route Messages to the destination if the temperature is more than 30 degrees.*
 
