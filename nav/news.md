@@ -11,7 +11,33 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">April 21th, 2019</summary> 
+
+<details open><summary markdown="span">May 13th, 2019</summary> 
+
+### [microservicebus.com](https://microservicebus.com)
+
+* Integrate external ticketing system (ServiceNow)
+   * *Users can now throw their own custom exceptions to Servicenow*
+* Updated all help links
+   * *Linked all help pages to docs.microservicebus.com*
+* Manage state from Node page
+   * *Users can now set Nodes in Normal-, Maintenance- and Test mode *
+* Only accept accepted pull requests
+   * *When using git integration, PR's are only completed when accepted*
+* Updated microServiceBus.API
+   * *Update API to include FindById (ICCID, IMEI or hostname)*
+* Improved error handling in Node Sign-in
+   * *Making it easier to find issues related to Sign-in*
+* Use Shared Secret to validate inbound calls from Jasper
+   * *Shared secrets can now be used to validate inbound calls from Cisco Jasper*
+* Clone Flow itinerary
+   * *Users are now able to clone Flows while mapping Node names and tags*
+* Download Syslog from portal
+    * Users can now download syslogs from the Nodes page
+
+</details>
+
+<details><summary markdown="span">April 21th, 2019</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 
