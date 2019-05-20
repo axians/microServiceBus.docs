@@ -18,7 +18,7 @@ When you as a developer is writing a service to use in a flow, you are extending
   
   `@parameters` : none
 
-  `@returns` : <_void_>
+  `@returns` : _void_
 
   `@example`
 
@@ -33,7 +33,57 @@ When you as a developer is writing a service to use in a flow, you are extending
 > **Tip!**
 > Here it is great to add all your NPM packages.
 
+* **Stop()**
+
+  This function will be called when you disable or restart your node.
+  
+  `@parameters` : none
+
+  `@returns` : _void_
+
+  `@example`
+
+  ```javascript
+    Stop : function(){
+        ClearInterval(timerEvent);
+    }
+  ```
+
+> **Tip!**
+> Here it is recommended to stop your timers or clear your processes.
+
+* **Process()**
+
+  This function will be called when you send messages from another service to this
+  
+  `@parameters` : _message_ , _context_
+
+  `@returns` : _void_
+
+  `@example`
+
+  ```javascript
+    Process : function(){
+        let newData = JSON.stringify(message);
+    }
+  ```
+
+> **Tip!**
+> Here is where you can integrate your services to share data with each other.
+
 ## Properties on the *microservice* object
+
+```javascript
+    this.timezone // The current timezone of the device
+    this.NodeName // The id of the node running the service
+    this.Name // The name of the service
+    this.settingsHelper // Has a lot of useful properties such as paths
+    this.Com // Com includes many functions for making sure your device is connected as it should be 
+  ```
+
+> **Tip!**
+> These are just some examples of properties you can access. Check the source code at [GitHub](https://github.com/axians/microservicebus-core/blob/dev/lib/MicroServiceBusNode.js) to find more. Search for _**new MicroService**_ ;)
+
 
 ## Functions on the *microservice* object
 
@@ -43,7 +93,7 @@ When you as a developer is writing a service to use in a flow, you are extending
   
   `@parameters` : none
 
-  `@returns` : <_Object_>
+  `@returns` : _Object_
 
   `@example`
 
@@ -57,6 +107,44 @@ When you as a developer is writing a service to use in a flow, you are extending
     }
   ```
 
-## Best practices
+* **this.AddNpmPackage(npmPackages, logOutput, callback)**
+
+  Downloads the packages in run time and calls the callback when download and installation is completed
+  
+  `@parameters` : npmPackages (string), logOutput (Boolean), callback (function)
+
+  `@returns` : _Void_
+
+  `@example`
+
+  ```javascript
+        this.AddNpmPackage('request,serialport@7.0.0', true, function(err){
+        if(!err){
+            request = require('request');
+        }
+        else{
+            self.ThrowError(null, '00001', 'Unable to install the npm packages');
+            return;
+        }
+    });
+  ```
+
+* **this.SubmitMessage(msg, format, headers)**
+
+  Sends the message to the next service in the flow in a specified format with or without headers
+  
+  `@parameters` : msg (object or binary), format (string), headers (needs to be formatted as following : [{Variable : "[key]", Value : "[value]"}])
+
+  `@returns` : _Void_
+
+  `@example`
+
+  ```javascript
+       this.SubmitMessage({Sensor : "mySensor", Value : 22}, 'application/json', [{Variable : "messageType", Value : "tempSensor"}]);
+  ```
+
+## This section will be updated with more in depth regarding services.
+
+In the meantime check out our repo at [GitHub](https://github.com/axians/microservicebus-core/blob/dev/lib/MicroServiceBusNode.js) if you want to explore the source yourself. Do not hesitate to send any question or open any issue on something that is unclear or not working as expected.
 
 Back to home page: [Home](/)
