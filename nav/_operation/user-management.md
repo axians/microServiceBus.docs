@@ -26,7 +26,7 @@ ADFS is a standards-based service that allows the secure sharing of identity inf
 
 Should you prefer having users signing in with an Active Directory account, you can provide necessary settings on the **Organization** page.
 
-Once you have klicked the *Edit* button on the **Organization** page you will have to edit these fields:
+Once you have clicked the *Edit* button on the **Organization** page you will have to edit these fields:
 
 <img src="{{site.baseurl}}/images/user-management/2.png">
 
