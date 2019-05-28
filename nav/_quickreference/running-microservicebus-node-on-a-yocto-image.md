@@ -7,14 +7,36 @@ order: 20
 ---
 
 
-Intro on what this page aims to answer. If the page is tutorial-like do numbering and at the end of the page link to related topics.
+## Intro
+Yocto is an huge topic and to get you started we are going to setup an Raspberry Pi to run an custom pre build Yocto image.
 
-If you dont know Markdown try this [Cheatsheet](https://github.com/adam-p/markdown-here/blob/master/README.md)
+Yocto build system runs on Linux but this tutorial will use pre build files and is targeted Windows.
 
-## 1.First step
+In this tutorial we will use target to reference the Raspberry Pi and host to reference the PC.
 
-### 2.Second step
+## 1.Hardware
+To follow along this tutorial you need some hardware.
 
+#### Target
+- Raspberry Pi 3 B/B+
+- USB power supply
+- Micro SD card with a capacity of at least 8 GB
+- LAN, cable or WiFi
+##### Optional
+- HDMI cable and screen
+- USB keyboard
+
+#### Host
+- Windows PC, Linux or MAC should be fine
+- Micro SD card reader
+- Access to same LAN as target is conncted to, cable or WiFi
+### 2.Software
+Here is some software that is good to download/install before moving on
+- [SD-Image]() complete Yocto image for RPi SD-card
+- [Firmware-bundle]() an bundled rootfs for remote update
+
+- [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) will be used to connect to target and to generate ssh keys
+- [Etcher](https://www.balena.io/etcher/) to write image to SD-card
 #### Best practices
 
 * Always checkout branch before editing so no conflict happens. When you are done with your edit, create a pull request.
