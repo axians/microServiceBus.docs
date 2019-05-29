@@ -107,8 +107,13 @@ lo        Link encap:Local Loopback
 wlan0     Link encap:Ethernet  HWaddr XX:XX:XX:XX:XX:XX  
           inet addr:192.168.1.100  Bcast:172.21.20.255  Mask:255.255.255.0
 ```
-3. When you have successfully located the IP address open PuTTY.
-4. To be continued
+3. When you have successfully located the IP address open PuTTY
+4. Enter the Raspberry Pi address
+![PuTTY config](/images/running-microservicebus-node-on-a-yocto-image/putty-config.png)
+5. Now we have to select our private SSH-key, in the tree to the left open Connection->SSH->Auth, then browse your private key.
+![PuTTY config auth](/images/running-microservicebus-node-on-a-yocto-image/putty-authentication-public-key-options.png)
+6. Press open to start SSH session, if prompt for username enter root
+
 
 
 Back to home page: [Home](/)
