@@ -43,7 +43,7 @@ To follow along this tutorial you need some hardware.
 - Access to same LAN as target is conncted to, cable or WiFi
 ## 1. Getting started
 Here is some software that is good to download/install before moving on
-- [SD-Image]() complete Yocto image for RPi SD-card
+- [SD-Image](https://microservicebusstorage.blob.core.windows.net/yocto/rpi/msb-image-rauc-raspberrypi3-20190529155638.rootfs.rpi-sdimg.zip) complete Yocto image for RPi SD-card
 - [Firmware-bundle]() an bundled rootfs for remote update
 
 - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) will be used to connect to target and to generate ssh keys
