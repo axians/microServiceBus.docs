@@ -54,7 +54,7 @@ The Raspberry Pi setup use SSH-keys for authorization when connection with SSH f
 1. Start PuTTYgen( Start menu -> All Programs -> PuTTY-> PuTTYgen)
 2. Press "Generate" and start moving mouse to generate randomness, when complete the public key appears in the window
 3. Specify an passphrase to protect the private key, this is optional
-4. Save private and public key
+4. Save private and public key, good to keep PuTTYgen open for copy/paste later.
 
 >Tip! If you have problem you can follow this [guide](https://www.ssh.com/ssh/putty/windows/puttygen)
 
@@ -64,7 +64,19 @@ This will erase all content on the SD-Card, backup any data before continuing!
 2. After completion the boot partition should appear under Computer in the explorer.
 
 ## 4. SSH authorized_keys
-To add your public SSH-key to the Raspberry Pi image copy you saved public key from PuTTYgen to the boot partition and rename the file to "authorized_keys". No file ending. On the Raspberry Pi an init script will copy your key to the active rootfs on boot.
+To add your public SSH-key to the Raspberry Pi image you need to create an authorized_keys file.
+
+1. Open an text editor like [Notpad++](https://notepad-plus-plus.org/download/v7.7.html).
+2.  Copy paste the public key from PuTTYgens key field, if you closed PuTTYgen you can open it and load your private key again
+3. If you use [Notpad++](https://notepad-plus-plus.org/download/v7.7.html) change end of line (EOL) to Unix, go to Edit->EOL Conversion->Unix (LF)
+4. Save file to the boot partition as "authorized_keys"(no file ending)
+
+Your file should look somthing like below exept as one line:
+``` shell
+ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQB6tFAQLjZyldp187xJ4WANAikn6kf5o1u8HQBB1TpJFYfFhCNskX9oT1XC6rfD5Ar817p329vjppzY4kNOjIEIYIOLy8dWGcGGNEDjB9G+pczLp3J8cAWEic+bpB9mI6HGQwABb6AOIwuTw91INJwt7++4S6I9xbtECCTGWyb70pLWstqwlN8GXovLe/+vkMHI5PSJeQJLfabTk/SjM4gbD9GemHBcLbbCnpmXQYbG5jLPpF7Hhc8Gc7/NrzB7GwZ55HPkcz/oISVuCWReKGpSWIJno72FvpF4OeIyc/bLiw5H8VReyT9A9W3RUNQOmTuVfkBcIQZ4tdocBc0PxTkB rsa-key-20190603
+```
+
+The init script will copy your key to the active rootfs on boot.
 
 ## 5. WiFi config
 If you use cable to connect to LAN you can skip this section.
@@ -86,13 +98,47 @@ network={
 ```
 1. Open an text editor like [Notpad++](https://notepad-plus-plus.org/download/v7.7.html) copy paste the above template
 2. Edit contry code to match you [location](https://en.wikipedia.org/wiki/ISO_3166-1)
-3. Edit ssid an psk to match your WiFi SSID and password
-4. Save the to the boot partition named "wpa_supplicant-wlan0.conf"
-5. Unmount you SD-Card
+3. Edit ssid and psk to match your WiFi SSID and password
+4. If you use [Notpad++](https://notepad-plus-plus.org/download/v7.7.html) change end of line (EOL) to Unix, go to Edit->EOL Conversion->Unix (LF)
+5. Save the to the boot partition named "wpa_supplicant-wlan0.conf"
 
 >Tip! For more info regarding WPA-Supplicant conf you can read [here](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)
 
-## 6. Bootup
+## 6. microServiceBus-node service config
+To start *microServicebus-node* on the Raspberry Pi an service file is used to auto start it and restart it in case of failure. There is an default service file on the SD-image already but you can add an custom service file to the boot partition to set different configurations for microServiceBus. We are going to use this to set sign in name and verification code. The default service file use white list and MAC address for sign in.
+
+microServiceBus-node service template:
+
+``` shell
+[Unit]
+Description=MicroServiceBus as a Service
+
+[Service]
+ExecStart=/usr/bin/node /usr/lib/node/microservicebus-node/start.js -c [YOUR CODE] -n  [YOUR NODE NAME]
+WorkingDirectory=/usr/lib/node/microservicebus-node
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=nodejs
+User=msb
+Group=msb
+Environment=PATH=/usr/bin:/usr/local/bin:/bin/:/usr/local/sbin:/usr/sbin:/sbin
+Environment=NODE_ENV=production
+Environment=MSB_PLATFORM=YOCTO
+Environment=MSB_HOST=microservicebus.com
+Environment=DAM_SOCKETPATH=/var/run/dam
+
+[Install]
+WantedBy=multi-user.target
+```
+
+1. Open an text editor like [Notpad++](https://notepad-plus-plus.org/download/v7.7.html) copy paste the above template
+2. Change [YOUR CODE] and [YOUR NODE NAME] to match name and code on [msb.com/Nodes](https://microservicebus.com/Nodes)
+3. If you use [Notpad++](https://notepad-plus-plus.org/download/v7.7.html) change end of line (EOL) to Unix, go to Edit->EOL Conversion->Unix (LF)
+4. Save the to the boot partition named "microservicebus-node.service"
+5. Unmount you SD-Card
+
+## 7. Bootup
 At this stage you hopfylly have an working SD-Card to use in your Raspberry Pi. If you like to see the boot process connect an HDMI display to your Raspberry Pi and maybe an keyboard to be able to interact. But if all off the above configuration is correct you should be able to connect from your host using SSH over the LAN.
 1. Insert SD-Card in Raspberry Pi and connect power
 2. Now you need to get the IP address of your Raspberry Pi. If you have access to the network router it is convinient to look att DHCP lease. An alternative is to scan your network using an IP-scanner like nmap or [Angry IP Scanner](https://angryip.org/download/#windows). If you have an display and keyboard connected you can simply logg in using root and no password, then write ipconfig on the command line and press enter.
