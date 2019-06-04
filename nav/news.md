@@ -11,13 +11,42 @@ summary{
 }
 </style>
 
+<details open><summary markdown="span">June 1st, 2019</summary> 
 
-<details open><summary markdown="span">May 13th, 2019</summary> 
+### [microservicebus.com](https://microservicebus.com)
+
+* Clone Flow - handle target environment
+    * *Optionally bind version of services*
+* Add validation of HMAC signature in JasperNotification API.
+    * *Incoming requests from Cisco Jasper are now validated using HMAC signature.*
+* Preparation for support for new IoT Providers
+    * *Plan is to support Oracle Cloud and FiWare*
+* User documentation
+    * *More updated user documentation on [docs.microservicebus.com](https://docs.microservicebus.com)*
+ 
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 2.0.70
+* Do retries when downloading service files
+   * *To prevent failures while downloading scripts and services*
+* Increased the retry interval when signing in using imei
+    * *Preventing unnecessary restart of service*
+* Updated AWS SDK => 2.2.1
+* Azure IoT SDK stability improvements.
+* FIXED: Unable to download new firmware due to full disk
+   * *Clean firmware directory before downloading new image*
+* FIXED: Unable to download syslogs
+   * *Improved error handling for uploading syslogs + updated dbus interface*
+* Support for compression
+   * *Built-in support for compression of messages*
+* Minor bug fixes
+</details>
+
+<details ><summary markdown="span">May 13th, 2019</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 
 * Integrate external ticketing system (ServiceNow)
-   * *Users can now throw their own custom exceptions to Servicenow*
+   * *Users can now throw their own custom exceptions to ServiceNow*
 * Updated all help links
    * *Linked all help pages to docs.microservicebus.com*
 * Manage state from Node page
