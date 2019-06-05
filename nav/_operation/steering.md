@@ -10,7 +10,7 @@ order: 60
 
 There is two recommended ways of restarting nodes.
 
-1. Navigate to the **Nodes Page**, find *ACTION* button of your *Node* then click **restart**
+1. Navigate to the [Nodes page](https://microservicebus.com/Nodes), find the **ACTION** button of your *Node* then click **restart**
 
 2. Restarting a node by command
 
