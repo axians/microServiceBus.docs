@@ -27,7 +27,7 @@ Moving a node to another organization will cause the Node to reconfigure, restar
 2. Click the **ACTIONS** button and select **Move**
 3. Choose a new node name and choose Organization
 4. Click Move
-5. Change organization to confirm that the node have been moved.
+5. Change organization to  confirm that the node have been moved.
 
 
 
