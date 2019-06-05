@@ -14,8 +14,8 @@ There is two recommended ways of restarting nodes.
 
 2. Restarting a node by command
 
-· · · Hit CTRL + R , and type **restart [YOUR NODE]** Eg.:· ·
+· · · Hit CTRL + R , and type **restart [YOUR NODE]** Eg.: · · ·
 
 · · ·````
 restart node001
-· · ·```
+``` · ·
