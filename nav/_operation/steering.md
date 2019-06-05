@@ -6,9 +6,9 @@ categories: operation
 order: 60
 ---
 
-# Restart Node
+# Restarting Nodes
 
-There is two recommended ways of restaring the node.
+There is two recommended ways of restarting nodes.
 
 1. Navigate to the **Nodes Page**, find your node and click **properties** then click **restart**
 
@@ -18,4 +18,6 @@ Hit CTRL + R , and type **restart [YOUR NODE]** Eg.:
 ```
 restart node001
 ```
+
+# Reset
 
