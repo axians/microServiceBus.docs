@@ -24,31 +24,31 @@ There is two recommended ways of restarting nodes.
 ### Reboot Node
 Will make the node to do a complete reboot of the system
 
-1. Navigate to the *Nodes* page.
+1. Navigate to the [Nodes page](https://microservicebus.com/Nodes).
 2. Click the **ACTIONS** button and select **Reboot**
 
 
 ### Shutdown Node (Be careful)
 Will completely turn the system off and you will not be able to access the node unless you do a power cycle.
 
-1. Navigate to the *Nodes* page.
+1. Navigate to the [Nodes page](https://microservicebus.com/Nodes).
 2. Click the **ACTIONS** button and select **Shutdown**
 
 
 ### Delete Node
-1. Navigate to the *Nodes* page.
+1. Navigate to the [Nodes page](https://microservicebus.com/Nodes).
 2. Click the **ACTIONS** button and select **Delete**
 
 ### Wipe Node (Not recommended)
 Wiping the node will clear its settings!
 
-1. Navigate to the *Nodes* page.
+1. Navigate to the [Nodes page](https://microservicebus.com/Nodes).
 2. Click the **ACTIONS** button and select **Wipe**
 
 ### Move Node
 Moving a node to another organization will cause the Node to reconfigure, restart and join a new organiztion based on it's IMEI identifier
 
-1. Navigate to the *Nodes* page.
+1. Navigate to the [Nodes page](https://microservicebus.com/Nodes).
 2. Click the **ACTIONS** button and select **Move**
 3. Choose a new node name and choose Organization
 4. Click Move
