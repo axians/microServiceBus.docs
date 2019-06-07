@@ -18,7 +18,12 @@ There is two recommended ways of restarting nodes.
 
     ``` restart node001 ``` 
 
-## Reset Node
+## Wipe Node (Not recommended)
+Wiping the node will clear its setting!
+
+1. Navigate to the *Nodes* page.
+2. Click the **ACTIONS** button and select **Wipe**
+
 
 ## Move Node
 Moving a node to another organization will cause the Node to reconfigure, restart and join a new organiztion based on it's IMEI identifier
@@ -28,7 +33,6 @@ Moving a node to another organization will cause the Node to reconfigure, restar
 3. Choose a new node name and choose Organization
 4. Click Move
 5. Change organization to  confirm that the node have been moved.
-
 
 ## History data
 >Sometimes it can be very useful to look back in time to find patterns of communication issues and other events. For this we have *History data*
