@@ -30,10 +30,6 @@ Moving a node to another organization will cause the Node to reconfigure, restar
 5. Change organization to  confirm that the node have been moved.
 
 
-
-
-
-
 ## History data
 >Sometimes it can be very useful to look back in time to find patterns of communication issues and other events. For this we have *History data*
 
