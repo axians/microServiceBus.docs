@@ -8,7 +8,7 @@ order: 60
 
 # Control Nodes
 
-## Restart Node
+### Restart Node
 
 There is two recommended ways of restarting nodes.
 
@@ -21,31 +21,31 @@ There is two recommended ways of restarting nodes.
     ``` restart node001 ``` 
 
 
-## Reboot Node
+### Reboot Node
 Will make the node to do a complete reboot of the system
 
 1. Navigate to the *Nodes* page.
 2. Click the **ACTIONS** button and select **Reboot**
 
 
-## Shutdown Node (Be careful)
+### Shutdown Node (Be careful)
 Will completely turn the system off and you will not be able to access the node unless you do a power cycle.
 
 1. Navigate to the *Nodes* page.
 2. Click the **ACTIONS** button and select **Shutdown**
 
 
-## Delete Node
+### Delete Node
 1. Navigate to the *Nodes* page.
 2. Click the **ACTIONS** button and select **Delete**
 
-## Wipe Node (Not recommended)
+### Wipe Node (Not recommended)
 Wiping the node will clear its settings!
 
 1. Navigate to the *Nodes* page.
 2. Click the **ACTIONS** button and select **Wipe**
 
-## Move Node
+### Move Node
 Moving a node to another organization will cause the Node to reconfigure, restart and join a new organiztion based on it's IMEI identifier
 
 1. Navigate to the *Nodes* page.
@@ -54,7 +54,7 @@ Moving a node to another organization will cause the Node to reconfigure, restar
 4. Click Move
 5. Change organization to  confirm that the node have been moved.
 
-### Step 1 - Remote debugging
+### Remote debugging
 >Remote debugging is a very powerful option which can provide you with valuable insight to your *Service*. You can also run profiling on your *Node* to find potential memory leaks or high memory/CPU contention.
 
 1. Navigate to the *Node* page. Click the **ACTIONS** button and select **Debug**, then click **START DEBUG**.
@@ -68,7 +68,7 @@ The problem is that you use ```os.platform()``` rather than ```os.hostname()```.
 
 # Node information
 
-## History data
+### History data
 >Sometimes it can be very useful to look back in time to find patterns of communication issues and other events. For this we have *History data*
 
 1. Navigate to the *Nodes* page.
@@ -78,14 +78,14 @@ The problem is that you use ```os.platform()``` rather than ```os.hostname()```.
 
 >Historic data is not sent to microServiceBus.com, unless requested.
 
-## Audit log
+### Audit log
 >The *Audit log* shows any action taken on Nodes
 
 1. Navigate to the [Nodes page](https://microservicebus.com/Nodes).
 2. From the *ACTION* button of your *Node*, select *Properties*.
 3. Click the **AUDIT LOG** button.
 
-## Environment data
+### Environment data
 > Environment data refers to things like available memory and storage along with environment variables and CPU information.
 1. Navigate to the [Nodes page](https://microservicebus.com/Nodes).
 2. From the *ACTION* button of your *Node*, select *Properties*.
