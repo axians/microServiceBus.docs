@@ -54,7 +54,7 @@ Moving a node to another organization will cause the Node to reconfigure, restar
 4. Click Move
 5. Change organization to  confirm that the node have been moved.
 
-### Remote debugging
+### Debug Node
 >Remote debugging is a very powerful option which can provide you with valuable insight to your *Service*. You can also run profiling on your *Node* to find potential memory leaks or high memory/CPU contention.
 
 1. Navigate to the *Node* page. Click the **ACTIONS** button and select **Debug**, then click **START DEBUG**.
