@@ -6,6 +6,8 @@ categories: operation
 order: 60
 ---
 
+# Control Nodes
+
 ## Restart Node
 
 There is two recommended ways of restarting nodes.
@@ -18,12 +20,30 @@ There is two recommended ways of restarting nodes.
 
     ``` restart node001 ``` 
 
+
+## Reboot Node
+Will make the node to do a complete reboot of the system
+
+1. Navigate to the *Nodes* page.
+2. Click the **ACTIONS** button and select **Reboot**
+
+
+## Shutdown Node (Be careful)
+Will completely turn the system off and you will not be able to access the node unless you do a power cycle.
+
+1. Navigate to the *Nodes* page.
+2. Click the **ACTIONS** button and select **Shutdown**
+
+
+## Delete Node
+1. Navigate to the *Nodes* page.
+2. Click the **ACTIONS** button and select **Delete**
+
 ## Wipe Node (Not recommended)
 Wiping the node will clear its settings!
 
 1. Navigate to the *Nodes* page.
 2. Click the **ACTIONS** button and select **Wipe**
-
 
 ## Move Node
 Moving a node to another organization will cause the Node to reconfigure, restart and join a new organiztion based on it's IMEI identifier
@@ -33,6 +53,20 @@ Moving a node to another organization will cause the Node to reconfigure, restar
 3. Choose a new node name and choose Organization
 4. Click Move
 5. Change organization to  confirm that the node have been moved.
+
+### Step 1 - Remote debugging
+>Remote debugging is a very powerful option which can provide you with valuable insight to your *Service*. You can also run profiling on your *Node* to find potential memory leaks or high memory/CPU contention.
+
+1. Navigate to the *Node* page. Click the **ACTIONS** button and select **Debug**, then click **START DEBUG**.
+>The *Node* will now get restarted in "Debug mode". Wait a few seconds and you'll be presented a debug url.
+2. Click the **COPY** button, open a new tab (in chrome), and paste the url into the address field. This opens the Chrome Debug Tool.
+3. Go to the Sources tab. Expand the top item in left pane ("no domain") to see an overwhelming number of files (sorry about that). Scroll down to your script file. Should be something like: *C:\Users\YOU\microServiceBus\services\alexCpuService.js*
+4. Set a breakpoint at approx row 36 (```var computer = os.platform();```) by clicking the row number in the gutter of the editor. Wait a few seconds and the breakpoint should hit.
+5. Step over the line by hitting F10, and hover the **computer** variable and view the value.
+
+The problem is that you use ```os.platform()``` rather than ```os.hostname()```. Easy enough to fix. Let's head over to the *Scripts & Services* again. -But first, in *Node* page, make sure to stop debugging by click on the **STOP DEBUG** button in the debugging window before you proceed. Go back to the Chrome Debug Tool and hit the resume button.
+
+# Node information
 
 ## History data
 >Sometimes it can be very useful to look back in time to find patterns of communication issues and other events. For this we have *History data*
