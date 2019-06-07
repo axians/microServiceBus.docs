@@ -19,7 +19,7 @@ There is two recommended ways of restarting nodes.
     ``` restart node001 ``` 
 
 ## Wipe Node (Not recommended)
-Wiping the node will clear its setting!
+Wiping the node will clear its settings!
 
 1. Navigate to the *Nodes* page.
 2. Click the **ACTIONS** button and select **Wipe**
