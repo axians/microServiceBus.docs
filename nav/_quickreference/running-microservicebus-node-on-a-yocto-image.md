@@ -8,20 +8,20 @@ order: 20
 
 
 ## Intro
-Yocto is an huge topic and to get you started we are going to setup an Raspberry Pi to run an custom pre built Yocto image. The pre built image contains 4 partitions with some key parts that enables microServiceBus to do remote firmware updates.
+Yocto is an huge topic and to get you started we are going to setup an Raspberry Pi to run an custom pre built Yocto image. The pre built image contains 4 partitions with some key parts that enables microServiceBus.com to do remote firmware updates.
 
 ![SD-Card composition](/images/running-microservicebus-node-on-a-yocto-image/rpi-sd-image.svg)
 
-If you have previous experiences with Yocto and only looking to include microServiceBus to your build have a look at [meta-microservicebus-node](https://layers.openembedded.org/layerindex/branch/master/layer/meta-microservicebus-node/)
+If you have previous experiences with Yocto and only looking to include the microServiceBus agent to your build have a look at [meta-microservicebus-node](https://layers.openembedded.org/layerindex/branch/master/layer/meta-microservicebus-node/)
 
 ### Partition 1 /boot
 The boot partition contains the bootloader, in this case U-Boot. The bootloader is first to run after power up. U-Boot is responsible to load the Linux kernel into memory and decide if RootFS 1 or 2 should be mounted by the kernel.
 
 ### Partition 2 and 3 /rootfs
-In the rootfs partitions all Linux user space software is installed. There is two rootfs partitions to be able to update and swap firmware, only one is active at a time. The software most interesting for us is *microServiceBus-node* and *RAUC*. *MicroServiceBus-node* is responsible for installing and updateing *microServiceBus-core*. *MicroServiceBus-core* will check for new firmware, if newer firmware exists *microServiceBus-core* will download firmware and then call *RAUC* to install and swap rootfs next boot.
+In the rootfs partitions all Linux user space software is installed. There is two rootfs partitions to be able to update and swap firmware, only one is active at a time. The software most interesting for us is *microServiceBus-node* and *RAUC*. *microServiceBus-node* is responsible for installing and updateing *microServiceBus-core*. *microServiceBus-core* will check for new firmware, if newer firmware exists *microServiceBus-core* will download firmware and then call *RAUC* to install and swap rootfs next boot.
 
 ### Partition 4 /data
-Data partition is used to store data that will be persistent between firmware updates. *MicroServiceBus-node* runs by "msb" user whose home directory is located under /data/home/msb. *MicroServiceBus* stores scripts and data under the home directory by default. 
+Data partition is used to store data that will be persistent between firmware updates. *microServiceBus-node* runs by "msb" user whose home directory is located under /data/home/msb. The *microServiceBus* agent stores scripts and data under the home directory by default. 
 
 ### Yocto
 The Yocto Project is an open source collaboration project that helps developers create custom Linux-based systems regardless of the hardware architecture.
@@ -31,7 +31,7 @@ Yocto build system runs on Linux but this tutorial will use pre build files and 
 >Tip! For more info regarding Yocto please visit [Yocto project](https://www.yoctoproject.org/)
 
 ### RAUC
-This image use [RAUC](https://www.rauc.io/) software to apply firmware updates. *MicroServiceBus-node* will download new firmware from mSB.com and call RAUC install over d-bus to trigger the update.
+This image use [RAUC](https://www.rauc.io/) software to apply firmware updates. *microServiceBus-node* will download new firmware from mSB.com and call RAUC install over d-bus to trigger the update.
 RAUC use X.509 cryptography to sign the update bundles, in this tutorial the example bundles is signed using an demo key.
 
 >Tip! For more info regarding RAUC please visit [RAUC](https://www.rauc.io/)
@@ -52,6 +52,7 @@ To follow along this tutorial you need some hardware.
 - Windows PC, Linux or MAC should be fine but tutorial is targeted Windows
 - Micro SD card reader
 - Access to same LAN as target is connected to, cable or WiFi
+
 ## 1. Getting started
 Here is some software that is good to download/install before moving on
 - [SD-Image](https://microservicebusstorage.blob.core.windows.net/yocto/rpi/msb-image-rauc-raspberrypi3-20190607112344.rootfs.rpi-sdimg.zip) complete Yocto image for RPi SD-card
