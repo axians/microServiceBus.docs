@@ -192,9 +192,13 @@ An SSH-server is running on the Raspberry Pi by default and allow connections us
       If the address is empty the node may have been assigned an IP late or after fully booted, press enter to reprint the prompt. Default there is no root password, thus login local with keyboard is not possible. You need to authenticate with SSH-Key.
 1. When you have successfully located the IP address open PuTTY
 1. Enter the Raspberry Pi address
-![PuTTY config](/images/running-microservicebus-node-on-a-yocto-image/putty-config.png)
+
+
+    ![PuTTY config](/images/running-microservicebus-node-on-a-yocto-image/putty-config.png)
 1. Now we have to select our private SSH-key, in the tree to the left open Connection->SSH->Auth, then browse your private key.
-![PuTTY config auth](/images/running-microservicebus-node-on-a-yocto-image/putty-authentication-public-key-options.png)
+
+
+    ![PuTTY config auth](/images/running-microservicebus-node-on-a-yocto-image/putty-authentication-public-key-options.png)
 1. Press open to start SSH session, if prompt for user name enter root
 1. You should now have access to an remote shell on the Raspberry Pi, you can set an root password if you like to be able to use the "HDMI" shell and keyboard.
     ``` shell
