@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{%- include head.html -%}
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Quicksand|Titillium+Web" rel="stylesheet" />
+    <link href="/assets/css/home.css" rel="stylesheet" />
+    <link href="/assets/css/gettingstarted.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    {%- include header.html -%}
+
+    <main class="page-content" aria-label="Content" style="padding: 0 0;">
+        <div class="container-fluid">
+
+            <body>
+                <section id="overview" style="
+                    background-image: url('{{site.baseurl}}/images/getting-started/getstarted.jpeg');
+                    background-position: 50% 50%;
+                    background-size: cover;
+                    background-repeat: no-repeat;">
+                    <div class="axians-arrow"
+                        style="background-image: url({{site.baseurl}}/images/getting-started/slideshow-arrow-mask-gray-thin-right.png);">
+
+                    </div>
+                </section>
+
+                <!-- Intro -->
+                <section id="overview" style="background:white;
+                                background-position: 50% 50%;
+                                background-size: cover;
+                                background-repeat: no-repeat;">
+                    <div class="container learning-container ">
+                        <div class="container">
+                            <div class="row" style="margin-top: 30px">
+                                <div class="col-lg-12">
+                                    <p style="font-size: 1.3em;font-style:italic">This simple exercise will quickly get
+                                        you up and started with <span class="key-word">microServiceBus.com</span>. It
+                                        will, of course, not cover all the details, but will get you up to speed with
+                                        the more common tasks of device provisioning, development and management.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Create organization-->
+                <section id="create-organization" style="background:white;
+background-position: 50% 50%;
+background-size: cover;
+background-repeat: no-repeat;">
+                    <div class="container learning-container ">
+                        <div class="container">
+                            <div class="row" style="margin-top: 30px">
+                                <div class="col-lg-12">
+                                    <div class="numberTitle number-1">1. Create an organization</div>
+                                </div>
+                                <div class="col-lg-8 learningContent" style="margin-top: 30px">
+                                    <p>All your devices, firmware images and services are all going to belong to an
+                                        <span class="key-word">Organization</span>. The is also the level from where you
+                                        may add friends and co-workers to share you work. In the future, you may want to
+                                        have multiple organizations, but let’s not get ahead of ourselves. </p>
+                                    <p>Begin by creating an account. Click Register in the upper right corner, provide
+                                        your name, email and password. Accept the license and GDPR stuff and proceed
+                                        accepting the request sent to your email.</p>
+                                    <p>This will take you to the step of creating your Organization. Begin by giving it
+                                        a name and a description. Next, you should pick your IoT hub of choice. This
+                                        assumes you already have an IoT Hub. If you don’t, and just want to get a feel
+                                        for it, select “Option 1 Use microServiceBus.com ©”. </p>
+                                    <p>For more information about Organizations: <a href="{{site.baseurl}}/what-is-an-organization" target="_blank">What is an Organization?</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- Create a node -->
+                <section id="create-node" style="background:white;
+background-position: 50% 50%;
+background-size: cover;
+background-repeat: no-repeat;">
+                    <div class="container learning-container ">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-offset-4 col-lg-8">
+                                    <div class="numberTitle number-2">2. create your first node</div>
+                                </div>
+                                <div class="col-lg-offset-4 col-lg-8 learning-content " style="margin-top: 30px">
+                                    <p>A <span class="key-word">Node</span> is the agent hosted on your physical device,
+                                        and is responsible for communicating with microServiceBus.com. The <span
+                                            class="key-word">Node</span> is also responsible for running your <span
+                                            class="key-word">Services</span>, but more on <span
+                                            class="key-word">Services</span> in a little bit. -First, we need to create
+                                        the <span class="key-word">Node</span> in the portal. </p>
+                                    <p>Head over to the <a href="/Nodes" target="_blank" class="xkey-word">Nodes</a>
+                                        page, Click the “CREATE NEW NODE” button on the top. Give your <span
+                                            class="key-word">Node</span> a name and description. Don’t worry about
+                                        Templates for now, just hit “CREATE”. This takes you back to the <span
+                                            class="key-word">Nodes</span> page where your new <span
+                                            class="key-word">Node</span> should be visible in the list.</p>
+                                    <p>If you set up your organization using your own IoT Hub, you can visit your IoT
+                                        Hub page and notice it has been created there as well.</p>
+                                    <p>Next it's time to install the <span class="key-word">Node</span> on your device.
+                                    </p>
+                                    <p>For more information about Nodes: <a href="{{site.baseurl}}/what-is-a-node" target="_blank">What is a Node?</a></p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Prepare your device-->
+                <section id="create-organization" style="background:white;
+background-position: 50% 50%;
+background-size: cover;
+background-repeat: no-repeat;">
+                    <div class="container learning-container ">
+                        <div class="container">
+                            <div class="row" style="margin-top: 30px">
+                                <div class="col-lg-12">
+                                    <div class="numberTitle number-3">3. prepare your device</div>
+                                </div>
+                                <div class="col-lg-8 learningContent" style="margin-top: 30px">
+                                    <p>microServiceBus.com comes with support for many different devices, operating
+                                        systems and platforms. As the purpose of the exercise is merely to get you
+                                        started, we will not cover them all here. If you have access to a device running
+                                        Linux or Windows, use that device. Otherwise, you can use your laptop as a
+                                        device and install the <span class="key-word">Node</span> there.</p>
+                                    <p>microServiceBus.com supports two different application platforms; ARM MBed and
+                                        Node.js. For this exercise we’re going to use the
+                                        latter. Node.js is an application platform
+                                        allowing you to build applications using JavaScript. Not only is this a Node.js running on almost any platform, -JavaScript
+                                        is an easy language to learn, perhaps you already do.</p>
+                                    <p>First let’s install Node.js. Browse to
+                                        <a href="https://nodejs.org" target="_blank">nodejs.org</a> and select the either the current- or LTS (Long Time Support)
+                                        version and install it. For more details on how to install Node.js, visit <a href="{{site.baseurl}}/installing-microservicebus-node" target="_blank">guide on
+                                            installting Node.js</a>.</p>
+                                    <p>Next, install the microservicebus-node package by opening a console or a terminal
+                                        and type:</p>
+                                    <div
+                                        style="background: lightgray;padding: 15px 10px 10px 20px;border-radius: 5px;color: #636363;">
+                                        <p>> npm install microservicebus-node</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Create a node -->
+                <section id="create-node" style="background:white;
+background-position: 50% 50%;
+background-size: cover;
+background-repeat: no-repeat;">
+                    <div class="container learning-container ">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-offset-4 col-lg-8">
+                                    <div class="numberTitle number-4">4. start your device</div>
+                                </div>
+
+                                <div class="col-lg-offset-4 col-lg-8 learning-content " style="margin-top: 30px">
+                                    <p>Before we can start the <span class="key-word">Node</span>, we need to give it
+                                        its identity. In production scenarios, this is usually an automated process of
+                                        white-listing a series of <span class="key-word">Nodes</span> beforehand.
+                                        However, for developing purposes, you can also provision a <span
+                                            class="key-word">Node</span> using a verification code. The code is only
+                                        used the first time the <span class="key-word">Node</span> signs in, after which
+                                        it will be provided its identity and security tokens.</p>
+                                    <p>At the bottom of the node page, hit the “GENERATE” button and copy the code. Go
+                                        back to the console or terminal. In the directory where you installed
+                                        microservicebus-node, type the following:</p>
+                                    <div
+                                        style="background: lightgray;padding: 15px 10px 10px 20px;border-radius: 5px;color: #636363;">
+                                        <p>> cd /node_modules/microservicebus-node</p>
+                                        <p>> node start -c [<span style="background-color:yellow">YOUR CODE</span>] -n
+                                            [<span style="background-color:yellow">NAME OF YOUR NODE</span>]</p>
+                                    </div>
+                                    <p>The <span class="key-word">Node</span> should now start up and continue the
+                                        installation process before getting online. This process may take a couple of
+                                        minutes before it should come online in the portal.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Prepare your device-->
+                <section id="create-flow" style="background:white;
+background-position: 50% 50%;
+background-size: cover;
+background-repeat: no-repeat;">
+                    <div class="container learning-container ">
+                        <div class="container">
+                            <div class="row" style="margin-top: 30px">
+                                <div class="col-lg-12">
+                                    <div class="numberTitle number-5">5. create a flow</div>
+                                </div>
+                                <div class="col-lg-8 learningContent" style="margin-top: 30px">
+                                    <p>With your Organization created and your <span class="key-word">Node</span> up and running – it’s time to make it do something fun. </p>
+                                    <p>microServiceBus.com, as the name implies, is all about <span class="key-word">Services</span>. You can easily create and deploy your own <span class="key-word">Services</span> or use any of the many already existing. In this exercise you’re going to be using a <span class="key-word">Services</span> reading from a simulated temperature sensor.</p>
+                                    <p><span class="key-word">Flows</span> are used for composing <span class="key-word">Services</span> so that they can work together. In this case, you’re going to build a Flow that reads the temperature using one Service and then passing the reading to another <span class="key-word">Services</span> that sends the reading to your IoT Hub.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </body>
+        </div>
+    </main>
+
+
+    {%- include footer.html -%}
+    <script>
+        (function () {
+            $.getScript('https://embed.small.chat/TA2GRD5TPGA1SKDXDX.js');
+        }())
+    </script>
+</body>
+
+</html>
