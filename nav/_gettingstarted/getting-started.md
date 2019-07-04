@@ -1,7 +1,7 @@
 ---
 layout: gettingstarted
-title:  "Getting started"
-description: A Flow defines the interaction between Micro Services, - A workflow that controls how messages gets sent from one service to another.
+title:  "Getting started - Quick start"
+description: This simple exercise will quickly get you up and started with microServiceBus.com. It will, of course, not cover all the details, but will get you up to speed with the more common tasks of device provisioning, development and management.
 categories: gettingstarted
-order: 30
+order: 1
 ---
