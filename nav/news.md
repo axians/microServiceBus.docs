@@ -11,7 +11,37 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">June 1st, 2019</summary> 
+
+<details open><summary markdown="span">July 7st, 2019</summary> 
+
+### [microservicebus.com](https://microservicebus.com)
+
+* Vulnerabilities viewer
+    * *Vulnerabilities from all nodes are presented in one view, grouped by severity*
+* Added CostCenter and SLA
+    * *CostCenter and SLA has been added to Organization and Nodes*
+* Usage API
+    * *Added /api/organizations/usage to give insight to billing.*
+* Price calculator
+    * *To provide a better cost estimate including portal, device management and sim-cards*
+* FIXED: Avoid sending empty grants grants to mSB-dam 
+* FIXED: Japser provisioning
+* FIXED: Github integration 
+ 
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 2.0.80
+* Updated snapcraft version
+    * *Added tpm plug*
+* Updated dependancies
+* FIXED: vulnerabilities for Security Alerts on tar package
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 2.0.7
+* Vulnerabilities Scan
+    * *A Vulnerability scan is performed daily and submitted to the portal*
+* FIXED: Changes to Node policies should be applied immediately 
+* Minor bug fixes
+</details>
+
+<details ><summary markdown="span">June 1st, 2019</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 
