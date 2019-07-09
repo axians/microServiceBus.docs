@@ -8,9 +8,9 @@ order: 40
 
 A micro service is a part of a larger more complex solution, with a specific role. The service may be of different types where the most common types are:
 
-* **Inbound Service**  | Responsible for retrieving data or events. Or simply trigger a flow based on time, custom logic, etc.
-* **Outbound Service** | Responsible for delivering data to another service/party or controlling locally connected systems.
-* **Internal Service** | Responsible for processing & transforming data, as well as forwarding data to another service/party.
+**Inbound Service**  | Responsible for retrieving data or events. Or simply trigger a flow based on time, custom logic, etc.
+**Outbound Service** | Responsible for delivering data to another service/party or controlling locally connected systems.
+**Internal Service** | Responsible for processing & transforming data, as well as forwarding data to another service/party.
 
 In microServiceBus a micro service is used in one or several [flows]({{site.baseurl}}/what-is-a-flow).
 
@@ -19,9 +19,10 @@ microServiceBus.com provides a large set of services out of the box, that you ma
 ## How to create a micro service
 
 Navigate to the main menu and select **Scripts & Services**. Click the button **Create New** and select
-1) **Create New**, to start from scratch creating a service.
-2) **Import from file**, if you have previously downloaded a service locally to your machine.
-3) **Copy from**, to start from an already existing *service*
+
+1. **Create New**, to start from scratch creating a service.
+2. **Import from file**, if you have previously downloaded a service locally to your machine.
+3. **Copy from**, to start from an already existing *service*
 
 `In this example you're going to start from scratch with 'Create New'`.
 
@@ -37,15 +38,17 @@ Service type: 'One-way inbound service'
 and press **Create**...
 
 In the new window (*Edit Service Script*) you can now:
-1) Provide a suitable image/icon for your service - **Image URI**
-2) Add *properties* to your service to allow a re-usable configurable service, in multiple flows. - **Static/Security Properties**
-3) Edit the service code **Edit** (top the top right)
+
+1. Provide a suitable image/icon for your service - **Image URI**
+2. Add *properties* to your service to allow a re-usable configurable service, in multiple flows. - **Static/Security Properties**
+3. Edit the service code **Edit** (top the top right)
 
 For now we'll simply press **Edit** (top right) and edit our service template.
 
 We will only make a small modification to the template service and provide an additional JSON key/value **"hello:World"** and lower the trigger interval to every **5** second.
 
 Update the upper part of the service to match:
+
 ```javascript
     Start: function () {
         self = this;
