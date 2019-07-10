@@ -1,0 +1,118 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
+@import url(https://fonts.googleapis.com/css?family=Squada+One);
+
+.key-word {
+    /*color: rgb(0,94,184);*/
+    /*font-weight: 700;*/
+    font-style: italic;
+}
+.numberTitle {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(135,136,138);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: -3px;
+    line-height: 1;
+    text-shadow: #EDEDED 3px 2px 0;
+    position: relative;
+}
+
+.number-1:after {
+    content: "1. Create an organization";
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+.number-2:after {
+    content: "2. create your first node";
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+.number-3:after {
+    content: "3. prepare your device";
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+.number-4:after {
+    content: "4. start your node";
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+.number-5:after {
+    content: "5. create a flow";
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+.numberTitle:after {
+    /*background: url(https://subtlepatterns.com/patterns/crossed_stripes.png) repeat;*/
+    background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
+    background-size: 4px 4px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: -5;
+    display: block;
+    text-shadow: none;
+}
+.learning-container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Vinci';
+    font-size: 20px;
+    float: none;
+    list-style: none;
+    position: absolute;
+    width: 2031px;
+    z-index: 50;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.learning-content {
+    font-family: 'Vinci';
+    font-size: 20px;
+}
+
+.gn-icon-organization-shadow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
+    background-size: 4px 4px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: -5;
+    display: block;
+    text-shadow: none;
+    font-family: "ecoicons";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+}
+.gn-icon-nodes-shadow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    background-image: -webkit-linear-gradient(left top, transparent 0%, transparent 25%, #555 25%, #555 50%, transparent 50%, transparent 75%, #555 75%);
+    background-size: 4px 4px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: -5;
+    display: block;
+    text-shadow: none;
+    font-family: "ecoicons";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+}
