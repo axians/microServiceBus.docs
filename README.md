@@ -8,7 +8,7 @@
     * _integration
     * _operation
     * _quickreference
-3. Name your file as your topic, in lower case, replacing spaces with dashes. Eg *get-remote-access-to-your-nodes.md*
+3. Name the file the same as your topic, in lower case, replacing spaces with dashes. Eg *get-remote-access-to-your-nodes.md*
 4. Add a Jekyll header:
 
     ```html
