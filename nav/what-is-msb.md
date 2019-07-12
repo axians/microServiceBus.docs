@@ -16,8 +16,8 @@ microServiceBus.com and all related products and services are owned by AXIANS Io
 
 
 ## Provisioning and on-boarding
-On-boarding new devices is difficult at scale. Gateways needs to automatically get assigned a cloud identity, receive keys and certificates. -All in a highly secure manner.
-microServiceBus.com provide a scalable, cross cloud vendor solution based either on integration with SIM card management tools like Cisco Jasper or MAC address white-listening.
+On-boarding new devices is difficult at scale. Gateways need to automatically be assigned a cloud identity, receive keys and certificates. -All in a highly secure manner.
+microServiceBus.com provide a scalable, cross cloud vendor solution based either on integration with SIM card management tools like Cisco Jasper or MAC address white-listing.
 
 For more information:
 * [Install your first gateway]({{site.baseurl}}/installing-microservicebus-node)
@@ -26,8 +26,8 @@ For more information:
 
 ## Updates and patching
 No part of any system will stand the test of time. Software is constantly updated to align with security threats or new required features.
-Update and patching are easily handled through microServiceBus.com, either through replacing entire firmware or individual services. Updates can be done manually or through scheduled tasks, for single, all or groups of devices.
-Easy deployments to IoT devices make ways for Agile development!
+Updates and patching are easily handled through microServiceBus.com by either replacing entire firmware or individual services. Updates can be done manually or scheduled through tasks. This can be done for single devices or groups of devices.
+Easy deployments to IoT devices facilitates Agile development!
 
 For more information:
 * [What is a micro service?]({{site.baseurl}}/what-is-a-micro-service)
@@ -36,7 +36,7 @@ For more information:
 
 
 ## Source code management
-Source code and services are not only deployed to devices, but needs to be audited and versioned to ensure the end-to-end business process.
+Source code and services are not only deployed to devices, but need to be audited and versioned to ensure the end-to-end business process.
 With complete insight and traceability, code can be fully managed and versioned within the microServiceBus.com portal. However, we also integrate with Git repositories such as GitHub and Azure DevOps.
 
 
