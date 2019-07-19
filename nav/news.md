@@ -12,7 +12,17 @@ summary{
 </style>
 
 
-<details open><summary markdown="span">July 7st, 2019</summary> 
+<details open><summary markdown="span">July 19st, 2019</summary> 
+
+### [microservicebus.com](https://microservicebus.com)
+
+* Manage firmware
+    * *Firmware can now be managed through a special dialog on the Nodes page.*
+* Mark partition
+    * *You are now able to mark which partition to be active*
+</details>
+
+<details><summary markdown="span">July 7st, 2019</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 
