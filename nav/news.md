@@ -12,7 +12,7 @@ summary{
 </style>
 
 
-<details open><summary markdown="span">July 19st, 2019</summary> 
+<details open><summary markdown="span">July 19th, 2019</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 
@@ -29,7 +29,7 @@ summary{
 * Enabled Mark partition
 </details>
 
-<details><summary markdown="span">July 7st, 2019</summary> 
+<details><summary markdown="span">July 7th, 2019</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 
