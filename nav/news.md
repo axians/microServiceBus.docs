@@ -20,6 +20,13 @@ summary{
     * *Firmware can now be managed through a special dialog on the Nodes page.*
 * Mark partition
     * *You are now able to mark which partition to be active*
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 2.0.90
+* Updated Azure device SDK
+    * *Updated azure-iot-sdk-node => 1.10.0*
+* Update yocto firmware image
+    * *Improved error handling*
+* Enabled Mark partition
 </details>
 
 <details><summary markdown="span">July 7st, 2019</summary> 
