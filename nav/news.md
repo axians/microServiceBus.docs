@@ -37,7 +37,7 @@ summary{
 * Enabled Mark partition
 </details>
 
-<details><summary markdown="span">July 7st, 2019</summary> 
+<details><summary markdown="span">July 7th, 2019</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 
