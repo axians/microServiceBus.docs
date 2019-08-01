@@ -11,8 +11,16 @@ summary{
 }
 </style>
 
+<details open><summary markdown="span">August 3rd, 2019</summary> 
 
-<details open><summary markdown="span">July 19th, 2019</summary> 
+### [microservicebus.com](https://microservicebus.com)
+
+* Manage Incident policies
+    * *Incident policies is part of Device Management and allow you to take actions on exceptions and alerts, such as when Nodes comes of line or custom alerts. For more info visit [docs.microservicebus.com](https://docsmicroservicebus.com/working-with-incident-policies)*
+
+</details>
+
+<details><summary markdown="span">July 19st, 2019</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 
