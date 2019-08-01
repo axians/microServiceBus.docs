@@ -19,6 +19,9 @@ A custom alert is implemented using an **Incident Policy** which defines three e
 > By default, there should be two *policies* already created for you; **Unhanded Exceptions** and **Offline Nodes**. These are described in detail in the [Default policies section](# Default policies) below.
 Click the *Add new record* button on top to create a new row in the table. Set a *Error code* and describe the policy. Finally, select an *Action* and set the parameters.
 
+![SD-Card composition](/images/working-with-incident-policies/incidentPoliciesWindow.png)
+*Please note that you can have multiple actions on the same Error code.*
+
 ## Actions
 
 ### Send issue email
