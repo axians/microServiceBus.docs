@@ -18,6 +18,10 @@ summary{
 * Manage Incident policies
     * *Incident policies is part of Device Management and allow you to take actions on exceptions and alerts, such as when Nodes comes of line or custom alerts. For more info visit [docs.microservicebus.com](https://docsmicroservicebus.com/working-with-incident-policies)*
 
+* 'SLA' (Service Level Agreement) information and 'Cost Center' now available at '/api/organizations' API.
+    * *For more info visit [Swagger docs](https://microservicebus.com/swagger)*
+
+
 </details>
 
 <details><summary markdown="span">July 19st, 2019</summary> 
