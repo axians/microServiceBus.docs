@@ -14,7 +14,7 @@ Apart from custom policies, there are two policies enabled by default which are 
 An *incident* can be created from anywhere but most commonly from a *Node* and is commonly some abnormality you’d like to take action on. All *incidents* have an identifier (error code), a description and an action. Actions are described in detail (below)[#Actions].  
 
 ## Create a custom alert
-A custom alert is implemented using an **Incident Policy** which defines three elements: The *identifier* (error code), description and an action. Navigate to the [Organization page](https://microservicebus.com/organizations/detail), and scroll down to the *ServiceNow* section. If your organization is managed, the *MANAGE INCIDENT POLICIES* button is enabled. Click the button to open the *Incident policies* dialog.
+A custom alert is implemented using an **Incident Policy** which defines three elements: The *identifier* (error code), description and an action. Navigate to the [Organization page](https://microservicebus.com/organizations/details), and scroll down to the *ServiceNow* section. If your organization is managed, the *MANAGE INCIDENT POLICIES* button is enabled. Click the button to open the *Incident policies* dialog.
 
 > By default, there should be two *policies* already created for you; **Unhanded Exceptions** and **Offline Nodes**. These are described in detail in the [Default policies section](# Default policies) below.
 Click the *Add new record* button on top to create a new row in the table. Set a *Error code* and describe the policy. Finally, select an *Action* and set the parameters.
@@ -33,7 +33,24 @@ The * Send issue email* action sends an hourly aggregated notification of all *i
 ```
 
 ### Send issue SMS
-Similar to the * Send issue email* action, this action sends an hourly notification to participants you’ve configured clicking the *Params* button (…). The *to* element can hold a comma separated list of phone numbers.
+Similar to the * Send issue email* action, this action sends an hourly notification to participants you’ve configured clicking the *Params* button (…). 
+
+| Property        | Description |
+ | -------------- |-------------|
+| to | Comma separated list of phone numbers. Don't forget to use country code. | 
+| workingHours | (Optional) To prevent receiving text messages during certain hours of the day set the **to** and **from** for when you accept messages. Set the **timeZone** field according to [supported timezones](https://techsupport.osisoft.com/Documentation/PI-Web-API/help/topics/timezones/windows.html). |  
+
+**Sample**
+``` json
+{
+  "to": "+4612121212,+43334343453",
+  "workingHours": {
+    "from": "08: 00",
+    "to": "18: 00",
+    "timeZone": "W. Europe Standard Time"
+  }
+}
+```
 
 ### Call API
 The *Call API* will send a *POST* request of every incident to a REST service of your choice. Configure the parameters as the table below:
