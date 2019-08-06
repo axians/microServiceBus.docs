@@ -11,16 +11,19 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">August 3rd, 2019</summary> 
+
+<details open><summary markdown="span">August 8th, 2019</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 
 * Manage Incident policies
     * *Incident policies is part of Device Management and allow you to take actions on exceptions and alerts, such as when Nodes comes of line or custom alerts. For more info visit [docs.microservicebus.com](https://docsmicroservicebus.com/working-with-incident-policies)*
-
 * 'SLA' (Service Level Agreement) information and 'Cost Center' now available at '/api/organizations' API.
     * *For more info visit [Swagger docs](https://microservicebus.com/swagger)*
-
+* Update Snaps
+    * *Snaps (Ubuntu) can now be updated using the Manage device environment dialog. For more info visit [docs.microservicebus.com](https://docsmicroservicebus.com/managing-firmware-and-device)*
+* Run scripts
+    * *Patch scripts can be remotely executed on Nodes using the Manage device environment dialog. For more info visit [docs.microservicebus.com](https://docsmicroservicebus.com/managing-firmware-and-device)*
 
 </details>
 
