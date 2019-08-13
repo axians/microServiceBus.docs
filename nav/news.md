@@ -12,7 +12,28 @@ summary{
 </style>
 
 
-<details open><summary markdown="span">August 8th, 2019</summary> 
+<details open><summary markdown="span">August 13th, 2019</summary> 
+
+### [microservicebus.com](https://microservicebus.com)
+
+* Updated Audit log
+    * *Added Node description and fixed audit logs for snap*
+
+* FIXED: Log file list
+    * *List of log files at the Nodes page is now sorted correctly*
+
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 2.1.0
+* Add aggregated exception interval
+    * Users can now set how often exceptions of same type get sent to tracking
+* Added refreshSnap
+    * *Refresh Snap is called from the portal or API*
+* FIXED: dependencies marked with vulnerabilities 
+* FIXED: Vulnerabilities scan for Snap Nodes
+
+</details>
+
+<details><summary markdown="span">August 8th, 2019</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 
