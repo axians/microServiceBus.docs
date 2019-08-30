@@ -55,8 +55,8 @@ To follow along this tutorial you need some hardware.
 
 ## 1. Getting started
 Here is some software that is good to download/install before moving on
-- [SD-Image](https://microservicebusstorage.blob.core.windows.net/yocto/rpi/msb-image-rauc-raspberrypi3-20190607112344.rootfs.rpi-sdimg.zip) complete Yocto image for RPi SD-card
-- [Firmware-bundle](https://microservicebusstorage.blob.core.windows.net/yocto/rpi/update-bundle-msb-rpi3-rauc-v100-20190607112344.raucb) an bundled rootfs for remote update
+- [SD-Image](https://microservicebusstorage.blob.core.windows.net/yocto/rpi/msb-image-rauc-raspberrypi3-20190529155638.rootfs.rpi-sdimg.zip) complete Yocto image for RPi SD-card
+- [Firmware-bundle](https://microservicebusstorage.blob.core.windows.net/yocto/rpi/update-bundle-msb-rpi3-rauc-v120-20190830115920.raucb) an bundled rootfs for remote update
 
 - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) will be used to connect to target and to generate ssh keys
 - [Etcher](https://www.balena.io/etcher/) to write image to SD-card
