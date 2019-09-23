@@ -33,6 +33,20 @@ node start
 
 [For more information about how to install a Node]({{site.baseurl}}/installing-microservicebus-node)
 
+## Using anonymous signin
+
+Anonymous signin means the *Node* registers it self to be claimed in the microServiceBus.com portal. This action require either a **Site manager** role in multitennant environments such as microServiceBus.com, or **Owner** of an Organization in a Private- or Self hosted environment.
+
+Start the Node using only *start*:
+```javascript
+> node start [optional --env --beta]
+```
+
+<img src="{{site.baseurl}}/images/provitioning-of-nodes/claim-node.png">
+
+When claiming the node, it will be given whatever name you choose. By default it will be part of your current Organization, but you may change to any other Organization you are **Owner** of.
+
+
 ## Using MAC whitelist
 
 The media access control address (MAC address) of a device is a unique identifier assigned to a network interface controller (NIC). Each device has it's own unique MAC address, and you can register these addresses in *microServiceBus.com* to simplify the on-boarding of devices in bulk.
