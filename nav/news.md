@@ -11,8 +11,36 @@ summary{
 }
 </style>
 
+<details open><summary markdown="span">September 23rd, 2019</summary> 
 
-<details open><summary markdown="span">August 13th, 2019</summary> 
+### [microservicebus.com](https://microservicebus.com)
+
+* Added suport for signing in Nodes anonymous. 
+    * *Signing in Nodes anonymous, and later claiming the Node in the portal provides an easy provitioning process. visit [microServiceBus.docs](/provitioning-of-nodes) for more information*
+
+* Minor UI updates
+    * *Some minor graphical updates and fixes has been applied on the Node page.*
+
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 2.1.12
+* Added suport for signing in Nodes anonymous. 
+    * *Signing in Nodes anonymous, and later claiming the Node in the portal provides an easy provitioning process.*
+
+* FIXED: dependencies marked with vulnerabilities 
+* FIXED: Vulnerabilities scan for Snap Nodes
+
+### [microservicebus-node](https://github.com/axians/microservicebus-node) version 2.0.8
+* Updated node.js version
+    * *Node.js version 12.11*
+* Updated snap version to 2.0.8
+
+### [meta-microservicebus-raspberrypi (Yocto)](https://github.com/axians/microservicebus-yocto) version 1.2.0
+* Update bundle version as msb-node version now is 2.0.8
+* Minor fixes
+
+</details>
+
+<details ><summary markdown="span">August 13th, 2019</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 
@@ -87,7 +115,7 @@ summary{
 * Updated dependancies
 * FIXED: vulnerabilities for Security Alerts on tar package
 
-### [microservicebus-core](https://github.com/axians/microservicebus-core) version 2.0.7
+### [microservicebus-node](https://github.com/axians/microservicebus-node) version 2.0.7
 * Vulnerabilities Scan
     * *A Vulnerability scan is performed daily and submitted to the portal*
 * FIXED: Changes to Node policies should be applied immediately 
