@@ -11,13 +11,18 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">September 23rd, 2019</summary> 
+<details open><summary markdown="span">September 29rd, 2019</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 
 * Added suport for signing in Nodes anonymous. 
     * *Signing in Nodes anonymous, and later claiming the Node in the portal provides an easy provitioning process. visit [microServiceBus.docs](/provitioning-of-nodes) for more information*
-
+* Integration with Fiware
+    * *microServiceBus.com can now be integrated with Fiware Orion Context Broker to store and update entities from meters and sensors in the field. For more information about Fiware, visit https://www.fiware.org* 
+* microServiceBus.API 
+    * *More Flow API's for browsing Flows and Services*
+* Move Nodes to other Organizations
+    * *This feature no longer require the node to be online*
 * Minor UI updates
     * *Some minor graphical updates and fixes has been applied on the Node page.*
 
@@ -29,10 +34,11 @@ summary{
 * FIXED: dependencies marked with vulnerabilities 
 * FIXED: Vulnerabilities scan for Snap Nodes
 
-### [microservicebus-node](https://github.com/axians/microservicebus-node) version 2.0.8
+### [microservicebus-node](https://github.com/axians/microservicebus-node) version 2.0.10
 * Updated node.js version
     * *Node.js version 12.11*
-* Updated snap version to 2.0.8
+* Updated snap version to 2.0.10
+    * *Logic for logging in with IMEI is moved to mSB-core*
 
 ### [meta-microservicebus-raspberrypi (Yocto)](https://github.com/axians/microservicebus-yocto) version 1.2.0
 * Update bundle version as msb-node version now is 2.0.8
