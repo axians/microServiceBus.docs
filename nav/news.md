@@ -27,7 +27,7 @@ summary{
     * *Some minor graphical updates and fixes has been applied on the Node page.*
 
 
-### [microservicebus-core](https://github.com/axians/microservicebus-core) version 2.1.12
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 2.2.0
 * Added suport for signing in Nodes anonymous. 
     * *Signing in Nodes anonymous, and later claiming the Node in the portal provides an easy provitioning process.*
 
