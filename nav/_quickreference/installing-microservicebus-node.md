@@ -45,7 +45,7 @@ To make npm work on a Raspberry Pi you might need to set the registry to HTTP us
 
 For a fully manageable Raspberry Pi, consider using the [Raspberry Pi Yocto Image]({{site.baseurl}}/running-microservicebus-node-on-a-yocto-image)
 
-#### Raspberry Pi 2 Model B  
+#### Raspberry Pi 3 or 4  
 
 ```bash
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
@@ -53,7 +53,7 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt install -y nodejs
 
 ```
-#### Raspberry Pi 3 or 4  
+#### Raspberry Pi 2 Model B  
 
 ```bash
 https://nodejs.org/dist/v9.9.0/node-v9.9.0-linux-armv7l.tar.gz
