@@ -11,7 +11,47 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">September 29rd, 2019</summary> 
+<details open><summary markdown="span">November 7th, 2019</summary> 
+
+### [microservicebus.com](https://microservicebus.com)
+* Un-suck IoT campaign
+    * *https://microservicebus.com/iotsucks and home page carousel.*
+* Added suport for Azure IoT Edge. 
+    * *IoT Edge nodes are based on docker and can run cloud modules such as machine learning side-by-side with the microServiceBus node. By moving certain workloads to the edge of the network, your devices spend less time communicating with the cloud, react more quickly to local changes and operate reliably even in extended offline periods.*
+* Claim Node
+    * *Nodes started without parameters can now be claimed in portal*
+* microServiceBus.API 
+    * *Restart Node by id*
+* Updated price calculator
+    * *https://microservicebus.com/pricecalculator*
+* Minor UI updates
+    * *Some minor graphical updates and fixes has been applied on the Node page.*
+
+* FIXED: Bug with invites not deleted 
+* FIXED: Pricecalculator 24/7 prices fixed 
+* FIXED: Tag are not saved when cloning stage flow
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 2.4.0
+* Added suport for Azure IoT Edge. 
+    * *IoT Edge nodes are based on docker and can run cloud modules such as machine learning side-by-side with the microServiceBus node. By moving certain workloads to the edge of the network, your devices spend less time communicating with the cloud, react more quickly to local changes and operate reliably even in extended offline periods.*
+* Disable debug after 30 minutes.
+    * *Debug console will automaticly be disabled after 30 min.*
+
+* FIXED: Fixed History (TTLCollection)
+
+### [microservicebus-node](https://github.com/axians/microservicebus-node) version 2.0.10
+* Updated node.js version
+    * *Node.js version 12.11*
+* Updated snap version to 2.0.10
+    * *Logic for logging in with IMEI is moved to mSB-core*
+
+### [meta-microservicebus-raspberrypi (Yocto)](https://github.com/axians/microservicebus-yocto) version 1.2.0
+* Update bundle version as msb-node version now is 2.0.8
+* Minor fixes
+
+</details>
+
+<details><summary markdown="span">September 29th, 2019</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 
