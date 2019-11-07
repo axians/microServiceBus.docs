@@ -8,6 +8,17 @@ order: 50
 
 There are times when you might need to access your *Nodes* to dig through the local file system, check log files locally or just do some configuration of networks and services. SSH passwords is sufficient when you have a few *Nodes*, but imagine the hassle and the ensuing fight you will have with security when all of these passwords are stored on a file on your local computer. Or when you send a password to your collegue. Enter, SSH keys. By uploading the public part of your own SSH key to *microServiceBus.com*, you can get remote access to your *Nodes*. You will get your own user on the machine and therefore traceability on actions taken during your SSH sessions.
 
+> **Note!**
+> You will need to have the snap *microServiceBus-DAM* installed to be able to add SSH keys to the device
+
+## Installing microServiceBus-dam
+
+*microServiceBus-dam* is the device access manager that handles all the users, keys and secure transfers of these. To be able to get remote access to your device you will need to install the snap and link it to the *microServiceBus-node* snap. *microServiceBus-dam* is currently only available in a Ubuntu core environment. Install the snap with the following command:
+
+```bash
+  snap install microservicebus-dam --devmode; snap connect microservicebus-dam:account-control; snap connect microservicebus-dam:hardware-observe
+  ```
+
 ## Adding your public SSH key
 
 Navigate to your user page  [Manage user](https://microservicebus.com/Account/Manage). Go to the tab *SSH keys* and either type in a username or have us generate one for you. These are case insensitive and will always have all lower-case characters. This will be the user that you use for your SSH session towards the *Node*. Refresh the page and navigate to the same tab. 
