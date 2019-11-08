@@ -28,6 +28,11 @@ If you dont know Markdown try this [Cheatsheet](https://github.com/adam-p/markdo
 
 * Always use cursive on reserved words like *node*, *microservice*, *microServiceBus.com*, *flows*, *organization*, *tags* etc.
 
+* Internal links are used like this:
+```
+[Nodes]({{site.baseurl}}/what-is-a-node)
+```
+
 * Images can be added in different ways. Depending on the use and size of the image you whant to use.
 
   * Standard: `![altText](/images/Logosmall.png)`

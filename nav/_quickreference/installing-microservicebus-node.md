@@ -43,7 +43,17 @@ sudo apt-get install npm
 
 To make npm work on a Raspberry Pi you might need to set the registry to HTTP using this following command:
 
-Raspberry Pi 2 Model B  
+For a fully manageable Raspberry Pi, consider using the [Raspberry Pi Yocto Image]({{site.baseurl}}/running-microservicebus-node-on-a-yocto-image)
+
+#### Raspberry Pi 3 or 4  
+
+```bash
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+
+sudo apt install -y nodejs
+
+```
+#### Raspberry Pi 2 Model B  
 
 ```bash
 https://nodejs.org/dist/v9.9.0/node-v9.9.0-linux-armv7l.tar.gz
@@ -53,6 +63,7 @@ cd node-v9.9.0-linux-armv7l
 
 sudo cp -R * /usr/local/
 ```
+
 
 for more info: [Installing node on raspberryPi](http://blog.wia.io/installing-node-js-v4-0-0-on-a-raspberry-pi/)
 
@@ -70,11 +81,12 @@ Before you start your node, you need a temporary verification code which you can
 ### 2. Create a node
 
 With the microServiceBus-node installed we need create the **node** in the microServiceBus.com portal. There are a number of ways to create and automatically provision nodes.
-For now, we’ll keep it simple and use the [Nodes](/what-is-a-node) page.
 
-Navigate to the [Nodes](/what-is-a-node) page and create a node using the *CREATE NEW NODE* button on the top. Give the node a name and description and hit *CREATE*.
+For now, we’ll keep it simple and use the [Nodes]({{site.baseurl}}/what-is-a-node) page.
 
-Back at the the [Nodes](/what-is-a-node), your new *Node* should be visible in the list.
+Navigate to the [Nodes]({{site.baseurl}}/what-is-a-node) page and create a node using the *CREATE NEW NODE* button on the top. Give the node a name and description and hit *CREATE*.
+
+Back at the the [Nodes]({{site.baseurl}}/what-is-a-node), your new *Node* should be visible in the list.
 
 ### 3. Start the node
 
@@ -142,13 +154,3 @@ sudo systemctl daemon-reload
 sudo systemctl enable msb.service
 sudo reboot
 ```
-
-#### See also
-
-[Working with Node.js services](wiki/nodejs)
-
-[Installing on Ubuntu Core](https://github.com/axians/microServiceBus-node/wiki/IoT-Devices)
-
-Back to Quick Reference page: [Quick Reference](../quickReference/)
-
-Back to home page: [Home](/)
