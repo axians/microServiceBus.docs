@@ -32,6 +32,11 @@ summary{
 * Avoiding loading dependancy files multiple time
     * *Depenancy files will now only get downloaded once although referenced from many  services.*
 
+* Better support for cloud messaging
+* Added support for octet stream
+* Added support for rauc and azure iot-edge
+* Improved integration with snap
+
 ### [microservicebus-yocto](https://github.com/axians/microservicebus-yocto) 
 * Added support for Azure IoT Edge
 
