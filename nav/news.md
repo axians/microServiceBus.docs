@@ -11,7 +11,33 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">November 7th, 2019</summary> 
+<details open><summary markdown="span">December 1st, 2019</summary> 
+
+### [microservicebus.com](https://microservicebus.com)
+* Imroved Node vulnerabilities view
+* Imroved ServiceNow integration
+    * *Better syncronization with CI's*
+* Performance update
+    * *Performance imrovements done to Node, Flow and MAnagement page*
+
+
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 2.4.0
+* Imroved support for Node vulnerabilities
+    * *Nodes now provide informatoin about snaps*
+* Updated Azure IoT SDK
+    * *azure-iot-device => 1.12.0*
+    * *azure-iot-device-mqtt => 1.11.0*
+    * *azure-iot-device-amqp => 1.11.0*
+* Avoiding loading dependancy files multiple time
+    * *Depenancy files will now only get downloaded once although referenced from many  services.*
+
+### [microservicebus-yocto](https://github.com/axians/microservicebus-yocto) 
+* Added support for Azure IoT Edge
+
+</details>
+
+<details ><summary markdown="span">November 7th, 2019</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 * Un-suck IoT campaign
