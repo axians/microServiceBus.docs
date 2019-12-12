@@ -11,11 +11,21 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">December 1st, 2019</summary> 
+<details open><summary markdown="span">December 12th, 2019</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
-* Imroved Node vulnerabilities view
-* Imroved ServiceNow integration
+* Service usage
+    * *You can now find out wich Flows are using a service directly from the Service/Script page*
+* Flow usage
+    * *Ever wanted to know which FLows are used by a Node. You can now find out using the Action button on the Nodes page.*
+
+</details>
+
+<details ><summary markdown="span">December 1st, 2019</summary> 
+
+### [microservicebus.com](https://microservicebus.com)
+* Improved Node vulnerabilities view
+* Improved ServiceNow integration
     * *Better syncronization with CI's*
 * Performance update
     * *Performance imrovements done to Node, Flow and MAnagement page*
@@ -23,7 +33,7 @@ summary{
 
 
 ### [microservicebus-core](https://github.com/axians/microservicebus-core) version 2.4.0
-* Imroved support for Node vulnerabilities
+* Improved support for Node vulnerabilities
     * *Nodes now provide informatoin about snaps*
 * Updated Azure IoT SDK
     * *azure-iot-device => 1.12.0*
