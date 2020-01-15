@@ -108,3 +108,13 @@ When *Nodes* come offline a workflow will be triggered which does the following:
 2. After 10 minutes, check if the *Node* is still offline
 3. If the *Node* is still offline, update the status of the *ServiceNow* incident to *In Process*, otherwise close the incident.
 
+## System error codes
+
+| Error code        | Description |
+ | -------------- |-------------|
+| **90000** | Unhanded Exception | 
+| **90001** | Node is offline | 
+| **90004** | Rate plan limit reached for SIM card | 
+| **90005** | Rate plan limit reached to 75% for SIM card | 
+| **90006** | Organization has npm vulnerabliteies | 
+| **90007** | Organization has Snaps to be updated | 
