@@ -117,4 +117,9 @@ When *Nodes* come offline a workflow will be triggered which does the following:
 | **90004** | Rate plan limit reached for SIM card | 
 | **90005** | Rate plan limit reached to 75% for SIM card | 
 | **90006** | Organization has npm vulnerabliteies | 
-| **90007** | Organization has Snaps to be updated | 
+| **90007** | Organization has Snaps to be updated |
+| **90010** | Failed login |
+| **90011** | Invalid user login | 
+| **90020** | Data plan limit approaching | 
+| **90021** | Data plan reached | 
+
