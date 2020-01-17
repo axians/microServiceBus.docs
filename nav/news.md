@@ -11,7 +11,30 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">December 12th, 2019</summary> 
+<details open><summary markdown="span">January 17th, 2020</summary> 
+
+### [microservicebus.com](https://microservicebus.com)
+* Show snap list in vulnerabilities view
+    * *The Vulnerabilities page is now showing an aggregated view of all Snaps used, along with information about latest versions*
+* Improved visualization of tags
+    * *Tags on Nodes are now shown as "tags" rather than a comma separated list.*
+* Organizations are created as CI's in ServiceNow
+    * *For the purpose of aggregated incidens (such as "One or more nodes has outdated Snaps...", Organizations are now registered as CI's in ServiceNow.*
+* Added new System error codes:
+    * *90006 - Organization has npm vulnerabliteies*
+    * *90007 - Organization has Snaps to be updated*
+    * *90010 - Failed login*
+    * *90011 - Invalid user login*
+    * *90020 - Data plan limit approaching*   
+    * *90021 - Data plan reached*      
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 2.6.0
+* Improved support for cloud to device messaging
+* Improved handling of octet-stream 
+* Daily reporting of installed Snaps
+</details>
+
+<details ><summary markdown="span">December 12th, 2019</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 * Service usage
