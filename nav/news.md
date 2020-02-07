@@ -16,6 +16,21 @@ summary{
 ### [microservicebus.com](https://microservicebus.com)
 * Creating nodes
     *  *There is now a guide of dialog boxes/forms (wizard) that lead the user through a series of well-defined steps when creating a node. The purpose of this is to simplify the way of creating nodes and the onboarding nodes.* 
+* Improvments to Console
+    * *Resolved issue where Console got overflow by moving the content to a sized buffer. The new Console allows a more flexiable search and highlighting.*
+* More data-plan details on Node
+    * *IP-address, session start time and end time has been added to Node details page*
+* FIXED: Tracking issues resolved where tracking data was not shown in the history.
+* FIXED: Deleting Organizations was not working
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 2.7.0
+* Updated dependancies
+    * *Updated nyc => 15.0.0 & azure-iot-device => 1.12.2*
+* Snap refresh
+    * *Preserve devmode for snaps installed as devmode*
+* Console overflow
+    * *Truncating log messages > 1000 chars*
+* FIXED: Vulnerability scan had some issues that has been resolved
 </details>
 
 <details><summary markdown="span">January 17th, 2020</summary> 
