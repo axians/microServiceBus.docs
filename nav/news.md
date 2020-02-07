@@ -11,7 +11,14 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">January 17th, 2020</summary> 
+<details open><summary markdown="span">February 7th, 2020</summary> 
+
+### [microservicebus.com](https://microservicebus.com)
+* Creating nodes
+    *  *There is now a guide of dialog boxes/forms (wizard) that lead the user through a series of well-defined steps when creating a node. The purpose of this is to simplify the way of creating nodes and the onboarding nodes.* 
+</details>
+
+<details><summary markdown="span">January 17th, 2020</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 * Show snap list in vulnerabilities view
