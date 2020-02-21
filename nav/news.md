@@ -10,8 +10,48 @@ summary{
         color: #777;
 }
 </style>
+<details open><summary markdown="span">February 21th, 2020</summary> 
 
-<details open><summary markdown="span">February 7th, 2020</summary> 
+### [microservicebus.com](https://microservicebus.com)
+* Share Flows accross Organizations
+    *  *Flows created in the Root Organization will automaticly be accessable to all Organizations, but only editable in the Root Organization. Services in such FLows are therefor only addressable using Tags and not Node name* 
+* Notify team members
+    * *If you need to quickly notifying team members, you can do so using CTRL+R and type "info " + your message. Eg.*
+
+    ```
+    info I'm restarting node-00002
+    ```
+* Improved Delete Node page
+    * *Users are now provided more details on deleting Nodes.*
+* Co-administrators can now delete Nodes
+    * *This was previously only allow for Owners*
+* Provision using serial number
+    * *This was previously only done using IMEI*
+* API Update
+    * *Added API to force Nodes to report Vulnerabilities*
+* Azure DevOps integration
+    * *Improved error handling for setting up Azure DevOps*
+
+* FIXED: Issues with NPM Vulnerability list.
+* FIXED: Organization and Node SLA was not shown properly
+* FIXED: Changing policies on Nodes which had never signed in failed.
+* FIXED: Broken help link from Create Node page
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 2.8.0
+* Script/Service version shown on start up
+* Flow environment shown on start up
+* Vulnerabilities report update
+* FIXED: Updated mSB-dam error handling
+* FIXED: SNAP list version where wrong
+
+### [microservicebus-dam](https://github.com/axians/microservicebus-dam) version 1.2.3 (Snap stable)
+* Get grants using serial number
+* mSB-dam now calls directly to designated instance of mSB.com
+* Improved stability
+* Improved error handling
+</details>
+
+<details><summary markdown="span">February 7th, 2020</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 * Creating nodes
