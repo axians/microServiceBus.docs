@@ -10,7 +10,28 @@ summary{
         color: #777;
 }
 </style>
-<details open><summary markdown="span">February 21th, 2020</summary> 
+
+<details open><summary markdown="span">Mars 13th, 2020</summary> 
+
+### [microservicebus.com](https://microservicebus.com)
+* Support for agent-less devices 
+    *  *You can now manage devices which are not running the microServiceBus Node agent though the manufacturers provided API.* 
+* Support for Elvaco CMe2100G3
+    * *The CMe2100G3 is an MBus metering gateway from Elvaco, compatible with most standard MBus meters and can be configured and managed through miroServiceBus.com*
+* Generic installation scripts for Linux and Windows
+    * *After created a Node, you are guided to the installation and setup page providing you with all possible ways to install the Node. The generic scripts will not only install the Node but all necessary dependencies*
+* Updated privileges for claiming nodes
+    * *Co-administrators are now allowed to claim nodes*
+* Copy emails
+    * *You can now copy email addresses from all your team members on the Organization page*
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 2.9.0
+* Added support for setting the mSB instance as environment variable (MSB_NODE_HOST) 
+* FIXED: Formatting errors when showing flows
+* FIXED: Nodes should not try to recover from disconnected state while disabled
+</details>
+
+<details><summary markdown="span">February 21th, 2020</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 * Share Flows accross Organizations
