@@ -13,4 +13,6 @@ After the release has come available, you will be prompt to change your password
 
 ## Deprecated support for the free IoT Hub
 We still offer a free edition of microServiceBus.com, but we are no longer supporting the free IoT Hub. If you have a free IoT hub, you’ll need to migrate it to one from Microsoft, AWS or IBM. This process is simple and will provide you with more features and a more robust solution.
-Simply create a new IoT Hub, copy the connection information such as connection string or Access token depending on your choice of provider. Navigate to the Organization tab and click the SWITCH IOT PROVIDER button. Select you provider and click the CHANGE IOT PROVIDER button. All you existing Nodes will instantly be migrated to your new IoT Hub.
+
+Simply create a new IoT Hub, copy the connection information such as connection string or Access token depending on your choice of provider. Navigate to the Organization tab and click the SWITCH IOT PROVIDER button. Select you provider and click the CHANGE IOT PROVIDER button. 
+All your existing Nodes will instantly be migrated to your new IoT Hub.
