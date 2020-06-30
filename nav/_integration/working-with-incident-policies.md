@@ -11,7 +11,7 @@ Apart from custom policies, there are two policies enabled by default which are 
 > **Incident Policies** is only available on managed *Organizations* and can be enabled on the [Organization page](https://microservicebus.com/organizations/detail).
 
 ## What is an incident?
-An *incident* can be created from anywhere but most commonly created from a *Node* like abnormalities you’d like to take action on. All *incidents* have an identifier (error code), a description and an action. Actions are described in detail (below)[#Actions]. However, *incidents* can also be created through integration with third parties such as a SIM card provider, where *incidents* might be raised if data plans are reached.
+An *incident* can be created from anywhere but most commonly created from a *Node* like abnormalities you’d like to take action on. All *incidents* have an identifier (error code), a description and an action. Actions are described in detail [(below)](#Actions). However, *incidents* can also be created through integration with third parties such as a SIM card provider, where *incidents* might be raised if data plans are reached.
 
 ## Create a custom alert
 A custom alert is implemented using an **Incident Policy** which defines three elements: The *identifier* (error code), description and an action. Navigate to the [Organization page](https://microservicebus.com/organizations/details), and scroll down to the *ServiceNow* section. If your organization is managed, the *MANAGE INCIDENT POLICIES* button is enabled. Click the button to open the *Incident policies* dialog.
