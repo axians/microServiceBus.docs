@@ -121,7 +121,8 @@ When *Nodes* come offline a workflow will be triggered which does the following:
 | **90020** | Data plan limit approaching | 
 | **90021** | Data plan reached | 
 | **90030** | Missing sensor readings | 
-| **90040** | Failed to start docker container | 
-| **90041** | Docker containers crash | 
-| **90060** | Failed to start snap | 
-| **90061** | Snap crash | 
+| **90050** | Failed to start snap | 
+| **90051** | Snap crash | 
+| **90100** | Failed to start docker container | 
+| **90101** | Docker containers crash | 
+| **90102** | Custom docker log event | 
