@@ -11,7 +11,7 @@ Apart from custom policies, there are two policies enabled by default which are 
 > **Incident Policies** is only available on managed *Organizations* and can be enabled on the [Organization page](https://microservicebus.com/organizations/detail).
 
 ## What is an incident?
-An *incident* can be created from anywhere but most commonly from a *Node* and is commonly some abnormality you’d like to take action on. All *incidents* have an identifier (error code), a description and an action. Actions are described in detail (below)[#Actions].  
+An *incident* can be created from anywhere but most commonly created from a *Node* like abnormalities you’d like to take action on. All *incidents* have an identifier (error code), a description and an action. Actions are described in detail (below)[#Actions]. However, *incidents* can also be created through integration with third parties such as a SIM card provider, where *incidents* might be raised if data plans are reached.
 
 ## Create a custom alert
 A custom alert is implemented using an **Incident Policy** which defines three elements: The *identifier* (error code), description and an action. Navigate to the [Organization page](https://microservicebus.com/organizations/details), and scroll down to the *ServiceNow* section. If your organization is managed, the *MANAGE INCIDENT POLICIES* button is enabled. Click the button to open the *Incident policies* dialog.
@@ -106,9 +106,9 @@ The *Create ticket* action will create an incident in *ServiceNow* and does not 
 When *Nodes* come offline a workflow will be triggered which does the following:
 1. Create an incident in *ServiceNow* (error code 90001)
 2. After 10 minutes, check if the *Node* is still offline
-3. If the *Node* is still offline, update the status of the *ServiceNow* incident to *In Process*, otherwise close the incident.
+3. If the *Node* is still offline, update the status incident to *In Process*, otherwise close the incident.
 
-## System error codes
+## Supported triggers ans error codes
 
 | Error code        | Description |
  | -------------- |-------------|
