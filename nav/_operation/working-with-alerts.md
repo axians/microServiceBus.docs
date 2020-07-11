@@ -1,23 +1,22 @@
 ---
 layout: post
-title:  Working with incident policies
-description: Incident policies is part of Device Management and allow you to take actions on exceptions and alerts, such as when Nodes comes of line or custom alerts.
+title:  Working with Alerts
+description: Alerts are part of Device Management and allow you to take actions on exceptions and alerts, such as when Nodes comes of line or custom alerts.
 categories: operation
 order: 10
 ---
 
-Managing and taking actions on *Incidents* is a crucial part of IoT Device Management and allows you to react to events such as notifying a technician to replace a sensor if the battery is low or send a text message if the pressure of the heat pump is running high.
-Apart from custom policies, there are two policies enabled by default which are **Unhanded Exceptions** and **Offline Nodes** and are described in detail below.
-> **Incident Policies** is only available on managed *Organizations* and can be enabled on the [Organization page](https://microservicebus.com/organizations/detail).
+Managing and taking actions on *Alerts* is a crucial part of IoT Device Management and allows you to react to events such as notifying a technician to replace a sensor if the battery is low or send a text message if the pressure of the heat pump is running high. There are several built-in *Alerts* and you can also configure your own.
+> **Alerts** are only available on managed *Organizations* and can be enabled on the [Organization page](https://microservicebus.com/organizations/detail).
 
-## What is an incident?
-An *incident* can be created from anywhere but most commonly from a *Node* and is commonly some abnormality you’d like to take action on. All *incidents* have an identifier (error code), a description and an action. Actions are described in detail (below)[#Actions].  
+## What is an Alert?
+An *Alert* can be created from anywhere but most commonly from a *Node* and is commonly some abnormality you’d like to take action on. All *incidents* have an identifier (error code), a description and an action. Actions are described in detail [below](#Actions).  
 
 ## Create a custom alert
-A custom alert is implemented using an **Incident Policy** which defines three elements: The *identifier* (error code), description and an action. Navigate to the [Organization page](https://microservicebus.com/organizations/details), and scroll down to the *ServiceNow* section. If your organization is managed, the *MANAGE INCIDENT POLICIES* button is enabled. Click the button to open the *Incident policies* dialog.
+A *Custom Alert* is implemented using three parts: The *identifier* (error code), description and an action. Navigate to the [Organization page](https://microservicebus.com/organizations/details), and scroll down to the *ServiceNow* section. If your organization is managed, the *MANAGE ALERTS* button is enabled. Click the button to open the *Manage Alert* dialog.
 
 > By default, there should be two *policies* already created for you; **Unhanded Exceptions** and **Offline Nodes**. These are described in detail in the [Default policies section](# Default policies) below.
-Click the *Add new record* button on top to create a new row in the table. Set a *Error code* and describe the policy. Finally, select an *Action* and set the parameters.
+Click the *Add new record* button on top to create a new row in the table. Set a *Error code* and describe the Alert. Finally, select an *Action* and set the parameters.
 
 ![SD-Card composition](/images/working-with-incident-policies/incidentPoliciesWindow.png)
 *Please note that you can have multiple actions on the same Error code.*
@@ -99,12 +98,12 @@ public class TestController : BaseApiController
     }
 ```
 
-### Create ticket (default policy)
-The *Create ticket* action will create an incident in *ServiceNow* and does not require any parameters. This action is part for the **Unhanded Exception** (error code 90000) default policy.
+### Create ticket (default Alert)
+The *Create ticket* action will create an *Alert* in *ServiceNow* and does not require any parameters. This action is part for the **Unhanded Exception** (error code 90000) default policy.
 
-### Handle offline Node (default policy)
+### Handle offline Node (default Alert)
 When *Nodes* come offline a workflow will be triggered which does the following:
-1. Create an incident in *ServiceNow* (error code 90001)
+1. Create an *Alert* in *ServiceNow* (error code 90001)
 2. After 10 minutes, check if the *Node* is still offline
 3. If the *Node* is still offline, update the status of the *ServiceNow* incident to *In Process*, otherwise close the incident.
 
