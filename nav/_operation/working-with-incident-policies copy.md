@@ -2,8 +2,8 @@
 layout: post
 title:  Working with incident policies
 description: Incident policies is part of Device Management and allow you to take actions on exceptions and alerts, such as when Nodes comes of line or custom alerts.
-categories: integration
-order: 30
+categories: operation
+order: 10
 ---
 
 Managing and taking actions on *Incidents* is a crucial part of IoT Device Management and allows you to react to events such as notifying a technician to replace a sensor if the battery is low or send a text message if the pressure of the heat pump is running high.

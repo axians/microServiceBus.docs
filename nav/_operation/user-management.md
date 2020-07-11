@@ -3,7 +3,7 @@ layout: post
 title:  "User management"
 description: "You are not alone! Learn more about how to manage you team, like roles and invites."
 categories: operation
-order: 10
+order: 15
 ---
 
 Sharing is caring, and that goes for your organizations as well. Time to go through different user scenarios for your organizations.  
