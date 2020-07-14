@@ -105,9 +105,9 @@ The *Create ticket* action will create an *Alert* in *ServiceNow* and does not r
 When *Nodes* come offline a workflow will be triggered which does the following:
 1. Create an *Alert* in *ServiceNow* (error code 90001)
 2. After 10 minutes, check if the *Node* is still offline
-3. If the *Node* is still offline, update the status of the *ServiceNow* incident to *In Process*, otherwise close the incident.
+3. If the *Node* is still offline, update the status incident to *In Process*, otherwise close the incident.
 
-## System error codes
+## Supported triggers ans error codes
 
 | Error code        | Description |
  | -------------- |-------------|
@@ -120,4 +120,10 @@ When *Nodes* come offline a workflow will be triggered which does the following:
 | **90020** | Data plan limit approaching | 
 | **90021** | Data plan reached | 
 | **90030** | Missing sensor readings | 
-
+| **90040** | High storage utilizations | 
+| **90041** | High memory utilization | 
+| **90060** | Failed to start snap | 
+| **90061** | Snap crash | 
+| **90100** | Failed to start docker container | 
+| **90101** | Docker containers crash | 
+| **90102** | Custom docker log event | 

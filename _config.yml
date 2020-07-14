@@ -46,6 +46,9 @@ collections:
   integration:
     output: true
     permalink: /:name
+  alerts:
+    output: true
+    permalink: /:name
   search:
     output: true
     permalink: /:name
