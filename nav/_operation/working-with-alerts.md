@@ -107,7 +107,7 @@ When *Nodes* come offline a workflow will be triggered which does the following:
 2. After 10 minutes, check if the *Node* is still offline
 3. If the *Node* is still offline, update the status incident to *In Process*, otherwise close the incident.
 
-## Supported triggers ans error codes
+## Supported triggers and error codes
 
 | Error code        | Description |
  | -------------- |-------------|
