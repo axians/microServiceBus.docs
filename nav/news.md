@@ -11,7 +11,50 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">April 23th, 2020</summary> 
+<details open><summary markdown="span">August 18th, 2020</summary> 
+
+### [microservicebus.com](https://microservicebus.com)
+* Remote Terminal
+    * *Users can now enjoy a remote ssh terminal from mSB.com with full access to the Node.*
+* Claim node to existing node
+    * *Nodes signing in using claims can now be assigned to existing Nodes*
+* More info for Claim Node 
+    * *Nodes that are visible using claims now presents all IP-and MAC addresses* 
+* Added commands to 3rd party devices
+    * *A new Action menu appears on the Node property page for 3rd party devices*
+* Route to url on login 
+    *  *If users navigate to a page before login they will now get redirected to this page after login* 
+* Added API to execute scripts on a Node
+    * *Previously the runScript API was only available with tag filter.*
+* Passing parameters when running scripts on Node
+    * *Users can now pass parameters to the runScript API (Organization and Node API)*
+* Missing readings GA
+    * *Alerts on Missing readings is now available*
+* UI Update: Updated styles for campaign and price calculator
+* FIXED: Fixed issue with not being able to remove prod itineraries w/o unbinding version
+* FIXED: Fixed issue where it was not possible to remove items from Node Whitelist
+* FIXED: Fixed issue when moving Node to other organization
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.4.0
+* Remote Terminal
+    * *Users can now enjoy a remote ssh terminal from mSB.com with full access to the Node.*
+* Passing parameters when running scripts on Node
+    * *Users can now pass parameters to the runScript API (Organization and Node API)*
+* MSB_NODE_HOST => MSB_HOST
+    * *Previous environment variable MSB_NODE_HOST is now called MSB_HOST* 
+* Improved Docker support 
+    *  *The Node can now control and manage containers running in Snap/Docker* 
+* Immediate version update on restart
+    * *Nodes are now updated after first restart*
+* Logging mSB-core version
+    * *Added msb-core version to logs when starting*
+* Login using MAC address is now using all MAC addresses for identification
+* FIXED: Removed legacy signalR and added restart method to AzureIoT
+* FIXED: Fixed issue with installing docker images
+
+</details>
+
+<details><summary markdown="span">April 23th, 2020</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 * Added support for managing docker containers 
