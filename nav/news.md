@@ -21,6 +21,13 @@ summary{
     * *Some overall improvements on the Flow design dialog* 
 * FIXED: Fixed issue where user sometimes got redirected to msb.com:44390
 
+### [meta-microservicebus 2.0.42 (Yocto layer)](https://github.com/axians/meta-microservicebus)
+* New terminal screen
+    * *Terminal users are welcomed with a new shiny screen complemented with commonly used shortcuts*
+* Added NTP service
+    * *The Network Time Protocol (NTP) is used to synchronize the time of a computer client or server to another server or reference time source, such as a radio or satellite receiver or modem. http://support.ntp.org*
+
+
 </details>
 
 <details><summary markdown="span">August 18th, 2020</summary> 
