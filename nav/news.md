@@ -10,8 +10,20 @@ summary{
         color: #777;
 }
 </style>
-
 <details open><summary markdown="span">August 18th, 2020</summary> 
+
+### [microservicebus.com](https://microservicebus.com)
+* Filter by tag
+    * *Users can now filter their search by Tag by selecting one or more tags in the new drop-down list on the Node page*
+* Toggle grid view on Flow canvas
+    * *In the upper-right corner of the Flow designer, users now find a grid toggle button. Toggling grid view will enable services to snap to grid,*
+* Ui improvements 
+    * *Some overall improvements on the Flow design dialog* 
+* FIXED: Fixed issue where user sometimes got redirected to msb.com:44390
+
+</details>
+
+<details><summary markdown="span">August 18th, 2020</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 * Remote Terminal
