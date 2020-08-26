@@ -8,7 +8,7 @@ order: 0
 
 # microServiceBus.com API Terms of Service
 
-*Last modified: January 16, 2019*
+*Last modified: April 10, 2019*
 
 Thank you for using microServiceBus.com APIs, other developer services, and associated software (collectively, "APIs"). By accessing or using our APIs, you are agreeing to the terms below.
 
