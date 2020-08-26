@@ -10,7 +10,34 @@ summary{
         color: #777;
 }
 </style>
-<details open><summary markdown="span">August 20th, 2020</summary> 
+
+<details open><summary markdown="span">August 26th, 2020</summary> 
+
+### [microservicebus.com](https://microservicebus.com)
+* Copy and paste in Terminal
+    * *Users can now enjoy copy & paste functionality in the Node terminal*
+* Receive more data from Node upon sign-in
+    * *Nodes (core version > 3.4.3) signing in will now include, IP- and MAC address together with firmware info if available. Although the portal is persisting this data, we have yet to figure out where to make it accessible*
+* Ui improvements 
+    * *Script & Service page has got some long overdue refresh.* 
+* mSB API update
+* *Create Node API no longer require Node name. If no name is provided, the node will get assigned a new name.*
+* More Node sign-in changes
+* *If the Node is registerd in the whitelist, the "claim" sign-in request will be bypassed and the Node will automaticly be registered*
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.4.3 (BETA)
+* Updated Azure SDK's
+    * *All azure-iot-\* packages has been updated to latest version*
+* Added meta data on sign-in
+    * *IP- and MAC address together with firmware information is added to the sign-in request*
+
+### [meta-microservicebus 2.0.45 (BETA) (Yocto layer)](https://github.com/axians/meta-microservicebus)
+* FIXED RAUC issue
+    * *Fixed issue with RAUC service triggering to and causing parsision info to be incomplete*
+</details>
+
+
+<details><summary markdown="span">August 20th, 2020</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 * Filter by tag
@@ -26,8 +53,6 @@ summary{
     * *Terminal users are welcomed with a new shiny screen complemented with commonly used shortcuts*
 * Added NTP service
     * *The Network Time Protocol (NTP) is used to synchronize the time of a computer client or server to another server or reference time source, such as a radio or satellite receiver or modem. http://support.ntp.org*
-
-
 </details>
 
 <details><summary markdown="span">August 18th, 2020</summary> 
