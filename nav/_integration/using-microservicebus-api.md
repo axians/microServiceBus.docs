@@ -6,6 +6,9 @@ categories: integration
 order: 0
 ---
 
+### Important: [microServiceBus.com API - TERM OF USE]({{site.baseurl}}/using-microservicebus-api).
+
+
 The microServiceBus API hosts many of the operations otherwise available through the UI, allowing other applications to interact with Nodes and Meters. 
 
 In many cases, the API is used from the **Business Operation** allowing them to configure and interact with *nodes*, meters and sensors. **Business Operation** generally work more with configuration tasks, using tools provided elsewhere. 

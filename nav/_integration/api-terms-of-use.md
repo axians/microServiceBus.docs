@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "microServiceBus API - TERM OF USE"
+title:  "microServiceBus.com API - TERM OF USE"
 description: "The microServiceBus API hosts many of the operations otherwise available through the UI, allowing other applications to interact with Nodes and Meters."
 categories: integration
 order: 0
@@ -20,3 +20,5 @@ All API's have a *throttling limit* of 4 calls per minute.
 
 ### Operation specific API's for managed Nodes
 Some API's require Organizations to have an SLA such as the one filed under "DeviceManagement". These API's may not work for un-managed Organizations.
+
+[For more information about how to use microServiceBus.com APIs]({{site.baseurl}}/using-microservicebus-api).
