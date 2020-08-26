@@ -16,6 +16,8 @@ summary{
 ### [microservicebus.com](https://microservicebus.com)
 * Copy and paste in Terminal
     * *Users can now enjoy copy & paste functionality in the Node terminal*
+* Warning users when using the remote Node terminal
+    * *First time users are using the Node terminal they are made aware not to use commmands like `halt`, `shutdown` and `kill`.*
 * Receive more data from Node upon sign-in
     * *Nodes (core version > 3.4.3) signing in will now include, IP- and MAC address together with firmware info if available. Although the portal is persisting this data, we have yet to figure out where to make it accessible*
 * Ui improvements 
