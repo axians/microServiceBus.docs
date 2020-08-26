@@ -6,7 +6,7 @@ categories: integration
 order: 0
 ---
 
-### Important: [microServiceBus.com API - TERM OF USE]({{site.baseurl}}/using-microservicebus-api).
+### Important: [microServiceBus.com API - TERM OF USE]({{site.baseurl}}/api-terms-of-use).
 
 
 The microServiceBus API hosts many of the operations otherwise available through the UI, allowing other applications to interact with Nodes and Meters. 
