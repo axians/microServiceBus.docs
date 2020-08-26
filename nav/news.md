@@ -24,6 +24,7 @@ summary{
 * *Create Node API no longer require Node name. If no name is provided, the node will get assigned a new name.*
 * More Node sign-in changes
 * *If the Node is registerd in the whitelist, the "claim" sign-in request will be bypassed and the Node will automaticly be registered*
+* FIXED: json files are no longer being imported from GitHub
 
 ### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.4.3 (BETA)
 * Updated Azure SDK's
