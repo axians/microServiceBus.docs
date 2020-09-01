@@ -10,8 +10,23 @@ summary{
         color: #777;
 }
 </style>
+<details open><summary markdown="span">September 1st, 2020</summary> 
 
-<details open><summary markdown="span">August 26th, 2020</summary> 
+### [microservicebus.com](https://microservicebus.com)
+* Limit Node terminal to Organization owners
+* FIXED: Issue with uploading Yocto images has been fixed
+* FIXED: Session IdleTimeout has been increased from 20 => 60 minutes
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.5.0 
+* Updated Azure SDK's
+    * *All azure-iot-\* packages has been updated to latest version*
+* Added meta data on sign-in
+    * *IP- and MAC address together with firmware information is added to the sign-in request*
+
+</details>
+
+
+<details><summary markdown="span">August 26th, 2020</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 * Copy and paste in Terminal

@@ -48,3 +48,6 @@ Follow the instructions in the [DocsPage Template](/DocsPage-Template.md)
 
 ## Indexing and search for broken links
 Go to the Crawler directory and run the Crawler.exe file. This will output any broken links and update the */assests/index.json* 
+
+# Quickstart running jekyll
+https://jekyllrb.com/docs/
