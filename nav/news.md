@@ -14,8 +14,9 @@ summary{
 
 ### [microservicebus.com](https://microservicebus.com)
 * Limit Node terminal to Organization owners
+* Added API to update state with object
 * FIXED: Issue with uploading Yocto images has been fixed
-* FIXED: Session IdleTimeout has been increased from 20 => 60 minutes
+* FIXED: Session IdleTimeout has been increased from 20 => 8 hours
 
 ### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.5.0 
 * Updated Azure SDK's
