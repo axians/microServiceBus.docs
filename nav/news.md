@@ -15,6 +15,8 @@ summary{
 ### [microservicebus.com](https://microservicebus.com)
 * Limit Node terminal to Organization owners
 * Added API to update state with object
+* GitHub integration - File pattern
+    * *Users can now optionally set file pattern to match files imported through GitHub*
 * FIXED: Issue with uploading Yocto images has been fixed
 * FIXED: Session IdleTimeout has been increased from 20 => 8 hours
 
