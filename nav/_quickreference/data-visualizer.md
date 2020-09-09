@@ -13,7 +13,7 @@ Start by adding the Grafana outbound service to your flow
 
 Double-click the Grafana service and go to Static Properties
 
-<img src="{{site.baseurl}}/images/data-visualizer/1.png">
+<img src="{{site.baseurl}}/images/data-visualizer/2.png">
 
 Change the properties to map your data.
 - Data field is the field containing the sensor value
