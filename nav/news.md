@@ -16,6 +16,7 @@ summary{
 ### [microservicebus.com](https://microservicebus.com)
 * Data Visualizer
     * *Data Visualizer is a tool accessible through the menu and lets you demo and view live stream data. Check out the [documentation]({{site.baseurl}}/data-visualizer) for more info.*
+* Added IoT Hub instance to the Organization detail page
 * FIXED: Autocomplete menu on script editor (*Scripts & Services*) not visible
 * FIXED: Oneway outbound services showing outbound connection
 * BREAKING CHANGE: API POST whitelist
