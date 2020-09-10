@@ -10,7 +10,26 @@ summary{
         color: #777;
 }
 </style>
-<details open><summary markdown="span">September 1st, 2020</summary> 
+
+<details open><summary markdown="span">September 10th, 2020</summary> 
+
+### [microservicebus.com](https://microservicebus.com)
+* Data Visualizer
+    * *Data Visualizer is a tool accessible through the menu and lets you demo and view live stream data. Check out the [documentation]({{site.baseurl}}/data-visualizer) for more info.*
+* FIXED: Autocomplete menu on script editor (*Scripts & Services*) not visible
+* FIXED: Oneway outbound services showing outbound connection
+* BREAKING CHANGE: API POST whitelist
+    * *POST `/api/organizations/{id}/whitelist` will no longer clear the whitelist. To clear the whitelist use the `/api/organizations/{id}/whitelist`.*
+
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.5.3 (BETA) 
+* Added node-pty dependancy
+    * *node-pty is used as the back-end of the remote Node terminal and was previously installed as needed, but is now included by default.*
+
+</details>
+
+
+<details><summary markdown="span">September 1st, 2020</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 * Limit Node terminal to Organization owners
