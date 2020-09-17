@@ -6,7 +6,7 @@ categories: integration
 order: 30
 ---
 
-[Azure Active Directory](https://azure.microsoft.com/en-us/services/active-directory/) The Azure Active Directory (Azure AD) enterprise identity service provides single sign-on and multi-factor authentication to help protect your users from 99.9 percent of cybersecurity attacks.
+[Azure Active Directory](https://azure.microsoft.com/en-us/services/active-directory/) The Azure Active Directory (Azure AD) enterprise identity service provides single sign-on and multi-factor authentication to help protect your users from 99.9 percent of cyber security attacks.
 
 ## Register a new application using the Azure portal
 1.	Sign in to the [Azure portal](https://portal.azure.com) using a work account.
