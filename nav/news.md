@@ -10,8 +10,28 @@ summary{
         color: #777;
 }
 </style>
+<details open><summary markdown="span">October 08th, 2020</summary> 
 
-<details open><summary markdown="span">September 10th, 2020</summary> 
+### [microservicebus.com](https://microservicebus.com)
+* New Organization page
+    * *Organization page is now segmented into features where each feature is visible as a widget.*
+* IoT Hub instance is now available on the Organization page
+* Added support for Organizations with no IoT Hub
+* FIXED: Organization API GetByTag is now working again
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.7.5 (BETA) 
+* Vulnerabilities update
+* Added access to Utils and RaucHandler to services
+* Added `this.Converter` to all services
+    * *`this.Converter` can be used to convert from and to different units*
+* Added `contentType` to Azure Send Event
+* Added support for no IoT Hub
+* Changed node-pty to an optional dependancy
+    * *node-pty is used as the back-end of the remote Node terminal and was previously installed as needed, but is now included by default.*
+
+</details>
+
+<details><summary markdown="span">September 10th, 2020</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 * Data Visualizer
