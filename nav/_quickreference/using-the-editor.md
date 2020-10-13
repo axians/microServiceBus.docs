@@ -8,6 +8,7 @@ order: 41
 microServiceBus.com uses a Script/Service editor that provides the features and performance of today's native editors, such as syntax highlighting for over a hundred languages, selecting from several themes, code folding, an API, and much more. Refer to this section for tips to improve your experience using the Script/Service editor.
 
 # Line operations
+
 | Action        | Windows/Linux | Mac |
 | -------------- |-------------|-------------|
 Action | Windows/Linux | Mac
@@ -23,6 +24,7 @@ Remove word right | Ctrl-Delete | Option-Delete
 Split line | --- | Ctrl-O
 
 # Selection
+
 | Action        | Windows/Linux | Mac |
 | -------------- |-------------|-------------|
 Select all | Ctrl-A | Command-A
@@ -44,6 +46,7 @@ Duplicate selection | Ctrl-Shift-D | Command-Shift-D
 Select to matching bracket | Ctrl-Shift-P | ---
 
 # Multicursor
+
 | Action        | Windows/Linux | Mac |
 | -------------- |-------------|-------------|
 Add multi-cursor above | Ctrl-Alt-Up | Ctrl-Option-Up
@@ -57,6 +60,7 @@ Remove current occurrence from multi-selection and move to previous | Ctrl-Alt-S
 Select all from multi-selection | Ctrl-Shift-L | Ctrl-Shift-L
 
 # Go to
+
 | Action        | Windows/Linux | Mac |
 | -------------- |-------------|-------------|
 Go to left | Left | Left, Ctrl-B
@@ -79,6 +83,7 @@ Scroll page down | --- | Option-PageDown
 Scroll page up | --- | Option-PageUp
 
 # Find/Replace
+
 | Action        | Windows/Linux | Mac |
 | -------------- |-------------|-------------|
 Find | Ctrl-F | Command-F
@@ -87,6 +92,7 @@ Find next | Ctrl-K | Command-G
 Find previous | Ctrl-Shift-K | Command-Shift-G
 
 # Folding
+
 | Action        | Windows/Linux | Mac |
 | -------------- |-------------|-------------|
 Fold selection | Alt-L, Ctrl-F1 | Command-Option-L, Command-F1
@@ -95,6 +101,7 @@ Fold all | Alt-0 | Command-Option-0
 Unfold all | Alt-Shift-0 | Command-Option-Shift-0
 
 # Other
+
 | Action        | Windows/Linux | Mac |
 | -------------- |-------------|-------------|
 Indent | Tab | Tab
