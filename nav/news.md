@@ -10,7 +10,34 @@ summary{
         color: #777;
 }
 </style>
+
 <details open><summary markdown="span">October 08th, 2020</summary> 
+
+### [microservicebus.com](https://microservicebus.com)
+* Handle invites
+    * *Improved experience for accepting and joining Organizations from the Organization page*
+* View login information
+    * *From the Node properties page, users can now review last know mac, ip, firmware version and more* 
+* Many shortcuts added to the Script & Service editor
+    * Read more about all the shortcuts [here](/using-the-editor).
+* FIXED: ServiceNow Integration is now adding company and Organization CI
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.3.0
+* Updated dependencies
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.7.8 (BETA) 
+* Vulnerabilities update
+* Added access to Utils and RaucHandler to services
+* Added `this.Converter` to all services
+    * *`this.Converter` can be used to convert from and to different units*
+* Added `contentType` to Azure Send Event
+* Added support for no IoT Hub
+* Changed node-pty to an optional dependancy
+    * *node-pty is used as the back-end of the remote Node terminal and was previously installed as needed, but is now included by default.*
+* FIXED: There has been a issue where requiring packages like "request" and "async" has failed which is now mitigated
+</details>
+
+<details ><summary markdown="span">October 08th, 2020</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 * New Organization page
