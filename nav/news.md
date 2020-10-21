@@ -16,7 +16,7 @@ summary{
 ### [microservicebus.com](https://microservicebus.com)
 * Handle invites
     * *Improved experience for accepting and joining Organizations from the Organization page*
-* View login information
+* View Node login information
     * *From the Node properties page, users can now review last know mac, ip, firmware version and more* 
 * Many shortcuts added to the Script & Service editor
     * Read more about all the shortcuts [here](/using-the-editor).
