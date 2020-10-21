@@ -25,13 +25,14 @@ summary{
 ### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.3.0
 * Updated dependencies
 
-### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.7.8 (BETA) 
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.7.9 (BETA) 
 * Vulnerabilities update
 * Added access to Utils and RaucHandler to services
 * Added `this.Converter` to all services
     * *`this.Converter` can be used to convert from and to different units*
 * Added `contentType` to Azure Send Event
 * Added support for no IoT Hub
+* Updated dependencies
 * Changed node-pty to an optional dependancy
     * *node-pty is used as the back-end of the remote Node terminal and was previously installed as needed, but is now included by default.*
 * FIXED: There has been a issue where requiring packages like "request" and "async" has failed which is now mitigated
