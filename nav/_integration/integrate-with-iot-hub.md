@@ -5,8 +5,8 @@ description: To run microServiceBus.com with full capabilities, an IoT Hub is ne
 categories: integration
 order: 31
 ---
- ## IoT Hub
- A cloud hosted platform responsible for all communications to and from Nodes. The IoT hub is also where you can store and manage all of your internet connected devices. 
+## IoT Hub
+A cloud hosted platform responsible for all communications to and from Nodes. The IoT hub is also where you can store and manage all of your internet connected devices. 
 
 ## Get the IoT Hub Connection String from Azure Portal
 1.	Sign in to the [Azure portal](https://portal.azure.com).
