@@ -6,7 +6,7 @@ categories: integration
 order: 31
 ---
  ## IoT Hub
-  A cloud hosted platform where you can store and manage all of your internet connected devices. 
+ A cloud hosted platform where you can store and manage all of your internet connected devices. 
 
 ## Get the IoT Hub Connection String from Azure Portal
 1.	Sign in to the [Azure portal](https://portal.azure.com).
