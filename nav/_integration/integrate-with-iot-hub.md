@@ -5,8 +5,14 @@ description: To run microServiceBus.com with full capabilities, an IoT Hub is ne
 categories: integration
 order: 31
 ---
-## IoT Hub
-A cloud hosted platform responsible for all communications to and from Nodes. The IoT hub is also where you can store and manage all of your internet connected devices. 
+
+*An IoT hub is a cloud hosted platform responsible for all communications to- and from Nodes. Other on-prem or cloud based services which would benefit from interacting with the *Nodes* would do so through the IoT hub.*
+
+*microServiceBus.com support three different IoT hubs from Microsoft, Amazon and IBM. Through this integration, devices and things can be fully managed far beyond what is provided out-of-the-box.*
+
+>*Although IoT hubs in general provide the same basic functionality, the main difference would be what is behind the IoT hub, such as machine lerning, reporting and processing. Your choice  of IoT hub would, in the majority of cases, depend on what you want to do with the data.*
+
+---
 
 ## Get the IoT Hub Connection String from Azure Portal
 1.	Sign in to the [Azure portal](https://portal.azure.com).
@@ -40,3 +46,8 @@ A cloud hosted platform responsible for all communications to and from Nodes. Th
 7. Copy the API key and the authorization token values.
 
 [IBM Watson IoT Platform](https://www.ibm.com/se-en/business-operations/iot-platform) - Securely connect, collect and start processing IoT data quickly and easily with Watson IoT™ Platform. And because it uses IBM Cloud, your company can scale and adapt quickly to changing business needs without compromising security, privacy or risk levels.
+
+---
+
+## No IoT Hub
+There are scenarios where an IoT hub is not required, or rather required for the microServiceBus **Node**. For instance, if you have already built a working solution and only require *Device Management* (OTA, logging, monitoring, vulnerability scan and control), -the "No IoT Hub" option might be best suited for you.
