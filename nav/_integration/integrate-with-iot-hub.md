@@ -23,8 +23,8 @@ order: 31
 3. Choose your IAM user name (not the check box).
 4. Open the My Security Credentials from your account, and then choose Create access key.
 5. Expand the **Access keys** section and click the "Create New Access Key" button.
-- Access key ID: *AKIAIOSFODNN7EXAMPLE*
-- Secret access key: *wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY*
+- Access key ID: E.g. *AKIAIOSFODNN7EXAMPLE*
+- Secret access key: E.g. *wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY*
 
 [Amazon AWS IoT](https://aws.amazon.com/iot/) - There are billions of devices in homes, factories, oil wells, hospitals, cars, and thousands of other places. With the proliferation of devices, you increasingly need solutions to connect them, and collect, store, and analyze device data.
 
