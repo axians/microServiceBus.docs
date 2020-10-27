@@ -5,17 +5,17 @@ description: To run microServiceBus.com with full capabilities, an IoT Hub is ne
 categories: integration
 order: 31
 ---
-
-[Azure IoT Hub](https://azure.microsoft.com/en-us/services/iot-hub/) - Enable highly secure and reliable communication between your Internet of Things (IoT) application and the devices it manages. Azure IoT Hub provides a cloud-hosted solution back end to connect virtually any device. Extend your solution from the cloud to the edge with per-device authentication, built-in device management, and scaled provisioning.
+ ## IoT Hub
+  A cloud hosted platform where you can store and manage all of your internet connected devices. 
 
 ## Get the IoT Hub Connection String from Azure Portal
 1.	Sign in to the [Azure portal](https://portal.azure.com).
 2.	Go to your IoT-Hub resource and click on Shared access policies.
 3.	Select the iothubowner policy and copy your "Connection string—primary key".
 
----
+[Azure IoT Hub](https://azure.microsoft.com/en-us/services/iot-hub/) - Enable highly secure and reliable communication between your Internet of Things (IoT) application and the devices it manages. Azure IoT Hub provides a cloud-hosted solution back end to connect virtually any device. Extend your solution from the cloud to the edge with per-device authentication, built-in device management, and scaled provisioning.
 
-[Amazon AWS IoT](https://aws.amazon.com/iot/) - There are billions of devices in homes, factories, oil wells, hospitals, cars, and thousands of other places. With the proliferation of devices, you increasingly need solutions to connect them, and collect, store, and analyze device data.
+---
 
 ## Get Connection Settings from AWS
 1. Open the IAM console at https://console.aws.amazon.com/iam/.
@@ -26,9 +26,9 @@ order: 31
 - Access key ID: *AKIAIOSFODNN7EXAMPLE*
 - Secret access key: *wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY*
 
----
+[Amazon AWS IoT](https://aws.amazon.com/iot/) - There are billions of devices in homes, factories, oil wells, hospitals, cars, and thousands of other places. With the proliferation of devices, you increasingly need solutions to connect them, and collect, store, and analyze device data.
 
-[IBM Watson IoT Platform](https://www.ibm.com/se-en/business-operations/iot-platform) - Securely connect, collect and start processing IoT data quickly and easily with Watson IoT™ Platform. And because it uses IBM Cloud, your company can scale and adapt quickly to changing business needs without compromising security, privacy or risk levels.
+---
 
 ## Get Connection Settings from IBM Watson
 1. On the Bluemix dashboard, click the card that represents the application that you are working with.
@@ -39,3 +39,4 @@ order: 31
 6. Click Generate API Key. The Generate API Key dialog box shows the values of the API key and the authorization token.
 7. Copy the API key and the authorization token values.
 
+[IBM Watson IoT Platform](https://www.ibm.com/se-en/business-operations/iot-platform) - Securely connect, collect and start processing IoT data quickly and easily with Watson IoT™ Platform. And because it uses IBM Cloud, your company can scale and adapt quickly to changing business needs without compromising security, privacy or risk levels.
