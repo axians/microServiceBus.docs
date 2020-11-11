@@ -23,6 +23,8 @@ summary{
     * *Device state (twin/shadow) is now migrated to new IoT Hub upon switching* 
 * Improved handing of invites and changing accounts
     * *Accepting invites will now update the Orgaization list and clear cached session information*.
+* Wipe Node
+    * *Organization Owners are now able to wipe nodes*
 * FIXED: Issue with paging on Node page is now resolved
 * FIXED: Issue with snap list in Node details is resolved
 
