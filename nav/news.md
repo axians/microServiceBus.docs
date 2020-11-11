@@ -11,7 +11,42 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">October 14th, 2020</summary> 
+
+<details open><summary markdown="span">November 11th, 2020</summary> 
+
+### [microservicebus.com](https://microservicebus.com)
+* Transfer files to Nodes
+    * *Users can now transfer local files to Nodes using the Device dialog on the Node page*
+* Download Node files
+    * *Users can download files from Nodes using the Device dialog on the Node page*
+* Keep state when changing iot hub (Azure IoT Only)
+    * *Device state (twin/shadow) is now migrated to new IoT Hub upon switching* 
+* Improved handing of invites and changing accounts
+    * *Accepting invites will now update the Orgaization list and clear cached session information*.
+* FIXED: Issue with paging on Node page is now resolved
+* FIXED: Issue with snap list in Node details is resolved
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.8.7 (BETA) 
+* Transfer files to Nodes
+    * *Users can now transfer local files to Nodes using the Device dialog on the Node page*
+* Download Node files
+    * *Users can download files from Nodes using the Device dialog on the Node page*
+* FIXED: Loosing connection to Azure IoT Hub is now resolved
+* FIXED: Issues with uploading syslogs is now resolved
+</details>
+
+### [microservicebus-node](https://github.com/axians/microservicebus-node) version 3.4.0 
+* Reboot on DNS issue
+    * *If nodes starts up online but but not able to resolve DNS, it will reboot every 5 minutes*
+</details>
+
+### [microservicebus-snap](https://github.com/axians/microservicebus-node) version 3.4.0 
+* 3.4.0 is now available as Stable in snap store
+
+</details>
+
+
+<details ><summary markdown="span">October 14th, 2020</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
 * Handle invites
