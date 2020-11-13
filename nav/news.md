@@ -12,7 +12,7 @@ summary{
 </style>
 
 
-<details open><summary markdown="span">November 11th, 2020</summary> 
+<details open><summary markdown="span">November 11th, 2020</summary>  
 
 ### [microservicebus.com](https://microservicebus.com)
 * Transfer files to Nodes
