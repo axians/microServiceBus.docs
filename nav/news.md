@@ -12,9 +12,11 @@ summary{
 </style>
 
 
-<details open><summary markdown="span">November 11th, 2020</summary>  
+<details open><summary markdown="span">November 15th, 2020</summary>  
 
 ### [microservicebus.com](https://microservicebus.com)
+* Notify all users when updates comes available.
+    * *As new updates are made public, all users will now get notified through an email.*
 * Transfer files to Nodes
     * *Users can now transfer local files to Nodes using the Device dialog on the Node page*
 * Download Node files
@@ -27,8 +29,14 @@ summary{
     * *Organization Owners are now able to wipe nodes*
 * FIXED: Issue with paging on Node page is now resolved
 * FIXED: Issue with snap list in Node details is resolved
+* FIXED: Search button for calendar doesn't work on auditLog
+* FIXED: Help button on edit Service Script page dosen´t work
+* FIXED: Make IMEI unique for whole environment
+* FIXED Github Login does not work (in any environments)
+* FIXED: Search bar on Vulnerabilities page doesn't work
+* FIXED: Navigating back from Change IoT hub provider takes user back to the old org details page.
 
-### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.8.7 (BETA) 
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.9.0
 * Transfer files to Nodes
     * *Users can now transfer local files to Nodes using the Device dialog on the Node page*
 * Download Node files
