@@ -53,7 +53,6 @@ summary{
 
 </details>
 
-
 <details ><summary markdown="span">October 14th, 2020</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
