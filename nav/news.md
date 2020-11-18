@@ -43,12 +43,10 @@ summary{
     * *Users can download files from Nodes using the Device dialog on the Node page*
 * FIXED: Loosing connection to Azure IoT Hub is now resolved
 * FIXED: Issues with uploading syslogs is now resolved
-</details>
 
 ### [microservicebus-node](https://github.com/axians/microservicebus-node) version 3.4.0 
 * Reboot on DNS issue
     * *If nodes starts up online but but not able to resolve DNS, it will reboot every 5 minutes*
-</details>
 
 ### [microservicebus-snap](https://github.com/axians/microservicebus-node) version 3.4.0 
 * 3.4.0 is now available as Stable in snap store
