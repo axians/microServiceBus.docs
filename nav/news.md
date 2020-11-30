@@ -11,8 +11,41 @@ summary{
 }
 </style>
 
+<details open><summary markdown="span">December 1st, 2020</summary>  
 
-<details open><summary markdown="span">November 15th, 2020</summary>  
+### [microservicebus.com](https://microservicebus.com)
+* Report bugs and features directly in msb.com
+ * *Users will now be able to report bugs and features easily in msb.com menu using a dialog*
+* Updated content for validation email
+    * *Improved user interface suchs as register link*
+* Updated more suitable description for NPM feature
+* Reboot Modal added
+ * *Users will now get a confirmation modal when clicking on reboot node* 
+* Updated 500 error message
+    * *Displays a more helpful message when something has gone wrong on the web site's server*
+* FIXED: Create new script stops working when importing service/script
+* FIXED: Import Script Service dialog
+* FIXED: Make IMEI unique for whole environment
+* FIXED: Enable flow#1 also enables flow#2 on same node 
+* FIXED: Display clone button depending on itinerary
+* FIXED: Action buttons on Audit page not working #1334
+* FIXED: Resolved issue with cultureinfo and timezone
+* FIXED: Verify Azure IoT connection string
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.9.5
+* Updated dependencies
+
+### [microservicebus-node](https://github.com/axians/microservicebus-node) version 3.4.0 
+* Improved offline check on starrtup
+
+
+### [microservicebus-snap](https://github.com/axians/microservicebus-node) version 3.4.3 
+* Updated snap version to 3.4.3
+
+
+</details>
+
+<details><summary markdown="span">November 15th, 2020</summary>  
 
 ### [microservicebus.com](https://microservicebus.com)
 * Notify all users when updates comes available.
