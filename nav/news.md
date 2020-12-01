@@ -11,8 +11,53 @@ summary{
 }
 </style>
 
+<details open><summary markdown="span">December 1st, 2020</summary>  
 
-<details open><summary markdown="span">November 15th, 2020</summary>  
+### [microservicebus.com](https://microservicebus.com)
+* Report bugs and features directly in microServiceBus.com
+    * *Users will now be able to report bugs and features easily in microServiceBus.com menu using a dialog*
+* Updated content for validation email
+    * *Improved user interface such as register link*
+* Better suitable description for NPM feature
+    * *Organization page has been update to provide improved NPM information such as available versions*
+* Confirm Reboot modal added
+    * *Users will now get a confirmation modal when clicking on reboot node* 
+* Updated 500 error message
+    * *Displays a more helpful message when something has gone wrong on the web site's server*
+* FIXED: Create new script stops working when importing service/script
+* FIXED: Import Script Service dialog
+* FIXED: Make IMEI unique for whole environment
+* FIXED: Enable flow#1 also enables flow#2 on same node 
+* FIXED: Display clone button depending on itinerary
+* FIXED: Action buttons on Audit page not working #1334
+* FIXED: Resolved issue with cultureinfo and timezone
+* FIXED: Verify Azure IoT connection string
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.10.0
+* Updated dependencies
+* FIXED: Enable flow#1 also enables flow#2 on same node 
+
+### [microservicebus-node](https://github.com/axians/microservicebus-node) version 3.4.3 
+* Improved offline check on start up
+
+### [microservicebus-snap](https://github.com/axians/microservicebus-node) version 3.4.3 
+* Updated snap version to 3.4.3
+
+### [meta-microservicebus (YOCTO)](https://github.com/axians/meta-microservicebus) 
+* Updated recipe microservicebus-node to 3.4.3 for zeus
+
+### [meta-microservicebus-imx7 (YOCTO)](https://github.com/axians/meta-microservicebus-imx7) 
+* Added support for RS485
+* Updated meta-microservicebus
+
+### [meta-microservicebus-imx8 (YOCTO)](https://github.com/axians/meta-microservicebus-imx8) 
+* Added support for Azure IoT Edge zeus
+* Moved Azure IoT Edge home directory to data partition
+* Updated meta-microservicebus
+
+</details>
+
+<details><summary markdown="span">November 15th, 2020</summary>  
 
 ### [microservicebus.com](https://microservicebus.com)
 * Notify all users when updates comes available.
