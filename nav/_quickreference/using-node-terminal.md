@@ -3,7 +3,7 @@ layout: post
 title:  "Using the Node terminal"
 description: "The Node terminal gives users a remote ssh session to the Node. This can be very helpful in times where you need full control of the gateway."
 categories: quickreference
-order: 40
+order: 45
 ---
 
 The Node terminal gives users a remote ssh session to the Node. This can be very helpful in times where you need full control of the gateway.
