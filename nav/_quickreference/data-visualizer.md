@@ -3,7 +3,7 @@ layout: post
 title:  "Data Visualizer"
 description: "Visualize data"
 categories: quickreference
-order: 30
+order: 55
 ---
 # Add visualization to your datapoints
 

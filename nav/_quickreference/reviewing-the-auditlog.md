@@ -3,7 +3,7 @@ layout: post
 title:  "Reviewing the Audit log"
 description: "All actions taken on Nodes, Flows, Services and Organization are persisted in the Audit log."
 categories: quickreference
-order: 30
+order: 35
 ---
 
 Audit logs can be used to find out who did what and when. All changes made to entities below are subject for auditing:
