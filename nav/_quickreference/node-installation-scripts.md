@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Data Visualizer"
-description: "Visualize data"
+title:  "Node installation scripts"
+description: "Node installation scripts explained"
 categories: quickreference
 order: 55
 ---
