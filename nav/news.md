@@ -11,7 +11,41 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">December 1st, 2020</summary>  
+<details open><summary markdown="span">December 8th, 2020</summary>  
+
+### [microservicebus.com](https://microservicebus.com)
+* Service - Properties (hide tabs without fields)
+    * *Property tabs such as general, security- and static properties will now be hidden if there is no content*
+* Add new endpoint to update node properties
+    * *The user now has the option to change a nodes properties through API calls using the node id or the organization id and node name*
+* Notify issuer when issue is closed
+    * *If a user has sent in a bug or feature request, they will now recieve a notification on email when the issue has been dealt with.*
+* Un-subscribe to news letter
+    * *Users can now unsubsribe from recieving mails about latest news in their profile*
+* FIXED: mSB-node won't start if there is no internet connection
+* FIXED: Issue where nodes w/ imei could not be updated
+* FIXED: Organization feature dialogs looks bad
+* FIXED: Invalid login attemt throws a general exception
+* FIXED: One line install script -env is not correct depending on organization
+* FIXED: Name validation for services
+* FIXED: Add more description to options on feature/bug dialog
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.10.0
+* Updated dependencies
+
+### [microservicebus-snap](https://github.com/axians/microservicebus-node) version 3.4.3 
+* Updated snap version to 3.4.3
+
+### [meta-microservicebus (YOCTO)](https://github.com/axians/meta-microservicebus) 
+
+### [meta-microservicebus-imx7 (YOCTO)](https://github.com/axians/meta-microservicebus-imx7) 
+
+### [meta-microservicebus-imx8 (YOCTO)](https://github.com/axians/meta-microservicebus-imx8) 
+* Updated Azure IoT Edge SDK to 1.0.10
+
+</details>
+
+<details><summary markdown="span">December 1st, 2020</summary>  
 
 ### [microservicebus.com](https://microservicebus.com)
 * Report bugs and features directly in microServiceBus.com
