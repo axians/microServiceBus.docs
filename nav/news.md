@@ -15,14 +15,13 @@ summary{
 
 ### [microservicebus.com](https://microservicebus.com)
 * Service - Properties (hide tabs without fields)
-    * *Property tabs such as general, security- and static properties will now be hidden if there is no content*
+    * *Property tabs such as security- and static properties will now be hidden if there is no content*
 * Add new endpoint to update node properties
     * *The user now has the option to change a nodes properties through API calls using the node id or the organization id and node name*
 * Notify issuer when issue is closed
     * *If a user has sent in a bug or feature request, they will now recieve a notification on email when the issue has been dealt with.*
 * Un-subscribe to news letter
     * *Users can now unsubsribe from recieving mails about latest news in their profile*
-* FIXED: mSB-node won't start if there is no internet connection
 * FIXED: Issue where nodes w/ imei could not be updated
 * FIXED: Organization feature dialogs looks bad
 * FIXED: Invalid login attemt throws a general exception
