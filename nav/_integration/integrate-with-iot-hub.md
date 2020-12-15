@@ -6,9 +6,9 @@ categories: integration
 order: 31
 ---
 
-*An IoT hub is a cloud hosted platform responsible for all communications to- and from Nodes. Other on-prem or cloud based services which would benefit from interacting with the *Nodes* would do so through the IoT hub.*
+*An IoT hub is a cloud hosted platform responsible for all communications to- and from Nodes. Other on-prem or cloud based services which would benefit from interacting with the Nodes would do so through the IoT hub.*
 
-*microServiceBus.com support three different IoT hubs from Microsoft, Amazon and IBM. Through this integration, devices and things can be fully managed far beyond what is provided out-of-the-box.*
+*microServiceBus.com support four different IoT hubs from Microsoft, Amazon, Google and IBM. Through this integration, devices and things can be fully managed far beyond what is provided out-of-the-box.*
 
 >*Although IoT hubs in general provide the same basic functionality, the main difference would be what is behind the IoT hub, such as machine lerning, reporting and processing. Your choice  of IoT hub would, in the majority of cases, depend on what you want to do with the data.*
 
@@ -40,9 +40,13 @@ order: 31
 1. Navigate to [Google Cloud Platform](https://console.cloud.google.com/home), select your project and navigate to the **Project settings page**.
 2. Form the Project settings page, select **Service Accounts** from the left-hand menu.
 3. Create a new Service Account and name it "microServiceBus". The account must have `Cloud IoT Owner` privileges or higher.
+
 > The `Cloud IoT Owner` privileges are required to browse the registry and manage devices.
+
 4. In the Service account details page, add a new key using the *ADD KEY* drop-down list and select *Create new key*. Select the JSON key type. Save the downloaded file.
+
 > The downloaded project credentials file contains secure information. Store it in a safe place!
+
 5. From the menu, select **IoT Core**
 6. If you haven't already created a *Registry*, click the **CREATE REGISTRY** button. Give the *Registry* a name and select a region. 
 7. Navigate to the [Getting started wizard](https://microservicebus.com/gettingstarted) and click the  **GET STARTED BUTTON**
