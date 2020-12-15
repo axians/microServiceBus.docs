@@ -36,6 +36,25 @@ order: 31
 
 ---
 
+## Get Connection Settings from Google IoT Core
+1. Navigate to [Google Cloud Platform](https://console.cloud.google.com/home), select your project and navigate to the **Project settings page**.
+2. Form the Project settings page, select **Service Accounts** from the left-hand menu.
+3. Create a new Service Account and name it "microServiceBus". The account must have `Cloud IoT Owner` privileges or higher.
+> The `Cloud IoT Owner` privileges are required to browse the registry and manage devices.
+4. In the Service account details page, add a new key using the *ADD KEY* drop-down list and select *Create new key*. Select the JSON key type. Save the downloaded file.
+> The downloaded project credentials file contains secure information. Store it in a safe place!
+5. From the menu, select **IoT Core**
+6. If you haven't already created a *Registry*, click the **CREATE REGISTRY** button. Give the *Registry* a name and select a region. 
+7. Navigate to the [Getting started wizard](https://microservicebus.com/gettingstarted) and click the  **GET STARTED BUTTON**
+8. Fill out the *Account* and *Organization* details and hit **Next**.
+9. In the *Configure IoT Hub* section, select **Google IoT Core**
+10. Click the **LOAD PROJECT CREDENTIAL FILE** and select the file you save in step 4. Continue to set the `Registry Id` and the `Region`.
+11. Hit the **TEST CONNECTION** button to verify the connection.
+
+[Google IoT Core](https://cloud.google.com/iot-core) - Cloud IoT Core is a fully managed service that allows you to easily and securely connect, manage, and ingest data from millions of globally dispersed devices. Cloud IoT Core, in combination with other services on Cloud IoT platform, provides a complete solution for collecting, processing, analyzing, and visualizing IoT data in real time to support improved operational efficiency.
+
+---
+
 ## Get Connection Settings from IBM Watson
 1. On the Bluemix dashboard, click the card that represents the application that you are working with.
 2. From the application overview, click the Internet of Things Platform card.
