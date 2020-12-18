@@ -11,7 +11,37 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">December 8th, 2020</summary>  
+<details open><summary markdown="span">December 18th, 2020</summary>  
+
+### [microservicebus.com](https://microservicebus.com)
+* Create Google IoT Hub Provider 
+    * *Users will now be able to implement Google IoT Hub provider in their organization*
+* New API endpoint(s) to enable/disable node
+    * *Users can now enable/disable microServiceBus nodes by organization id and node name*
+* Extended network interface information
+    * *Device environment now displays more network interface information, such as gateway and subnet*
+* FIXED: Popup modules are conflicting
+* FIXED: Unable to save Flow Service
+* FIXED: Report bug or feature request - bad initial file browse text
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.10.3
+* Updated dependencies
+* Fix RAUC mark good on sign in complete
+    * *Now all functions of dbus mark method can be used, partition can be marked “good”, “bad” or “active”.*
+* FIXED: mSB-node won't start if there is no internet connection.
+
+### [microservicebus-snap](https://github.com/axians/microservicebus-node) version 3.4.3 
+* Updated snap version to 3.4.3
+
+### [meta-microservicebus (YOCTO)](https://github.com/axians/meta-microservicebus) 
+
+### [meta-microservicebus-imx7 (YOCTO)](https://github.com/axians/meta-microservicebus-imx7) 
+
+### [meta-microservicebus-imx8 (YOCTO)](https://github.com/axians/meta-microservicebus-imx8) 
+
+</details>
+
+<details><summary markdown="span">December 8th, 2020</summary>  
 
 ### [microservicebus.com](https://microservicebus.com)
 * Service - Properties (hide tabs without fields)
