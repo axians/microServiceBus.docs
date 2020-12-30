@@ -11,7 +11,9 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">December 30th, 2020</summary>  
+<details open><summary markdown="span">December 30th, 2020</summary>
+
+## HAPPY NEW YEAR!
 
 ### [microservicebus.com](https://microservicebus.com)
 * New Getting started process
