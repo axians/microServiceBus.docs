@@ -11,7 +11,42 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">December 8th, 2020</summary>  
+<details open><summary markdown="span">December 30th, 2020</summary>  
+
+### [microservicebus.com](https://microservicebus.com)
+* New Getting started process
+    * *New users are now presented an easy to use wizard where they in a few simple steps can create account, organization and provision a device.*
+* Support for Google IoT Core
+    * *Along with Microsoft, AWS and IBM, microServiceBus.com is now supporting Google IoT Core*
+* Submit bugs, feature- and change requests
+    * *Users can now submit bugs, feature- and change requests directly through the portal*
+* Enable- and disable nodes through API
+    * *Organization API has been updated to include enable- & disable Nodes.*
+* Patch Node through API
+    * *Users can now update almost all properties of a Node through the Node API*
+* Hide tabs of Services with no properties
+    * *Tabs in the Service property dialog (in Flows) are now hidden if there are no properties*
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.11.0
+* Support for Google IoT Core
+    * *Along with Microsoft, AWS and IBM, microServiceBus.com is now supporting Google IoT Core*
+
+### [microservicebus-snap](https://github.com/axians/microservicebus-node)  
+* No updates for this release
+
+### [meta-microservicebus (YOCTO)](https://github.com/axians/meta-microservicebus) 
+* No updates for this release
+
+### [meta-microservicebus-imx7 (YOCTO)](https://github.com/axians/meta-microservicebus-imx7) 
+* No updates for this release
+
+### [meta-microservicebus-imx8 (YOCTO)](https://github.com/axians/meta-microservicebus-imx8) 
+* No updates for this release
+
+</details>
+
+
+<details><summary markdown="span">December 8th, 2020</summary>  
 
 ### [microservicebus.com](https://microservicebus.com)
 * Service - Properties (hide tabs without fields)
