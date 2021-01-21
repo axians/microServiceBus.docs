@@ -11,7 +11,35 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">December 30th, 2020</summary>
+<details open><summary markdown="span">January 21th, 2021</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Add node to whitelist direct from mSB.com
+    * *Add node to whitelist without importing file. Only input field for MAC, name and append to list.*
+* Added support for google IoT state
+    * *It is now possible to get the state of each device connected to Google IoT*
+*  Hides element correctly
+    * *Tabs are hidden when containing information which is not supposed to be displayed*
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.11.1
+* Added support for google IoT state
+* Updated dependencies
+
+### [microservicebus-snap](https://github.com/axians/microservicebus-node)  
+* No updates for this release
+
+### [meta-microservicebus (YOCTO)](https://github.com/axians/meta-microservicebus) 
+* No updates for this release
+
+### [meta-microservicebus-imx7 (YOCTO)](https://github.com/axians/meta-microservicebus-imx7) 
+* No updates for this release
+
+### [meta-microservicebus-imx8 (YOCTO)](https://github.com/axians/meta-microservicebus-imx8) 
+* No updates for this release
+
+</details>
+
+<details><summary markdown="span">December 30th, 2020</summary>
 
 ## HAPPY NEW YEAR!
 
