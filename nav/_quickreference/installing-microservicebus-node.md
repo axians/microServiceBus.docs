@@ -29,6 +29,8 @@ Download the latest stable version and install the msi using the default setting
 
 ### Ubuntu or Debian
 
+> Be aware that if you want to run `microServiceBus-node` as a daemon you need to install the agent as **root**!
+
 If you are on a Ubuntu or Debian operating system you simply open a terminal and use the following command: 
 sudo apt-get update 
 sudo apt-get install nodejs 
@@ -121,14 +123,14 @@ node start
 Open a sample unit file using the command as shown below:
 
 ```bash
-sudo nano /lib/systemd/system/msb.service
+sudo nano /lib/systemd/system/microservicebus-node.service
 ```
 
 **Step 2: Add in the following text :**
 
 ```text
  [Unit]
- Description=My Sample Service
+ Description=microServiceBus-node
  After=multi-user.target
 
  [Service]
