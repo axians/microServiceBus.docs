@@ -11,7 +11,53 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">January 21th, 2021</summary>
+<details open><summary markdown="span">March 10th, 2021</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Save MAC address on Node sign-in
+    * *MAC address is now saved when Nodes signs in and is accessible from the Node property page (Identifiers tab) *
+* Limit provisioning using MAC address to only once
+    * *The option of limiting Node provisioning using MAC address has been moved from site setting to Organization settings*
+* Allow Co-administrators to claim Nodes
+    * *Organization owners can now allow Co-admins to claim Nodes from the Organization page*
+* Allow Co-administrators to use terminal
+    * *Organization owners can now allow Co-admins to use the terminal through settings on the Organization page*
+* Restrict access for Organization settings
+    * *All Organization settings has been restricted to Organization owners*
+* MFA support
+    * *None Active Directory users can now enable multi-factor authentication to their account*
+* Wipe Node using API
+    * *Similar to the UI, wiping Nodes resets all settings to default and forces the Node to be claimed.*
+* Meter configuration schemas
+    * *Schemas defining the structure of meter configuration can now be managed from Organizations. Four schemas comes oob for Modbus RTU/TCP and MBus RTU/TCP. For more information see [Working with meter configuration](https://docs.microservicebus.com/meter-configuration)*
+*  Meter configuration
+    * *A Meter Configuration option is now available on the Node Action menu which can be used to defining Node specific configuration for accessing meters*
+* FIXED: Unable to submit bugs & features from some pages
+
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.12.0
+* Access meter configuration
+    * *For more information see [Working with meter configuration](https://docs.microservicebus.com/meter-configuration)*
+* Updated dependencies
+
+### [microservicebus-snap](https://github.com/axians/microservicebus-node)  
+* No updates for this release
+
+### [meta-microservicebus (YOCTO)](https://github.com/axians/meta-microservicebus) 
+* No updates for this release
+
+### [meta-microservicebus-imx7 (YOCTO)](https://github.com/axians/meta-microservicebus-imx7) 
+* No updates for this release
+
+### [meta-microservicebus-imx8 (YOCTO)](https://github.com/axians/meta-microservicebus-imx8) 
+* No updates for this release
+
+### [meta-microservicebus-intel (YOCTO)](https://github.com/axians/meta-microservicebus-intel) 
+* New firmware for intel based boards
+
+</details>
+
+<details><summary markdown="span">January 21th, 2021</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Add node to whitelist direct from mSB.com

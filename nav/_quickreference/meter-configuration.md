@@ -48,7 +48,7 @@ Saving the configuration, automatically updates the state of the Node. You can v
 The *Meter Configuration* is available in the Node services using the following command:
 ```javascript
 // Access the configuration
-const config = this.Configuration();
+const config = await this.Configuration();
 // Get the actual meter configuration
 const meterConfig = config.find((c) => { c.meterinfo.id === '123456789'})
 // Use the configuration
