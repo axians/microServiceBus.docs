@@ -145,7 +145,7 @@ sudo nano /lib/systemd/system/microservicebus-node.service
 The permission on the unit file needs to be set to 644 :
 
 ```bash
-sudo chmod 644 /lib/systemd/system/msb.service
+sudo chmod 644 /lib/systemd/system/microservicebus-node.service
 ```
 
 **Step 4: Configure systemd**
@@ -153,6 +153,6 @@ Now the unit file has been defined we can tell systemd to start it during the bo
 
 ```bash
 sudo systemctl daemon-reload
-sudo systemctl enable msb.service
-sudo reboot
+sudo systemctl enable microservicebus-node
+sudo systemctl start microservicebus-node
 ```
