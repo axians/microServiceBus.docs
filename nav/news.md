@@ -11,7 +11,50 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">March 10th, 2021</summary>
+<details open><summary markdown="span">April 12th, 2021</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Python support!
+    * *In alignment with the new Python based Node, users can now create and manage Python scripts. The Python Node is a Tier II Node, meaning it's intended for smaller devices where Node.js might not work. It does not come with all bells and whistles, but is still a fully managed Node.*
+* Support for industrial energy protocols!
+    * *Through partnership with SystemCORP, microServiceBus.com can now offer support for protocols like `IEC 61850`, `IEC 60870-5-101`, `IEC 60870-5-103` and `IEC 60870-5-104`.*
+* View user public SSH key
+    * *Users can now view their public SSH key used for signing in to the Node on the [Account page](https://microservicebus.com/Account/Manage) *
+* Added JSON script type
+    * *It's now possible to create and edit JSON schema files under [Scripts & Services](https://microservicebus.com/Account/Manage). These can later be used for [Node Configuration](https://docs.microservicebus.com/meter-configuration).*
+* Meter Configuration API
+    * *Node configuration can also be managed through the API (GET|POST)`api/organizations/{id}/nodes/{name}/configuration`*
+* Improved management of Meter Configuration
+    * *Improved user experience*
+* Integration with Axians Maestro
+    * *MAESTRO is a SaaS application that makes it  possible to manage your assets smartly, remote monitor all your machines and carry out updates at the touch of a button. It can also access data from machines quickly, safe and easily and connect to a platform with dashboard.*
+
+
+
+### [microservicebus-core](https://github.com/axians/microservicebus-py) version 0.9.0
+*The new Python based Node is intended for smaller devices or where Node.js is not working. It comes with some limitation in comparison to mSB-node (Node.js), but is still a very manageable alternative.*
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.12.0
+* No updates for this release
+
+### [microservicebus-snap](https://github.com/axians/microservicebus-node)  
+* No updates for this release
+
+### [meta-microservicebus (YOCTO)](https://github.com/axians/meta-microservicebus) 
+* No updates for this release
+
+### [meta-microservicebus-imx7 (YOCTO)](https://github.com/axians/meta-microservicebus-imx7) 
+* No updates for this release
+
+### [meta-microservicebus-imx8 (YOCTO)](https://github.com/axians/meta-microservicebus-imx8) 
+* No updates for this release
+
+### [meta-microservicebus-intel (YOCTO)](https://github.com/axians/meta-microservicebus-intel) 
+* New firmware for intel based boards
+
+</details>
+
+<details><summary markdown="span">March 10th, 2021</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Save MAC address on Node sign-in
