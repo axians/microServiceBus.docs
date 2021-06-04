@@ -11,7 +11,16 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">April 12th, 2021</summary>
+
+<details open><summary markdown="span">June 2nd, 2021</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Node prefix
+    * *Nodes are generally named using the "node" prefix, E.g. node-00064. This prefix can now be set on the Organization level, which also makes it possible to share IoT Hubs across many Organizations.*
+* SLA Report
+    * *Organizations can now download an SLA report from the Organization page with details about number of nodes, SAL levels and alerts*
+</details>
+<details ><summary markdown="span">April 12th, 2021</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Python support!
