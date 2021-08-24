@@ -11,8 +11,18 @@ summary{
 }
 </style>
 
-
 <details open><summary markdown="span">June 2nd, 2021</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* FIXED: Empty description field when creating a new node
+* FIXED: Issue with invites not being sent
+* FIXED:  Issue with retreiving syslogs
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.12.5 (BETA)
+* Added error notification when trying to transfer a file from a Node which doesn't exist.
+</details>
+
+<details><summary markdown="span">June 2nd, 2021</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Node prefix
