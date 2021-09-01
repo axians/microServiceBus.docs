@@ -11,7 +11,19 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">June 2nd, 2021</summary>
+
+<details open><summary markdown="span">Sep 1st, 2021</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Transmit log files on startup
+    * *A new Log Policy has been added to the Nodes causing the Node to transmit log files with first start after boot. Log files get automatically accessible from the Node properties page*
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.12.8 (BETA)
+* Transmit log files on startup (see microServiceBus.com above).
+</details>
+
+
+<details><summary markdown="span">Aug 25th, 2021</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * FIXED: Empty description field when creating a new node

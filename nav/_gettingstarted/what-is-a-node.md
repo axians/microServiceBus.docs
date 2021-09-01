@@ -48,7 +48,8 @@ Disconnect policies are very important, and dictates when a device is considered
 | **Heartbeat limit** | Number of missed heartbeats before concluding the Node is in Disconnected state and taking Disconnected action (see below).. |
 | **Disconnected action** | Disconnected action refers to what you'd like to do if the Node becomes offline. Restart means the process will restart, and Reboot will restart the whole device. |
 | **Reconnected action** | When the Node recover from losing internet connection without entering Disconnected state (reconnected within the heartbeat interval), you can choose Update to force the node to download latest configuration (Flows, Services and configuration) or just continue as normal. |
-| **Offline mode** |Enabling this option allows to Node to start in offline mode, using any pre-fetched configuration.. |
+| **Offline mode** |Enabling this option allows to Node to start in offline mode, using any pre-fetched configuration. |
+| **Transmit log files on startup** |Enabling this option will cause the Node to transmit all log files after reboot. Log files are available in Logs tab.. |
 
 ## Get Node environment information
 
