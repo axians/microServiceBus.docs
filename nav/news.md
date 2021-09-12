@@ -11,6 +11,18 @@ summary{
 }
 </style>
 
+<details open><summary markdown="span">Sep 1st, 2021</summary>
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.13.0
+* Transmit log files on startup
+    * *A new Log Policy has been added to the Nodes causing the Node to transmit log files with first start after boot. Log files get automatically accessible from the Node properties page*
+* Improved error notification
+    * *Added error notification when trying to transfer a file from a Node which doesn’t exist.*
+* Dependancy update: AZURE Device SDK update
+    * *azure-iot-common@1.12.10,azure-iot-device@1.17.5,azure-iot-device-amqp@1.13.5*
+* Dependancy update: underscore
+    * *underscore@1.13.1*
+</details>
 
 <details open><summary markdown="span">Sep 1st, 2021</summary>
 
