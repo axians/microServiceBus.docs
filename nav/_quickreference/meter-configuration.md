@@ -50,7 +50,7 @@ The *Meter Configuration* is available in the Node services using the following 
 // Access the configuration
 const config = await this.Configuration();
 // Get the actual meter configuration
-const meterConfig = config.find((c) => { c.meterinfo.id === '123456789'})
+const meterConfig = config.find((c) => c.meterinfo.id === '123456789');
 // Use the configuration
 var mbusOptions = {
     host: meterConfig.connectivity.ip,
