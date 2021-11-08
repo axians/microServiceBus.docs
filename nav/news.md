@@ -11,7 +11,47 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">Sep 1st, 2021</summary>
+
+<details open><summary markdown="span">Nov 8th, 2021</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Support for on-premise installation of microServiceBus.com
+    * *Our on-premise offering complements our cloud hosting options to support high security scenarios where the entire solution is installed in secure zones with no internet access.*
+* Docker support
+    * *Aligned with our on-premise offering, microServiceBus.com, with all its dependencies can now be hosted as Docker containers.*
+* Support for Eclipse Mosquitto™ as IoT provider
+    * *Eclipse Mosquitto™ has been added as an alternative to other IoT providers and will serve as the on-premise solution for a local IoT Hub. As with our support for other IoT Hub providers, -Mosquitto MQTT is fully managed from the portal.*
+* Manage proxy settings on Nodes
+    * *With the 3.13.10 release of microservicebus-core (see below) Nodes can act as proxies. Proxy settings such as ports, keys and destination address can be managed from the Node page.*
+* Package manager
+    * microServiceBus.com package manager allows you to import packages from NPM and PIP (or manual upload) and make these available for Nodes. This option is to support Nodes installed in secure zones without access to other package managers.
+* FIXED: ADFS/AAD Users can't get access to profile settings
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.13.10 (BETA)
+* Node proxy
+    * *Nodes can now act as proxies for other Nodes. This feature can come useful in scenarios where Nodes are installed in secure zones without access to internet.*
+* Support for Eclipse Mosquitto™ as IoT provider
+* Improved error notification
+    * *Added error notification when trying to transfer a file from a Node which doesn’t exist.*
+* Dependancy update: AZURE Device SDK update
+    * *azure-iot-common@1.12.13*
+    * *azure-iot-device@1.17.8*
+    * *azure-iot-device-mqtt@1.15.8*
+    * *azure-iot-device-amqp@1.13.8*    
+* Dependancy update: `chai`
+    * *chai@4.3.4*
+* Dependancy update: `mocha`
+    * *mocha@9.1.3*
+* Dependancy update: `network`
+    * *network@0.6.0*
+* Dependancy update: `retry-request`
+    * *retry-request@4.2.2*
+* Dependancy update: `uuid`
+    * *retry-request@8.3.2*
+
+</details>
+
+<details ><summary markdown="span">Sep 1st, 2021</summary>
 
 ### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.13.0
 * Transmit log files on startup
@@ -24,7 +64,7 @@ summary{
     * *underscore@1.13.1*
 </details>
 
-<details open><summary markdown="span">Sep 1st, 2021</summary>
+<details ><summary markdown="span">Sep 1st, 2021</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Transmit log files on startup
