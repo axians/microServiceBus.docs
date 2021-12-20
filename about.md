@@ -16,3 +16,9 @@ You can find the source code for Jekyll at GitHub:
 
 
 [jekyll-organization]: https://github.com/jekyll
+
+To start Jekyll, run:
+```
+bundle exec jekyll serve
+```
+To update the search index (assets/index.json), run the Crawler tool
