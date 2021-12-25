@@ -11,8 +11,24 @@ summary{
 }
 </style>
 
+<details open><summary markdown="span">Dec 25th, 2021</summary>
 
-<details open><summary markdown="span">Nov 8th, 2021</summary>
+### [microservicebus.com](https://microservicebus.com)
+* VPN support
+    * *You can now set up VPN networks through mSB.com by delegating VPN interfaces and peers through your Nodes. This feature also includes key rotations and forwarding. [For more information](https://docs.microservicebus.com/node-vpn-interfaces)*
+
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.13.17 (BETA)
+* VPN support
+    * *Through the integration with WireGuard®, Nodes can now establish VPN networks.*
+</details>
+
+### [microservicebus-node](https://github.com/axians/microservicebus-node) version 3.4.5
+* Updated dependancies
+    * *tar => 6.1.11*
+</details>
+
+<details><summary markdown="span">Nov 8th, 2021</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Support for on-premise installation of microServiceBus.com
