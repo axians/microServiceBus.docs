@@ -11,7 +11,21 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">Dec 25th, 2021</summary>
+<details open><summary markdown="span">Jan 4th, 2022</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Docker compose support
+    * *We have now extended the Docker support with **Docker Compose**. You can now create docker compose yaml files along with attached docker files, and later build, install and run it at the Node.*
+* Improved firmware management
+    * *We've added some UI improvments such as image and platform intellisense.*
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.13.19 (BETA)
+* Docker compose support
+    * *Added support for Docker Compose build, up and down command.*
+
+</details>
+
+<details><summary markdown="span">Dec 25th, 2021</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * VPN support
@@ -21,11 +35,11 @@ summary{
 ### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.13.17 (BETA)
 * VPN support
     * *Through the integration with WireGuard®, Nodes can now establish VPN networks.*
-</details>
 
 ### [microservicebus-node](https://github.com/axians/microservicebus-node) version 3.4.5
 * Updated dependancies
     * *tar => 6.1.11*
+
 </details>
 
 <details><summary markdown="span">Nov 8th, 2021</summary>
