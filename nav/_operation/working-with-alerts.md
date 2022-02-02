@@ -121,7 +121,8 @@ When *Nodes* come offline a workflow will be triggered which does the following:
 | **90021** | Data plan reached | 
 | **90030** | Missing sensor readings | 
 | **90040** | High storage utilizations | 
-| **90041** | High memory utilization | 
+| **90041** | Storage failure | 
+| **90050** | High memory utilization | 
 | **90060** | Failed to start snap | 
 | **90061** | Snap crash | 
 | **90100** | Failed to start docker container | 
