@@ -11,7 +11,24 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">Jan 4th, 2022</summary>
+<details open><summary markdown="span">Feb 8th, 2022</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Azure Devops integration - File pattern
+    * *Users can now optionally set file pattern to match files imported through Azure Devops*
+* Background tasks
+    * *Services can now be configured to run the background independantly of Flows and other Services. This feature can be very useful for health monitoring for instance.*
+* Improved VPN support
+    * *Node can now be configured to forward all traffic*
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.14.4 (BETA)
+* Background tasks
+    * *Services can now be configured to run the background independantly of Flows and other Services.*
+* *FIXED: Nodes now report storage*
+
+</details>
+
+<details><summary markdown="span">Jan 4th, 2022</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Docker compose support
