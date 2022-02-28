@@ -5,13 +5,11 @@ description: "Roles, privilages and auditing"
 categories: quickreference
 order: 55
 ---
-# Roles, privilages and auditing
-
-User can become members of an Organization by either creating the Organization or by being invited to the Organization by an owner. 
-User security and privileges are managed through Roles. Significant actions such as changing Organization settings or deleting a Node are subjects of Audit logging.
+*User can become members of an Organization by either creating the Organization or by being invited to the Organization by an owner. 
+User security and privileges are managed through Roles. Significant actions such as changing Organization settings or deleting a Node are subjects of Audit logging.*
 
 ## Roles & privileges
-microServiceBus.com comes with two roles; Owner and Co-administrator. As a rule of thumb, a Co-administrator can do everything except managing users and the Organization. Co-administrator are also prevented from Claiming Nodes and use the remote terminal, although these privileges can be changed by an Owner.
+microServiceBus.com comes with two roles; Owner and Co-administrator. As a rule of thumb, a Co-administrator can do everything except managing users and the Organization. Co-administrator are also prevented from Claiming Nodes, grant them self access to Nodes and use the remote terminal, although these privileges can be changed by an Owner.
 
 ### Privileges reserved to Owners are:
 * Change settings of Organization such as Name, Description
