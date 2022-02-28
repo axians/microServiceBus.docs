@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Roles, privilages and auditing"
-description: "Roles, privilages and auditing"
+description: "Managing users and roles"
 categories: quickreference
 order: 55
 ---
