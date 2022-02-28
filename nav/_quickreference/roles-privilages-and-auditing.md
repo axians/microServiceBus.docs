@@ -25,6 +25,9 @@ microServiceBus.com comes with two roles; Owner and Co-administrator. As a rule 
 * Manage Cisco Jasper integration
 * Manage SystemCORP integration
 * Store and view Node root passwords
+* Grant access to Nodes (SSH access)
+* Open remote terminal
+* Claim Nodes
 
 ### Audit logs
 * Changes to entities below are all subject to Audit logs:
