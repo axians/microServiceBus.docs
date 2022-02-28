@@ -5,7 +5,7 @@ description: "Roles, privilages and auditing"
 categories: quickreference
 order: 55
 ---
-*User can become members of an Organization by either creating the Organization or by being invited to the Organization by an owner. 
+*Users can become members of an Organization by either creating the Organization or by being invited to the Organization by an owner. 
 User security and privileges are managed through Roles. Significant actions such as changing Organization settings or deleting a Node are subjects of Audit logging.*
 
 ## Roles & privileges
