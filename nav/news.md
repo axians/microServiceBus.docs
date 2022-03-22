@@ -11,7 +11,40 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">Feb 8th, 2022</summary>
+
+<details open><summary markdown="span">Mar 22nd, 2022</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Allow tags as destination for Python Nodes
+    * *As with JavaScript services, users can now configure their Python services to use tags as destination*
+* Background Services
+    * *Background services can now be set on the Node property page under Policies*
+* Updated Node templates
+    * *Background services can now be set on the Node template*
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.15.0 
+* VPN support
+    * *Through the integration with WireGuard®, Nodes can now establish VPN networks.*
+* Docker compose support
+    * *Added support for Docker Compose build, up and down command.*
+* Background tasks
+    * *Services can now be configured to run the background independantly of Flows and other Services.*
+* *FIXED: Nodes now report storage*
+
+### [microservicebus-py](https://github.com/axians/microservicebus-py) version beta 
+* Update Firmware support
+    * *Through integration with DBus and RAUC, the Python Node can now manage firmware.*
+* VPN support
+    * *Through the integration with WireGuard®, Nodes can now establish VPN networks.*
+* MQTT support
+    * *Added support for transmitting messages to the IoT Hub through mSB-py.*
+* Azure IoT Hub support
+    * *Similar to the JavaScript based node, the Python Node can now transmit messages to the Azure ioT Hub.*
+* Hosting custom services
+    * *Similar to the JavaScript based node, the Python Node can now download and run services defined in mSB.com.*
+</details>
+
+<details ><summary markdown="span">Feb 8th, 2022</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Azure Devops integration - File pattern
