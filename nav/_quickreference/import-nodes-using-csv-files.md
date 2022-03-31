@@ -25,8 +25,8 @@ The format must align with the following:
 
 | Position | Field                         | Format                                                | Mandatory             |
 |----------|-------------------------------|-------------------------------------------------------|-----------------------|
-| 1        | Type                          | TIER1,TIER2 or TIER3                                  | Yes                   |
-| 2        | Name                          | Between 5 and 128 ASCII 7-bit alphanumeric characters | Yes                   |
+| 1        | Name                          | Between 5 and 128 ASCII 7-bit alphanumeric characters | Yes                   |
+| 2        | Type                          | Name of device type E.g."Elvaco CMe2100 G3"           | No                   |
 | 3        | Description                   |                                                       | No                    |
 | 4        | CostCenter                    | Cost center for billing                               | No                    |
 | 5        | SlaLevel                      | LEVEL1 or LEVEL2                                      | No                    |
@@ -51,5 +51,5 @@ The format must align with the following:
 
 ### Sample row
 ```
-Type;Name;Description;CostCenter;SlaLevel;Tags;Mode;Template;Longitude;Latitude;TimeZone;12345678912345;ICCID;MacAddresses;SerialNo;Gateway endpoint;Phone number;APN;Metadata;Number of devices;Interval;Time unit
+Name;Type;Description;CostCenter;SlaLevel;Tags;Mode;Template;Longitude;Latitude;TimeZone;12345678912345;ICCID;MacAddresses;SerialNo;Gateway endpoint;Phone number;APN;Metadata;Number of devices;Interval;Time unit
 ```
