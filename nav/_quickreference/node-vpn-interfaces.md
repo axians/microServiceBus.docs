@@ -43,6 +43,31 @@ iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j 
 
 If your *Nodes* are online, they should now fetch their respective VPN configurations and establish the connections. 
 
+
+By default, the IPv4 policy in linux kernels disables support for IP forwarding. This prevents machines that run linux server from functioning as dedicated edge routers. To enable IP forwarding, use the following command:
+
+```
+> sysctl -w net.ipv4.ip_forward=1
+```
+
+This configuration change is only valid for the current session; it does not persist beyond a reboot or network service restart. To permanently set IP forwarding, edit the /etc/sysctl.conf file as follows: Locate the following line:
+
+```
+net.ipv4.ip_forward = 0
+```
+Edit it to read as follows:
+
+```
+net.ipv4.ip_forward = 1
+```
+
+Use the following command to enable the change to the sysctl.conf file:
+
+```
+> sysctl -p /etc/sysctl.conf
+```
+
+
 ### Connect to the network from a workstation
 Their might be scenarios where you need to connect to the network using for instance your laptop. To do this begin by installing the WireGuard® VPN software from [here](https://www.wireguard.com/install/).
 

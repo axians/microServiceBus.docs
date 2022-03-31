@@ -51,3 +51,8 @@ Go to the Crawler directory and run the Crawler.exe file. This will output any b
 
 # Quickstart running jekyll
 https://jekyllrb.com/docs/
+
+Start the server from `bash` using the following command:
+```bash
+bundle exec jekyll serve --force_polling --livereload
+```
