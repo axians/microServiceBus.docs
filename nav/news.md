@@ -12,7 +12,31 @@ summary{
 </style>
 
 
-<details open><summary markdown="span">Mar 22nd, 2022</summary>
+<details open><summary markdown="span">April 19nd, 2022</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Added SLA and CostCenter to Node Templates
+    * *Node Templates now includes `Cost Centre` and `SLA`*
+* Improved performace
+    * *Overall improved performace for loading pages*
+* Added `Get IoT Hub Connection string` to Organization API
+    * *The Organization API now provides a way to retrieve the IoT Hub connection string (Azure IoT hub only)*
+* Improved invoice documentation
+* Resolved issue with VPN forwarding
+* Resolved issue with deleting VPN peers
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.15.2 (BETA) 
+* Updated dependancies
+    * *"async" => "3.2.3"*
+    * *"moment" => "2.29.2"*
+
+### [microservicebus-py](https://github.com/axians/microservicebus-py) version beta 
+* Set settings on initial signin
+* Replaced all print calls with self.printf to resolve issue when running as service
+* Updated meta-microservicebus-py Yocto layer
+</details>
+
+<details><summary markdown="span">Mar 22nd, 2022</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Allow tags as destination for Python Nodes
