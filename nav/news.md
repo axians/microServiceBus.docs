@@ -11,8 +11,19 @@ summary{
 }
 </style>
 
+<details open><summary markdown="span">May 10nd, 2022</summary>
 
-<details open><summary markdown="span">April 19nd, 2022</summary>
+### [microservicebus.com](https://microservicebus.com)
+* SmartEdge integration
+    * *SmartEdge is a generic visualization platform which if integrated with microServiceBus.com will receive data from your IoT Hub. You can then continue to create and building reports and dashboards to visualize your data.*
+* Improved invoicing
+
+### [microservicebus-py](https://github.com/axians/microservicebus-py) version 0.0.20 
+* Firmware updates
+    * *Improved RAUC support* 
+</details>
+
+<details><summary markdown="span">April 19nd, 2022</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Added SLA and CostCenter to Node Templates
