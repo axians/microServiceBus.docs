@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Services & Scripts in microServiceBus.com in depth"
+title:  "Services and Scripts in microServiceBus.com in depth"
 description: "This section will dive into the details of how to write a Service. Learn more about how you can enhance productivity through our Tips & Tricks."
 categories: quickreference
 order: 80

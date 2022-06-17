@@ -10,8 +10,41 @@ summary{
         color: #777;
 }
 </style>
+<details open><summary markdown="span">June 11nd, 2022</summary>
 
-<details open><summary markdown="span">May 10nd, 2022</summary>
+# Time for re-factoring
+As summer and vacations are coming to Sweden we're planning on doing some re-factoring and aligning our products with the latest platforms and frameworks. microServiceBus.com (portal) will be migrated to .net6, microservicebus-node to Node.js 16+ and our Yocto images to Kirkstone.
+
+We expect all of this to be ready by Jul-Aug and we will freaze the backlog until then.
+
+### [microservicebus.com](https://microservicebus.com)
+* Migration to .net 6
+    * *microServiceBus.com has been undergoing a series of steps in prefaration for migrating to .net 6.*
+* Fixed: Unable to remove nodes that has VPN configured. #1744
+* Fixed: Audit log Diff is not showing the latest settings. #1745
+* Fixed: Bug when sending Email notifications
+
+### [microservicebus-node](https://github.com/axians/microservicebus-node) version 4.0.0 (BETA)
+* Removing references to NPM package
+    * *As of Node.js version > 15, the NPM package is no longer supported*
+* Support for Node.js version 16+ 
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.9.9 (BETA)
+* Removing references to NPM package
+    * *As of Node.js version > 15, the NPM package is no longer supported*
+* Support for Node.js version 16+
+
+### [meta-microservicebus (YOCTO)](https://github.com/axians/meta-microservicebus) 
+* Updated to support microservicebus-node@4.0.0
+
+### [meta-microservicebus-intel (YOCTO)](https://github.com/axians/meta-microservicebus-intel) 
+* Migrated to Yocto release Krikstone
+* Updated Node.js vresion to 16.14.2
+* Many security updates
+
+</details>
+
+<details><summary markdown="span">May 10th, 2022</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * SmartEdge integration
@@ -534,8 +567,6 @@ summary{
 <details><summary markdown="span">September 10th, 2020</summary> 
 
 ### [microservicebus.com](https://microservicebus.com)
-* Data Visualizer
-    * *Data Visualizer is a tool accessible through the menu and lets you demo and view live stream data. Check out the [documentation]({{site.baseurl}}/data-visualizer) for more info.*
 * Added IoT Hub instance to the Organization detail page
 * FIXED: Autocomplete menu on script editor (*Scripts & Services*) not visible
 * FIXED: Oneway outbound services showing outbound connection
