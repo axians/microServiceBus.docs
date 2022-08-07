@@ -12,6 +12,15 @@ summary{
 </style>
 <details open><summary markdown="span">June 11nd, 2022</summary>
 
+### [microservicebus.com](https://microservicebus.com)
+* Remove API throttle restrictions on managed instances
+    * *Managed instances are no longer subject to API IP rate limits*
+* Fixed: Error on /updatefirmware API call
+    * *The exception were caused by one or more nodes were not online. The problem is now fixed and returns a object with information about which nodes has and has not been updated.*
+</details>
+
+<details><summary markdown="span">June 11nd, 2022</summary>
+
 # Time for re-factoring
 As summer and vacations are coming to Sweden we're planning on doing some re-factoring and aligning our products with the latest platforms and frameworks. microServiceBus.com (portal) will be migrated to .net6, microservicebus-node to Node.js 16+ and our Yocto images to Kirkstone.
 
