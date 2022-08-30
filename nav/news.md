@@ -10,7 +10,54 @@ summary{
         color: #777;
 }
 </style>
-<details open><summary markdown="span">June 11nd, 2022</summary>
+
+
+<details open><summary markdown="span">Aug 30th, 2022</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Improved support for AAD federation
+    * *There were issues with certain claim configurations.*
+* Search whitelist
+    * *The whitelist is now searchable for Name or MAC address*
+* FIXED: Whitelist pagination not working
+* FIXED: Update firmware using UI not working
+
+### [microservicebus-node](https://github.com/axians/microservicebus-node) version 4.0.0
+* Improved Node.js support
+    * *microservicebus-node now supports Node.js v18*
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 4.0.0
+
+## IMPORTANT! 
+Changes in `microservicebus-core` mentioned below has been available for testing since May 2022. All Nodes using "latest" will automaticly be updated once restarted. If you have not yet tested the `BETA` version and don't want this update at this moment, navigate to the Organization page, click EDIT on the NPM feature and set the "Default version" to 3.16.1.
+
+**THIS CHANGE WILL BE APPLIED 31 st of Aug (tomorrow)**
+
+* Improved Node.js support
+    * *microservicebus-core now supports Node.js v18*
+* Removed dependancies to npm
+    * *To support lastet version of Node.js*
+* Set IP for VPN host
+    * *Useful for Nodes hosted behind private ip's*
+* Update firmware on Offline
+    * *See above*
+
+</details>
+
+<details ><summary markdown="span">Aug 10th, 2022</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* API for calling device methods
+    * *Our API has been extended to include calling Device methods (Azure only)*
+* Update firmware on Offline nodes
+    * *Until now, offline Nodes has been ignored for remote firmware updates. Our API has now been extended for both Nodes and Tags. Using the tag option will let you update many Nodes with a single call*
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 3.9.94 (BETA)
+* Update firmware on Offline nodes
+    * *See above*
+</details>
+
+<details><summary markdown="span">Aug 8th, 2022</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Remove API throttle restrictions on managed instances
