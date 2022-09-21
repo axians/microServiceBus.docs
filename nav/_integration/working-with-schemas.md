@@ -8,6 +8,8 @@ order: 11
 
 Meter schemas are the definition of all properties and setting of meters. Meter schems are used when working with Meter Cconfiguration and can be cusomized to your needs.
 
+> See also [Working with meter configuration](https://docs.microservicebus.com/meter-configuration) how the schemas are used on the *Node*
+
 # Overview
 When creating a `Meter configuration`, you select a schema aligned with your meter, such as Mbus TCP or Modbus RTU. You then proceed to add `Datasets`, `Datapoints` and `Metadata`. When you save your configuration, you have essentially added the configuration to your Node.
 Services running on your Node, such as Modbus master will read the configuration to access the meter/sensor and retrieve the data.

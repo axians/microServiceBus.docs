@@ -7,6 +7,8 @@ order: 42
 ---
 Assigning individual configuration to Nodes is an important aspect of IoT as Nodes may be integrating with different meters, sensors and other equipment from one site to another. Even if they are connected to the same kind of equipment, connecting might require specific settings. Node `Meter Configuration' allows you to create any number of specific settings that can be accessed from the Node and later used to connect, read and update meters.
 
+> See also [Working with Meter schemas](https://docs.microservicebus.com/working-with-schemas) for a better understanding of schemas and how you can customize them.
+
 ## Glossary
 As there are many different words describing similar things, there are a few commonly used terms that might be good to familiarize yourself with. 
 
