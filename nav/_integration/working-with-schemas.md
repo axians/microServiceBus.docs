@@ -5,7 +5,6 @@ description: Meter schemas are the definition of all properties and setting of m
 categories: integration
 order: 11
 ---
-
 Meter schemas are the definition of all properties and setting of meters. Meter schems are used when working with Meter Cconfiguration and can be cusomized to your needs.
 
 > See also [Working with meter configuration](https://docs.microservicebus.com/meter-configuration) how the schemas are used on the *Node*

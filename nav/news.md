@@ -11,6 +11,21 @@ summary{
 }
 </style>
 
+<details open><summary markdown="span">Aug 30th, 2022</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* UNMANAGED SLA
+    * *Along with 24/7 and Office hours, we now support Un-managed SLA. This might come useful for Organizations reporting only custom errors. Please be aware that Off-line nodes and other managed alerts are not supported*
+* Meter Configuration
+    * *Much approved management of Meter Configurations. See [Working with schemas](https://docs.microservicebus.com/working-with-schemas) and [Working with meter configuration](https://docs.microservicebus.com/meter-configuration) for more information.*
+* New IoT Provider supported: Proptech OS
+    * *ProptechOS is an innovation platform which collects and harmonizes real-time data from building management systems, BIM, business and IoT devices*
+* API update:
+    * *Manage GPS locations through API*
+* FIXED: Validation errors are not shown when saving node with IMIE issues
+
+</details>
+
 
 <details open><summary markdown="span">Aug 30th, 2022</summary>
 
