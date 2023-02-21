@@ -11,7 +11,23 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">Aug 30th, 2022</summary>
+<details open><summary markdown="span">Feb 21st, 2023</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Update/renew tokens
+    * *A new API has been provided to updated individual Node tokens. The API is available under /Organizations*
+* FIXED: Remote terminal issue with VI/VIM
+    * *There has been an issue where opening files with more than 30 rows has ended up "outside" the console frame. This issue has now been fixed*
+
+### [microservicebus-py](https://github.com/axians/microservicebus-py) version 0.1.6 
+* Support for remote terminal
+    * *Our Python based agent is now accessable from the remote terminal in the mSB.com portal* 
+* VPN Support
+    * *Same capabilities as with the Node.js agent allowing to host or participate in VPN networks*
+</details>
+
+
+<details ><summary markdown="span">Aug 30th, 2022</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * UNMANAGED SLA
@@ -27,7 +43,7 @@ summary{
 </details>
 
 
-<details open><summary markdown="span">Aug 30th, 2022</summary>
+<details ><summary markdown="span">Aug 30th, 2022</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Improved support for AAD federation
