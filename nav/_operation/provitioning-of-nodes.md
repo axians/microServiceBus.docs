@@ -46,6 +46,7 @@ Start the Node using only *start*:
 
 When claiming the node, it will be given whatever name you choose. By default it will be part of your current Organization, but you may change to any other Organization you are **Owner** of.
 
+> IMPORTANT! Provisioning a Node using *anonymous signin* will send device information such as IP and MAC addresses to the microServiceBus.com portal (for identifying which Node to claim). If the MAC address is whitelisted (see *Using MAC whitelist* section below) the *MAC whitelist* option will surpass the Claim option and the Node will get automaticly provisioned (provided it has not been used before). 
 
 ## Using MAC whitelist
 
