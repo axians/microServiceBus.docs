@@ -11,7 +11,35 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">Feb 21st, 2023</summary>
+<details open><summary markdown="span">Mar 16th, 2023</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* NEW CODE EDITOR!
+    * *The old Ace code editor has served us well, but has now been replaced with the new Monaco editor (same as VS Code)*
+* Firmware list
+    * *The list of firmwares on the /Nodes page now includes images published at the Root organization*
+* Added external IP to Log in info
+* FIXED: Adding VPN User peer does not present WireGuard configuration. 
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 4.4.1 
+* Node receives GPS location info on Sign-in
+    * *The location info is available using `settings.location`*
+* Removed dependancies to **request** npm package
+* Updated signalr, network and dbus dependancies
+* FIXED: Console data not transmitted to portal
+
+### [microservicebus-py](https://github.com/axians/microservicebus-py) version 0.9 
+* Added reconnect event and changed automatic_reconnect option
+    * *The reconnect event makes the Node more stable*
+* Improved handling of updated SAS tokens
+    * *Removed restart on update node* 
+* Improved versioning
+* Implemented support for state changes
+* Fixed enable / disable service
+
+</details>
+
+<details><summary markdown="span">Feb 21st, 2023</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Update/renew tokens
