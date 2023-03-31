@@ -11,7 +11,19 @@ summary{
 }
 </style>
 
+
 <details open><summary markdown="span">Mar 16th, 2023</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* New service to receive connection change events
+    * *See mSB-core updates*
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 4.4.4 (BETA) 
+* The Node agent will now raise events on changes of the connection state, both for connection to mSB portal and IoT Hub
+    * *These events can be captured using either a `Connected state` inbound service (using flows) or a `Background service`. This allows for custom scripts or services to try to resolve the connection issue.*
+</details>
+
+<details><summary markdown="span">Mar 16th, 2023</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * NEW CODE EDITOR!
