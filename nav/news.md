@@ -11,8 +11,17 @@ summary{
 }
 </style>
 
+<details open><summary markdown="span">April 28th, 2023</summary>
 
-<details open><summary markdown="span">Mar 16th, 2023</summary>
+### [microservicebus.com](https://microservicebus.com)
+* Fixed VPN issues
+    * *There has been issues where VPN user peers has been registerd as Node peers causing Nodes to appear twice in on the Node list page*
+
+### [microservicebus-py](https://github.com/axians/microservicebus-py) version 0.9.1 
+* Added IP addresses to signin request
+</details>
+
+<details><summary markdown="span">Mar 16th, 2023</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * New service to receive connection change events
