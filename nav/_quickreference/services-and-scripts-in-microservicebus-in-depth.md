@@ -75,6 +75,7 @@ When you as a developer is writing a service to use in a flow, you are extending
 
 ```javascript
     this.timezone // The current timezone of the device
+    this.Config // General, Static and Security parameters set in the Flow
     this.NodeName // The id of the node running the service
     this.Name // The name of the service
     this.settingsHelper // Has a lot of useful properties such as paths
@@ -131,8 +132,8 @@ When you as a developer is writing a service to use in a flow, you are extending
 
 * **this.SubmitMessage(msg, format, headers)**
 
-  Sends the message to the next service in the flow in a specified format with or without headers
-  
+  Creates a new context and sends the message to the next service in the flow in a specified format with or without headers. 
+
   `@parameters` : msg (object or binary), format (string), headers (needs to be formatted as following : [{Variable : "[key]", Value : "[value]"}])
 
   `@returns` : _Void_
@@ -143,8 +144,91 @@ When you as a developer is writing a service to use in a flow, you are extending
        this.SubmitMessage({Sensor : "mySensor", Value : 22}, 'application/json', [{Variable : "messageType", Value : "tempSensor"}]);
   ```
 
-## This section will be updated with more in depth regarding services.
+* **this.SubmitResponseMessage(msg, context, contentType)**
 
-In the meantime check out our repo at [GitHub](https://github.com/axians/microservicebus-core/blob/dev/lib/MicroServiceBusNode.js) if you want to explore the source yourself. Do not hesitate to send any question or open any issue on something that is unclear or not working as expected.
+  Similar to SubmitMessage but is using the same *context*. Most often used for *Internal*- and Outboud services
 
-Back to home page: [Home](/)
+  `@parameters` : msg (object or binary), context (including itinerary and variables), contentType (E.g. 'application/json')
+
+  `@returns` : _Void_
+
+  `@example`
+
+  ```javascript
+       this.SubmitResponseMessage({Sensor : "mySensor", Value : 22}, context,'application/json');
+  ```
+* **this.Configuration()**
+
+  Used to retrieve Meter Configuration. See [Working with meter configuration]({{site.baseurl}}/meter-configuration)
+
+  `@parameters` : None
+
+  `@returns` : All Meter configuration for the Node
+
+  `@example`
+
+  ```javascript
+       const meterConfiguration = await this.Configuration();
+       meterConfiguration.forEach(meter=>{
+        // Connect to meter using meter.connectivity section
+        meter.forEach(dataSet=>{
+           dataSet.forEach(dataPoint=>{
+            // Read data point
+           };)
+        });
+       });
+  ```
+* **this.GetLocalTime()**
+
+  Used to get local time depending on location set on the Node (Properties page of Node)
+  `@parameters` : None
+
+  `@returns` : DateTime
+
+  `@example`
+
+  ```javascript
+       const localTime = this.GetLocalTime();
+  ```
+* **this.GetInstanceOf(serviceName, callback)**
+
+  Returns the service instance by name. This can be usefull when you have a service that needs to run as a singleton and server multiple services. For instance, if you connect to two or more RTU meters using the same serial port you might have to run the in sequense. In such case you might want to use an Modbus Master service as a singleton to access the actual meter while multiple other services are doing the request.
+
+  `@parameters` :  serviceName (name of service), callback (err, instance))
+
+  `@returns` : DateTime
+
+  `@example`
+
+  ```javascript
+       this.GetInstanceOf("modbusMater1", (err, instance)=>{
+        // call function on service instance
+        // E.g. instance.readRegister(connection, address, datatype)
+       });
+  ```
+* **this.SetCronInterval(callback, cronExp)**
+
+  Returns a CRON job which will trigger on interval.
+
+  `@parameters` :  callback (function that will trigger), cronExp (CRON Expression))
+
+  `@returns` : CRON job
+
+  `@example`
+
+  ```javascript
+       var cronInterval = this.SetCronInterval(()=>{console.log("CRON job triggered")}), "* * * 1 *");
+  ```
+* **this.SetCronInterval(cronJob)**
+
+  Stops the CRON interval.
+
+  `@parameters` :  cronJob (instance of CRON job))
+
+  `@returns` : _void_
+
+  `@example`
+
+  ```javascript
+       this.ClearCronInterval(cronInterval);
+  ```
