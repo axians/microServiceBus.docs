@@ -11,7 +11,42 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">April 28th, 2023</summary>
+<details open><summary markdown="span">August 2nd, 2023</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Improved partner offering
+    * *Partners can now offer custom operational support*
+* Added support for "ignore" npm/pip version
+* Added Python snippets for code enditor
+* Organization API
+    * *Organizations can now be added using the API*
+    * *User invites can now be sent using OrganizationsAPI*
+* VPN API
+    * *You can now manage VPN node- and user peers using API*
+* Regenerate VPN token
+    * *VPN tokens can now be re-generated through the API*
+* VPN general improvements
+    * *Many improvments have been done to make VPN connections more stable*
+* Password is no longer needed for generating API key 
+* Fixed Meter Config
+    * *Fixed minor issues with Meter Config*
+* Fixed enable/disable VPN API
+* Fixed VPN Net mask
+
+### [microservicebus-py](https://github.com/axians/microservicebus-py) version 0.9.9 
+* Added Tracking
+    * *Python services can now track messagesa using `await self.Track(message)`
+* Transfer files to Nodes
+    * *Users can now transfer files to Python nodes from the Device option*
+* Restart if node has not successfully signed in before first heartbeat
+* Improved logging and exception handling
+* Fetch base uri from env MSB_HOST
+    * *Base uri (E.g. https://yourorg.microservicebus.com) can now be set in environment variables (MSB_HOST)*
+* Improved package versioning
+
+</details>
+
+<details ><summary markdown="span">April 28th, 2023</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Fixed VPN issues
@@ -27,7 +62,7 @@ summary{
 * New service to receive connection change events
     * *See mSB-core updates*
 
-### [microservicebus-core](https://github.com/axians/microservicebus-core) version 4.4.4 (BETA) 
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 4.4.4 
 * The Node agent will now raise events on changes of the connection state, both for connection to mSB portal and IoT Hub
     * *These events can be captured using either a `Connected state` inbound service (using flows) or a `Background service`. This allows for custom scripts or services to try to resolve the connection issue.*
 </details>
