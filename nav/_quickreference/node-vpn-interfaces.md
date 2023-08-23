@@ -81,5 +81,13 @@ Their might be scenarios where you need to connect to the network using for inst
 
 > Private keys are not stored in **microServiceBus.com** for *User peers*, so it's important not too loose the file. But if you do loose it, remove the *User peer* and create a new one.
 
+### Troubleshooting
+To enable WireGguard logging: 
+```
+$: modprobe wireguard
+$: echo module wireguard +p > /sys/kernel/debug/dynamic_debug/control
+$: dmesg -wT
+``` 
+
 ## Key rotation
 If a key get compromised you can re-generate the key by simply clicking the *Generate* button in the *VPN* tab. This will give the *Node* a new private key and update the public key of all *Nodes* on the network.
