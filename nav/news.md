@@ -11,7 +11,45 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">August 2nd, 2023</summary>
+<details open><summary markdown="span">October 10th, 2023</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+> microServiceBus.com will be undergoing a migration to .net 8 in November, whilst this update primarly focus on simplyfying the deployment in November/December. This includes refactoring of configuration settings, security updates and bringing all dependancies to latest version.
+
+* New DEV tools 
+    * *We've had some dev tools we've been using internally to simplyfying our day-to-day work which we have now made available to all users; JSON editor, CRON Editor and REST test console*
+
+### [microservicebus-py](https://github.com/axians/microservicebus-py) version 1.0.1 
+* Imroved error handling
+* Tracking is now available for our Python agent
+* Watchdog service has been added
+
+### [microservicebus-core](https://github.com/axians/microservicebus-core) version 4.6.0 
+* Improved VPN information
+* Minor bug fixes
+* Improved terminal (sizing, coloring etc)
+
+### [microservicebus-node](https://github.com/axians/microservicebus-core) version 4.1.0 
+* Fixed bug for removing npm packages
+
+### [meta-microservicebus-intel(YOCTO firmware for Intel)](https://github.com/axians/meta-microservicebus-intel-nuc)  
+
+* Updated to Kirkstone 4.0.13
+* Updated node.js => 16.20.2
+* Updated npn => 8.19.4
+* microservicebus-node => 4.1.0
+
+### [meta-microservicebus-imx8(YOCTO firmware for Compulab iMX8)](https://github.com/axians/meta-microservicebus-imx8)  
+
+* Updated to Kirkstone 4.0.13
+* Updated node.js => 16.20.2
+* Updated npn => 8.19.4
+* microservicebus-node => 4.1.0
+
+
+</details>
+
+<details><summary markdown="span">August 2nd, 2023</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Improved partner offering
