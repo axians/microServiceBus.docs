@@ -38,12 +38,6 @@ iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j 
 ```
 **Please be careful when using forwarding!**
 
-4. Add a *Peer Node* by clicking the *Add Node peer" button. Type the name of another *Node* you'd like to include in the same network. Give the peer an IP address and hit the *ADD PEER* button.
-5. Save by clicking the *SAVE VPN SETTINGS* button
-
-If your *Nodes* are online, they should now fetch their respective VPN configurations and establish the connections. 
-
-
 By default, the IPv4 policy in linux kernels disables support for IP forwarding. This prevents machines that run linux server from functioning as dedicated edge routers. To enable IP forwarding, use the following command:
 
 ```
@@ -67,6 +61,15 @@ Use the following command to enable the change to the sysctl.conf file:
 > sysctl -p /etc/sysctl.conf
 ```
 
+If setting up a *relay* on a machine with multiple IP addresses (such as for a cloud-based VM), you need to specify which IP to use in the `settings.json`. You can do this by adding the following line on the top level of the file:
+```
+"vpnHostIp": "<IP address>",
+``` 
+
+4. Add a *Peer Node* by clicking the *Add Node peer" button. Type the name of another *Node* you'd like to include in the same network. Give the peer an IP address and hit the *ADD PEER* button.
+5. Save by clicking the *SAVE VPN SETTINGS* button
+
+If your *Nodes* are online, they should now fetch their respective VPN configurations and establish the connections. 
 
 ### Connect to the network from a workstation
 Their might be scenarios where you need to connect to the network using for instance your laptop. To do this begin by installing the WireGuard® VPN software from [here](https://www.wireguard.com/install/).
