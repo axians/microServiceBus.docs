@@ -10,8 +10,21 @@ summary{
         color: #777;
 }
 </style>
+<details open><summary markdown="span">November 29th, 2023</summary>
 
-<details open><summary markdown="span">October 10th, 2023</summary>
+### [microservicebus.com](https://microservicebus.com)
+* New Invoicing API 
+* Improved VPN Validation
+    * *More intuitive experiance when managing VPN settings*
+* Improved monitoring of cloud services
+
+### [microservicebus-py](https://github.com/axians/microservicebus-py) version 1.0.5 
+* Improved handing of MAC addresses
+* Added support for PIP start
+* Added support for Meter configuration
+</details>
+
+<details><summary markdown="span">October 10th, 2023</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 > microServiceBus.com will be undergoing a migration to .net 8 in November, whilst this update primarly focus on simplyfying the deployment in November/December. This includes refactoring of configuration settings, security updates and bringing all dependancies to latest version.
@@ -20,7 +33,7 @@ summary{
     * *We've had some dev tools we've been using internally to simplyfying our day-to-day work which we have now made available to all users; JSON editor, CRON Editor and REST test console*
 
 ### [microservicebus-py](https://github.com/axians/microservicebus-py) version 1.0.1 
-* Imroved error handling
+* Improved error handling
 * Tracking is now available for our Python agent
 * Watchdog service has been added
 
@@ -45,8 +58,6 @@ summary{
 * Updated node.js => 16.20.2
 * Updated npn => 8.19.4
 * microservicebus-node => 4.1.0
-
-
 </details>
 
 <details><summary markdown="span">August 2nd, 2023</summary>
