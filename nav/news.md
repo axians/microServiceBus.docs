@@ -10,7 +10,24 @@ summary{
         color: #777;
 }
 </style>
-<details open><summary markdown="span">November 29th, 2023</summary>
+
+<details open><summary markdown="span">January 15th, 2024</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+
+Although there has been several small fixes in this release, this update is to align microServiceBus.com with underlying platforms and dependancies.
+
+> IMPORTANT! Due to changes in .Net 8, API keys needs to be regenerated. Our support team will contact you and assist you if needed.
+
+* Underlying platform update 
+    * *microServiceBus.com has undergone a major update from .Net 6 to .Net 8, which in turn has provided a much improved performance*
+* GUI update
+    * *Aligned with the platform update, we have also updated from bootstrap 3 to bootstrap 5, for better alignment with our other products*
+
+
+</details>
+
+<details><summary markdown="span">November 29th, 2023</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * New Invoicing API 
