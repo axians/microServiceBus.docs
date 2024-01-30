@@ -11,7 +11,27 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">January 15th, 2024</summary>
+
+<details open><summary markdown="span">January 30th, 2024</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Global Administrator  
+    * *Private instances can now provide Global Administrators which will automatically be added as Co-administrator*
+* Next available IP for VPN peers
+    * *When adding Node- or user peers, you'll get a proposed with the next IP address*
+* Minor UI fixes
+
+### [microservicebus-py](https://github.com/axians/microservicebus-py) version 1.0.6 
+* Improved sign-in process
+    * *Sign-in process now respects disabled Flows and Services along with Bind-to-version for improved version controll*
+* Much improved re-connect handling
+    * *The Python Node has previously relyed on restaring after missing heartbeats after unexpected disconnect. This experiance has now improved with better event handling*
+* Preparation for auto update
+    * *The util class now have a `check_version` function which can be called from a custom service.*
+* Improved logging
+</details>
+
+<details><summary markdown="span">January 15th, 2024</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 
@@ -23,8 +43,6 @@ Although there has been several small fixes in this release, this update is to a
     * *microServiceBus.com has undergone a major update from .Net 6 to .Net 8, which in turn has provided a much improved performance*
 * GUI update
     * *Aligned with the platform update, we have also updated from bootstrap 3 to bootstrap 5, for better alignment with our other products*
-
-
 </details>
 
 <details><summary markdown="span">November 29th, 2023</summary>
