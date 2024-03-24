@@ -11,8 +11,19 @@ summary{
 }
 </style>
 
+<details open><summary markdown="span">Mars 24th, 2024</summary>
 
-<details open><summary markdown="span">January 30th, 2024</summary>
+### [microservicebus.com](https://microservicebus.com)
+* Suspicious user activity  
+    * *In an effort to raise the security bar, a series of controlls has been implemented to detect suspicious user activity. Global administrators will get notified in cases where users are locked out*
+
+
+### [microservicebus-py](https://github.com/axians/microservicebus-py) version 1.0.8 
+* Minor fix for downloading files 
+* Added colors to logging 
+</details>
+
+<details><summary markdown="span">January 30th, 2024</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Global Administrator  
