@@ -11,7 +11,30 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">Mars 24th, 2024</summary>
+
+<details open><summary markdown="span">April 24th, 2024</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Added optinal timeout to call IoT device method API
+* Fixed copy/paste issues with code editor
+
+
+### [microservicebus-py](https://github.com/axians/microservicebus-py) version 1.0.11
+* Fixed bug in watchdog 
+* Disabled default console logging
+* Added improved support for remote update of Python agent
+
+### [SmartEdge](https://smartedge.se) 
+* Users can provide `Custom attributes` on Entities for additional metadata
+* `EntitySettings` object is accessable for all widgets to refrieve Entity metadata
+
+### [GreenEdge](https://greenedge.se) 
+* `Widget-` and `Dashboard designer` for creation of custom widgets and dashboards 
+* Moved Emission sources to stand-alone page with search 
+* Fixed Monthly report
+</details>
+
+<details><summary markdown="span">Mars 24th, 2024</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Suspicious user activity  
