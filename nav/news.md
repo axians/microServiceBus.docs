@@ -11,8 +11,25 @@ summary{
 }
 </style>
 
+<details open><summary markdown="span">May 27th, 2024</summary>
 
-<details open><summary markdown="span">April 24th, 2024</summary>
+### [microservicebus.com](https://microservicebus.com)
+* Actions for multiple Nodes
+    * *The Node page has been updated to allow multiple selection of Nodes which can come useful for restarting or deleting multiple Nodes in one Action*
+* Fixed import and clear whitelist bug
+* Fixed bug with inviting existing user
+
+### [microservicebus-py](https://github.com/axians/microservicebus-node) version 4.8.3
+* To prevent issues with node-pty (remote terminal), the node-pty package is now uninstalled upon firmware update
+* The TTL settings for the exception list has been changed from 60 to 30 minutes to mitigate risk of delay for transmitting errors
+
+### [SmartEdge](https://smartedge.se) 
+* File manager
+    * *Files, such as images, scripts and styles can now be stored for Entities*
+
+</details>
+
+<details><summary markdown="span">April 24th, 2024</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Added optinal timeout to call IoT device method API
