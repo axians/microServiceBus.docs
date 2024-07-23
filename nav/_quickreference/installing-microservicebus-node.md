@@ -50,7 +50,7 @@ For a fully manageable Raspberry Pi, consider using the [Raspberry Pi Yocto Imag
 #### Raspberry Pi 3 or 4  
 
 ```bash
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 
 sudo apt install -y nodejs
 

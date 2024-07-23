@@ -5,7 +5,7 @@ description: "Here is a list of commonly used Linux terminal commands"
 categories: quickreference
 order: 51
 ---
-:star: = Personal favorites
+<script src="https://gist.github.com/rxaviers/7360908.js"></script>
 
 ### Favorite Linux commands
 * `cd [directory]` - *Change directory.
@@ -19,14 +19,14 @@ This command can also be used double dots to go back one level `cd ..` or with d
 * `sudo [command]` -*Run command as root*
 * `sudo su` -*Change user to `root`*
 * `find -name [name of file]` -*Find a file by name*
-* `grep -R ./ -e "[seach pattern]"` -*find files containing a word or pattern* :star:
+* `grep -R ./ -e "[seach pattern]"` -*find files containing a word or pattern* 
 * `cat [file name]` -*View content of file*
 * `df -h` -*shows available and used disk space on the Linux system*
 * `chmod +x [file name]` -*Makes file executable*
 * `grep` - is used to filter output such as `df -h | grep udev` returns only one row from the `df` command
 * `asw` - spits an input into an array. For instance `df -h | grep udev | awk '{print $2}'` returns only the second column.
 
-**grep and awk** sample :star:
+**grep and awk** sample 
 ```
 $ df -h
 Filesystem      Size  Used Avail Use% Mounted on
@@ -78,7 +78,7 @@ $ df | grep udev | awk '{print $2}'
 ### Favorite **journalctl** commands
 `journalctl` is also part of the `systemd` suite and helps you view logfile in real-time.
 
-`journalctl -u [service] -n [number of previous lines] -f` :star:. E.g.
+`journalctl -u [service] -n [number of previous lines] -f` . E.g.
 ```
 journalctl -u microservicebus-node -n 100 -f
 ``` 
