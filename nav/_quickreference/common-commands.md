@@ -1,20 +1,19 @@
 ---
 layout: post
-title:  "Common Linux termnal commands"
+title:  "Common Linux terminal commands"
 description: "Here is a list of commonly used Linux terminal commands"
 categories: quickreference
 order: 51
 ---
-<script src="https://gist.github.com/rxaviers/7360908.js"></script>
 
 ### Favorite Linux commands
+* `ls` -*List files and ddirectories. Use the `-la` flag for more details*
 * `cd [directory]` - *Change directory.
 This command can also be used double dots to go back one level `cd ..` or with dash `cd -` to go back to previous directory. `cd ~` or `cd ` to get to HOME directory and `cd /` to get to root directory.*
 * `mkdir [directory]` -*Make directory*
 * `rm [file | directory]` removes a file of directory. If the directory is not empty. use the recursive flag `-r`
 * `CTRL+l` -*Clear screen*
-*`CTRL+r` -*Find a previous command*
-*Hit `CTRL+r` and start typing to find a command you have used before*
+* `CTRL+r` -*Find a previous command. Hit `CTRL+r` and start typing to find a command you have used before*
 * `whoami` -*Show the current user*
 * `sudo [command]` -*Run command as root*
 * `sudo su` -*Change user to `root`*
@@ -22,6 +21,7 @@ This command can also be used double dots to go back one level `cd ..` or with d
 * `grep -R ./ -e "[seach pattern]"` -*find files containing a word or pattern* 
 * `cat [file name]` -*View content of file*
 * `df -h` -*shows available and used disk space on the Linux system*
+* `lsblk` -*List information about block devices and partitions*
 * `chmod +x [file name]` -*Makes file executable*
 * `grep` - is used to filter output such as `df -h | grep udev` returns only one row from the `df` command
 * `asw` - spits an input into an array. For instance `df -h | grep udev | awk '{print $2}'` returns only the second column.
