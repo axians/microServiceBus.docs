@@ -11,7 +11,39 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">May 27th, 2024</summary>
+<details open><summary markdown="span">July 29th, 2024</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Manage Tags
+    * *The Node action menu has been complemented with an option to manage tags for multiple Nodes*
+* Improved logging of invites
+* Improved logging of Node Sign-In
+    * *Failed loging are now logged*
+* Fixed bug for Insight (tracking) searching 
+
+### [microservicebus-py](https://github.com/axians/microservicebus-node) version 1.0.12
+* To prevent issues with node-pty (remote terminal), the node-pty package is now uninstalled upon firmware update
+* The TTL settings for the exception list has been changed from 60 to 30 minutes to mitigate risk of delay for transmitting errors
+
+### [microservicebus-py](https://github.com/axians/microservicebus-core) version 4.9.0
+* Fixed bug with running unit tests
+* Merged BETA => LATEST
+
+### [SmartEdge](https://greenedge.se) 
+* Custom dashboards
+    * *Instances of GreenEdge can now define their own dashboards for Organizations and Business units*
+* Custom widgets
+    * *Instances of GreenEdge can now define their own widgets*
+* EntitySettings
+    * *The `EntitySettings` object is available for use in widgets and can contain any kind of data*
+
+### [SmartEdge](https://smartedge.se) 
+* IsAdmin support for entitySettings
+    * *It's now possible to check if a user is in the Admin role from the dashboards*
+
+</details>
+
+<details><summary markdown="span">May 27th, 2024</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Actions for multiple Nodes
