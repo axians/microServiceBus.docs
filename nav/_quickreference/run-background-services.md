@@ -23,6 +23,7 @@ You can set the Background service either through *Node Templates* or on the Nod
 The script below checks that the disk space is not utilized to more than 75%. 
 
 ```javascript
+
 const fs = require('fs');
 const {exec} = require('child_process');
 var lastReported = 0;
@@ -58,6 +59,7 @@ var exports = module.exports = {
         }, 10000);
 
     }
-}```
+}
+```
 
 
