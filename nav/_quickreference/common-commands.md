@@ -76,10 +76,18 @@ $ df | grep udev | awk '{print $2}'
 * `systemctl daemon-reload` applies changes made to any service file.
 
 ### Favorite **journalctl** commands
-`journalctl` is also part of the `systemd` suite and helps you view logfile in real-time.
+* `journalctl` is also part of the `systemd` suite and helps you view logfile in real-time.
 
-`journalctl -u [service] -n [number of previous lines] -f` . E.g.
+* `journalctl -u [service] -n [number of previous lines] -f` . E.g.
 ```
 journalctl -u microservicebus-node -n 100 -f
-``` 
+```
+
+* `journalctl --since [date]` -* Show logs from specified date
+* `journalctl --until [date]` -* Show logs until specified date
+```
+journalctl --since "2020-11-23" --until "2022-11-09 13:00"
+
+journalctl --since yesterday --until "15 min ago"
+```
 
