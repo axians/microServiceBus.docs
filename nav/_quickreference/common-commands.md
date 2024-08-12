@@ -84,7 +84,8 @@ journalctl -u microservicebus-node -n 100 -f
 ```
 
 * `journalctl --since [date]` -* Show logs from specified date
-* `journalctl --until [date]` -* Show logs until specified date 
+* `journalctl --until [date]` -* Show logs until specified date
+
 ```
 journalctl --since "2020-11-23" --until "2022-11-09 13:00"
 
