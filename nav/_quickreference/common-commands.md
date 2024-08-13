@@ -78,13 +78,18 @@ $ df | grep udev | awk '{print $2}'
 ### Favorite **journalctl** commands
 * `journalctl` is also part of the `systemd` suite and helps you view logfile in real-time.
 
-* `journalctl -u [service] -n [number of previous lines] -f` . E.g.
+* `journalctl -u [service] -n [number of previous lines] -f` . 
+
+E.g.
+
 ```
 journalctl -u microservicebus-node -n 100 -f
 ```
 
-* `journalctl --since [date]` -* Show logs from specified date
-* `journalctl --until [date]` -* Show logs until specified date
+* `journalctl --since [date]` show logs from specified date
+* `journalctl --until [date]` show logs until specified date
+
+E.g.
 
 ```
 journalctl --since "2020-11-23" --until "2022-11-09 13:00"
