@@ -11,7 +11,37 @@ summary{
 }
 </style>
 
-<details open><summary markdown="span">July 29th, 2024</summary>
+
+<details open><summary markdown="span">October 21th, 2024</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Blacklist users
+    * *Users performing suspesious activities will automaitcly be locked out*
+* Blacklist IP
+    * *Requests normally returning in `Page not found` (404) is getting tracked, and IP's may get black-listed*
+* Improved validation of suspicious emails for new users 
+* Failed sign-in of Nodes which are not covered under an SLA are now ignored from alerts incidents
+* API Update: Added new API endpoints to manage tags for all nodes within an organization
+* BUG: IoT Hub connection information is now validated upon creating Organizations using the API
+* BUG: Fixed decimal points (now 8) of Meter Configuration
+* BUG: Fixed layout issues of Command spotlight (CTRL +r)
+
+
+### [GreenEdge](https://greenedge.se) 
+* OCR import
+    * *Along side File- and API import, GreenEdge now offer OCR import of Emission sources.*
+* Improved Member view
+    * *The Member view is moved to a designated page with search and pagination*
+* BUG: Handling of invites
+    * *When a user logs in using an external provider, the system now checks for any pending invites*
+
+### [SmartEdge](https://smartedge.se) 
+* Access denied page
+    * *autheticated users without invites are now redirected to a page explaining why they are not authorized*
+* BUG: Fixed bug when invited to entity already member of
+</details>
+
+<details><summary markdown="span">July 29th, 2024</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Manage Tags
