@@ -12,7 +12,27 @@ summary{
 </style>
 
 
-<details open><summary markdown="span">October 21th, 2024</summary>
+<details open><summary markdown="span">November 13th, 2024</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Automatic Access Restrictions
+    * *Unauthorized API requests gets automaticly added to a NetWork deny rule and permanently denied access.*
+* Manage Python agent version
+    * *Similar to the Node.js agents, Python based agents can now be managed from the Organization page*
+* Timestamp added to Login requests
+    * *Login requests now includes timestamp and is accessable from the Node property page* 
+* Improved logging for IoT Hub interactions
+
+
+### [microservicebus-py](https://github.com/axians/microservicebus-py) version 1.0.18
+* Imroved stability for Nodes connected on slow or disruptive networks
+    * *Refactored sign-in scenario*
+* Automatic version  handler
+    * *Version of Python agent can now be managed from portal*
+
+</details>
+
+<details><summary markdown="span">October 21th, 2024</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Blacklist users
