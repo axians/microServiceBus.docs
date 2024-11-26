@@ -169,7 +169,7 @@ class YOUR_SERVICE_NAME(CustomService):
   `@example`
 
   ```python
-    await self.ThrowError("Started")
+    await self.ThrowError("Unable to read GPIO", "666", "Some internal error description")
   ```
 
   
@@ -184,7 +184,8 @@ class YOUR_SERVICE_NAME(CustomService):
   `@example`
 
   ```python
-    await self.ThrowError("Started")
+    payload = {"id": 42}
+    await self.SubmitMessage(json.dumps(payload))
   ```
 
 * **self.AddPipPackage(package, module, name)**
