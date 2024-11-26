@@ -80,4 +80,6 @@ You now have the '**MyGoodOldTimer**' service avaliable in the **Toolbox**, when
 
 Continue on to how flows work to realise logic [Introduction to flows]({{site.baseurl}}/what-is-a-flow)
 
-Documentation in **more depth** on writing scripts can be found at [Microservices in depth]({{site.baseurl}}/services-and-scripts-in-microservicebus-in-depth)
+Documentation in **more depth** on writing scripts can be found at:
+* [Developing JavaScript Services in microServiceBus.com](../services-and-scripts-in-microservicebus-in-depth-js)
+* [Developing Python Services in microServiceBus.com](../services-and-scripts-in-microservicebus-in-python)

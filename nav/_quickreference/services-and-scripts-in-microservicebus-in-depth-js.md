@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Services and Scripts in microServiceBus.com in depth"
+title:  "Developing JavaScript Services in microServiceBus.com"
 description: "This section will dive into the details of how to write a Service. Learn more about how you can enhance productivity through our Tips & Tricks."
 categories: quickreference
 order: 80
 ---
 
-This page is dedicated to those with a bit of prior knowledge regarding how flows and services in *microServiceBus.com* works. If you are not familiar with these concepts yet, please visit the [Getting started](../gettingStarted-list/) first.
+Before you read this post you should familiarize yourself with how flows and services in *microServiceBus.com* works. If you are not familiar with these concepts yet, please visit the [Getting started](../gettingStarted-list) first. If you're looking at creating **Python** based services navigate to [Developing Python Services in microServiceBus.com](../services-and-scripts-in-microservicebus-in-python)
 
-When you as a developer is writing a service to use in a flow, you are extending the *microservice* object *microServiceBus.com* is exposing. This object has a number of functions and properties that could help you develop your code. First we will go through what is required in your own service, then what is available to you and lastly som best practices.
+When you as a developer is writing a JavaScript service to use in a flow, you are extending the *microservice* object *microServiceBus.com* is exposing. This object has a number of functions and properties that could help you develop your code. First we will go through what is required in your own service, then what is available to you and lastly som best practices.
 
 ## Required functions
 
