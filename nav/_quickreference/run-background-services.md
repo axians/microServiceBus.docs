@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Run background services"
+title:  "Run background services
 description: "Background services can run tasks such as checking disk space and other hardware related issue"
 categories: quickreference
 order: 55
@@ -8,7 +8,7 @@ order: 55
 
 Background service is similar to an normal JavaScript or Python Services, but runs in the background independent of Flows and other services. A background service cannot interact with other services or transmit messages to the IoT Hub, but it lets you run background tasks such as checking disk space and other hardware related issues.
 
-## Craete a Background service
+## Create a Background service
 1. Start by navigating to the Scripts & Services page and create a new service. Set the Service type to "Internal Service".
 2. Open the script editor. The script only needs a `Start` function and you can add whatever code you'd like to do your background task.
 3. Save and close the editor
