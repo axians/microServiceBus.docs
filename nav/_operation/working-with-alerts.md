@@ -113,6 +113,8 @@ When *Nodes* come offline a workflow will be triggered which does the following:
  | -------------- |-------------|
 | **90000** | Unhanded Exception | 
 | **90001** | Node is offline | 
+| **90002** | Node has reconnected without triggering reconnect | 
+| **90003** | Node has reconnected without triggering signin| 
 | **90006** | Organization has npm vulnerabilities | 
 | **90007** | Organization has Snaps to be updated |
 | **90010** | Failed login |
