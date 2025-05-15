@@ -12,7 +12,19 @@ summary{
 </style>
 
 
-<details open><summary markdown="span">November 13th, 2024</summary>
+
+<details open><summary markdown="span">May 15th, 2025</summary>
+
+### [microservicebus.com](https://microservicebus.com)
+* Enhance performance and UI with local resources
+    * *Many of the CDN references are moved to localy*
+    * *Optimized database queries for API's*
+* Enhance logging
+    * *SignalR and Redis logging has been enhanced*
+    * *Enhanced logging of unauthorized requests*
+</details>
+
+<details><summary markdown="span">November 13th, 2024</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Automatic Access Restrictions
