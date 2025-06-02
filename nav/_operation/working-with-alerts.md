@@ -128,6 +128,8 @@ When *Nodes* come offline a workflow will be triggered which does the following:
 | **90060** | Failed to start snap | 
 | **90061** | Snap crash | 
 | **90070** | High cpu utilization | 
+| **90080** | Unable to connect to the IoT Hub |
+| **90081** | Unable to connect device twin |
 | **90100** | Failed to start docker container | 
 | **90101** | Docker containers crash | 
 | **90102** | Custom docker log event | 
