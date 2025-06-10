@@ -117,6 +117,8 @@ When *Nodes* come offline a workflow will be triggered which does the following:
 | **90003** | Node has reconnected without triggering signin| 
 | **90006** | Organization has npm vulnerabilities | 
 | **90007** | Organization has Snaps to be updated |
+| **90008** | Node does not exists for organization |
+| **90009** | Node unable to sign in - Unauthorized |
 | **90010** | Failed login |
 | **90011** | Invalid user login | 
 | **90020** | Data plan limit approaching | 
