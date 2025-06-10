@@ -110,7 +110,7 @@ When *Nodes* come offline a workflow will be triggered which does the following:
 ## Supported triggers and error codes
 
 | Error code        | Description |
- | -------------- |-------------|
+| -------------- |-------------|
 | **90000** | Unhandled Exception | 
 | **90001** | Node is offline | 
 | **90002** | Node has reconnected without triggering reconnect | 
