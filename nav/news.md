@@ -12,8 +12,19 @@ summary{
 </style>
 
 
+<details open><summary markdown="span">November 25th, 2025</summary>
 
-<details open><summary markdown="span">May 15th, 2025</summary>
+### [microservicebus.com](https://microservicebus.com)
+* Enhanced performance
+    * *A platform upgrade has been done by migrating from .Net8 to .Net10. This has increased performance significantly (~30%)*
+* New hosting options
+    * *All dependencies to Windows has been replaced with generic alternatives which leaves microServiceBus.com to be hosted on either Windows or Linux, where the Linux alternative offers up to 60% cost saving. E.g Upgrading from P1V2 => P0V3 saves ~€100/month*
+* FIX: Check VPN configuration upon deletion of Node
+    * *Users are warned if any VPN settings is present on a Node before deletion.*
+</details>
+
+
+<details><summary markdown="span">May 15th, 2025</summary>
 
 ### [microservicebus.com](https://microservicebus.com)
 * Enhance performance and UI with local resources
